@@ -1,0 +1,30 @@
+# Example Fly.io config — NOT deployed. Review before use (see docs/DEPLOYMENT.md).
+app = "hookline-CHANGE-ME"
+primary_region = "bom"   # Mumbai; pick the region nearest your users
+
+[build]
+  dockerfile = "../Dockerfile"
+
+[env]
+  PORT = "8787"
+  HOOKLINE_DB = "/data/hookline.db"
+  PUBLIC_URL = "https://hookline-CHANGE-ME.fly.dev"
+
+[[mounts]]
+  source = "hookline_data"
+  destination = "/data"
+
+[http_service]
+  internal_port = 8787
+  force_https = true
+  auto_stop_machines = "suspend"
+  auto_start_machines = true
+  min_machines_running = 0
+  [http_service.concurrency]
+    type = "connections"
+    soft_limit = 500
+
+[[http_service.checks]]
+  path = "/api/health"
+  interval = "30s"
+  timeout = "5s"

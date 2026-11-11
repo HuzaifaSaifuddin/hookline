@@ -1,0 +1,1 @@
+{ "name": "Hookline", "short_name": "Hookline", "start_url": "/", "display": "standalone", "background_color": "#0c0b12", "theme_color": "#0c0b12", "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }] }

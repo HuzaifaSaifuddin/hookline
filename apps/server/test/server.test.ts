@@ -257,6 +257,19 @@ describe('realtime party flow', () => {
 });
 
 describe('recovery', () => {
+  it('re-starting the current song without a hand-off is a resume, not a new history entry', async () => {
+    const { code, hostKey } = await createRoom();
+    const host = await connect({ type: 'hello', room: code, role: 'host', hostKey });
+    const snap = await host.snapshot();
+    const a = snap.queue[0]!;
+    host.send({ type: 'started', songId: a.track.id, sourceId: a.sourceIds[0] });
+    await host.snapshot((r) => r.nowPlaying?.track.id === a.track.id);
+    time += 30_000;
+    host.send({ type: 'started', songId: a.track.id, sourceId: a.sourceIds[0] });
+    const after = await host.snapshot((r) => r.nowPlaying?.startedAt === time);
+    expect(after.history).toHaveLength(0);
+  });
+
   it('restores a room from SQLite after a restart (paused, history intact)', async () => {
     const { code, hostKey } = await createRoom({ occasion: 'sangeet' });
     const host = await connect({ type: 'hello', room: code, role: 'host', hostKey });

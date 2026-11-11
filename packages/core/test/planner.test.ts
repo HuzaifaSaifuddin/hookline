@@ -111,6 +111,19 @@ describe('planner on the real catalogue', () => {
     expect(second.song.id).not.toBe(first.song.id);
   });
 
+  it('stable jitter: re-planning after a track starts keeps the rest of the plan', () => {
+    const base = ctx({ occasion: 'house-party' }, { jitterSeed: 99 });
+    const before = planQueue(base, 6).map((p) => p.song.id);
+    const first = realSongs().find((s) => s.id === before[0])!;
+    const after = planQueue(
+      { ...base, history: [{ songId: first.id, startedAt: NOW, setOffsetSec: 0, energy: first.energy, language: first.language, artists: first.artists }], elapsedSec: 70 },
+      5,
+    ).map((p) => p.song.id);
+    // Not necessarily identical (elapsed time differs slightly), but mostly the same songs in order.
+    const overlap = after.filter((id, i) => id === before[i + 1]).length;
+    expect(overlap).toBeGreaterThanOrEqual(3);
+  });
+
   it('raising the energy bias raises the energy of picks', () => {
     const avg = (b: number) => {
       const p = planQueue(ctx({ occasion: 'road-trip', arc: 'steady', energyBias: b }), 15);

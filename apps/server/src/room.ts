@@ -185,7 +185,7 @@ export class Room {
       }
     }
 
-    const seed = hash(this.code) + history.length * 7919 + this.state.shuffleSalt * 104729;
+    const seed = (hash(this.code) + this.state.shuffleSalt * 104729) >>> 0;
     picks.push(
       ...planQueue(
         {
@@ -199,6 +199,7 @@ export class Room {
           liveBias: this.liveBias(),
           now,
           rng: seededRng(seed),
+          jitterSeed: seed,
           reserved,
         },
         QUEUE_LENGTH - picks.length,
@@ -231,6 +232,15 @@ export class Room {
     const song = this.store.catalog.get(songId);
     if (!song) return { changed: false, reply: { text: 'Unknown song', tone: 'warn' } };
     const now = this.clock();
+
+    // Same song re-started with no hand-off (page reload / server restart): a resume, not a new play.
+    if (!previous && this.state.now?.songId === songId) {
+      this.state.now.sourceId = sourceId;
+      this.state.now.startedAt = now;
+      this.state.now.window = resolvePlayWindow(song, this.state.intent.style, actualDurationSec);
+      this.state.status = 'playing';
+      return CHANGED;
+    }
 
     this.finishCurrent(previous);
     if (actualDurationSec) this.store.recordDuration(songId, actualDurationSec);
@@ -497,6 +507,7 @@ export class Room {
     const recent = s.reactions.filter((r) => now - r.at < REACTION_WINDOW_MS);
     return {
       code: s.code,
+      serverTime: now,
       createdAt: s.createdAt,
       status: s.status,
       intent: s.intent,

@@ -34,6 +34,13 @@ export interface PlannerContext {
   liveBias?: number;
   now: number;
   rng: () => number;
+  /**
+   * When set, each song's random tie-breaker is a hash of (songId, seed)
+   * instead of the next rng() value. That makes plans *stable*: re-planning
+   * after a track starts (or a reaction arrives) only changes picks whose
+   * inputs actually changed, so the visible queue doesn't reshuffle.
+   */
+  jitterSeed?: number;
   /** Ids already reserved in the queue (not yet in history). */
   reserved?: Set<string>;
 }
@@ -166,7 +173,7 @@ function scoreSong(
 
   if (intent.style !== 'full' && song.hook && song.hook.source !== 'default') parts.knownHook = WEIGHTS.knownHook;
 
-  parts.jitter = ctx.rng() * WEIGHTS.jitter;
+  parts.jitter = (ctx.jitterSeed !== undefined ? hashUnit(song.id, ctx.jitterSeed) : ctx.rng()) * WEIGHTS.jitter;
 
   const score = Object.values(parts).reduce((a, b) => a + b, 0);
   return { song, score, parts, request };
@@ -177,8 +184,8 @@ function explain(s: Scored, ctx: PlannerContext, occasion: Occasion, target: num
   const p = s.parts;
   const prev = ctx.history[ctx.history.length - 1];
   if (s.request) {
-    const votes = s.request.voters.length;
-    reasons.push([100, `Requested by ${s.request.requestedBy}${votes ? ` · +${votes} vote${votes > 1 ? 's' : ''}` : ''}`]);
+    const extra = s.request.voters.length - 1; // the requester is the first voter
+    reasons.push([100, `Requested by ${s.request.requestedBy}${extra > 0 ? ` · +${extra} vote${extra > 1 ? 's' : ''}` : ''}`]);
   }
   if (p.seed) reasons.push([90, 'You asked to open with this']);
   if (!s.request) {
@@ -310,6 +317,15 @@ export function planQueue(ctx: PlannerContext, count: number): TrackPick[] {
     elapsed += hookLength(resolvePlayWindow(pick.song, ctx.intent.style));
   }
   return picks;
+}
+
+function hashUnit(s: string, seed: number): number {
+  let h = (2166136261 ^ seed) >>> 0;
+  for (let i = 0; i < s.length; i++) h = Math.imul(h ^ s.charCodeAt(i), 16777619);
+  h ^= h >>> 13;
+  h = Math.imul(h, 0x5bd1e995);
+  h ^= h >>> 15;
+  return (h >>> 0) / 4294967296;
 }
 
 /** Deterministic PRNG (mulberry32) so plans are reproducible in tests. */

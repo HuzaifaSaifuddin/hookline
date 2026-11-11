@@ -65,6 +65,8 @@ export interface RequestView {
 
 export interface RoomSnapshot {
   code: string;
+  /** Server clock at snapshot time, so clients can correct for device clock skew. */
+  serverTime: number;
   createdAt: number;
   status: 'idle' | 'playing' | 'paused';
   intent: SetIntent;
