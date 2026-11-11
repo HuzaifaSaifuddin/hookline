@@ -71,8 +71,7 @@ export function Studio() {
             ) : (
               <div className="card empty">
                 <h3 style={{ fontSize: 22, color: 'var(--text)', marginBottom: 8 }}>Hook Studio</h3>
-                Pick a song to tune where the DJ drops in and out. Songs flagged <span className="tag warn">needs review</span> have a YouTube source that
-                doesn't seem to match the title. Confirm or fix them so they can be played.
+                Pick a song to tune where the DJ drops in and out.
               </div>
             )}
           </div>
