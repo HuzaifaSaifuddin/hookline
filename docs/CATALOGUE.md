@@ -40,7 +40,9 @@ One JSON array per language. Each entry is validated by `CatalogEntrySchema` (`p
 | Embedding disabled by owner | 19 |
 | Songs with no playable upload | 1 |
 
-oEmbed also returns each video's **real title**. Comparing it with our song title, using consonant‑skeleton matching that tolerates romanised spelling variants, found that **57 songs (5.7%) have no upload that plausibly matches**. For example, *Chand Chupa Badal Mein* points to *Tauba Tauba (Karan Aujla)*, and several Marathi entries ("Dolby Beat Marathi", "Saglyat Bhari Marathi") point to unrelated videos. A wrong video makes the hook times meaningless, so these songs are **quarantined**: they stay searchable but out of autoplay and appear under **Studio → Needs review**, where a curator can preview and confirm them. Jukebox and non‑stop uploads attached to a single song are demoted the same way.
+oEmbed also returns each video's **real title**. Comparing it with our song title, using consonant‑skeleton matching that tolerates romanised spelling variants, found that **57 songs (5.7%) have no upload that plausibly matches**. For example, *Chand Chupa Badal Mein* points to *Tauba Tauba (Karan Aujla)*, and several Marathi entries ("Dolby Beat Marathi", "Saglyat Bhari Marathi") point to unrelated videos. A wrong video makes the hook times meaningless, so such songs are **quarantined**: they stay searchable but out of autoplay and appear under **Studio → Needs review**, where a curator can preview and confirm them. Jukebox and non‑stop uploads attached to a single song are demoted the same way.
+
+**Resolved on 2026‑11‑12** (`scripts/fix-mismatched-sources.ts`): rather than keep them quarantined, each flagged song now *is* what its upload actually plays. 35 were renamed to the real song (hand‑checked title and artists, one upload kept, hook and duration cleared so the DJ uses its default hook until a curator tunes it), 1 was a false alarm and is confirmed, and 23 were removed (16 duplicated an existing song's upload, 6 weren't single songs, 1 had nothing playable). The review queue is empty; new imports or edits can still land there.
 
 ## Curation rules (`scripts/curate.mjs`)
 
@@ -51,7 +53,7 @@ Explicit, idempotent and reviewable in git history:
 
 ## Current state
 
-999 songs · **937 auto‑playable** · Hindi 512, Marathi 226, Punjabi 188, English 11 (playable counts).
+976 songs · **973 auto‑playable** (3 are non‑stop mixes) · Hindi 513, Marathi 259, Punjabi 190, English 11 (playable counts). Known issue: 66 YouTube uploads are listed under two different songs, so a few songs are effectively duplicates.
 
 ## Growing it
 
