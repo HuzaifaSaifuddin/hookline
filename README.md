@@ -24,6 +24,19 @@ Open **http://localhost:8787** on the computer connected to the speaker.
 Guests join from phones on the **same Wi‑Fi** by scanning the QR code on the DJ screen, which shows the server's LAN address. Your OS firewall may ask you to allow incoming connections to Node.
 
 > **Open the DJ screen and the Studio at `http://localhost:8787`, not the LAN address.** YouTube refuses to embed many label‑owned music videos ("Video unavailable", error 150) on pages served over plain http from a network address (`192.168.x.x`, `*.local`), while the same videos play on `localhost` and on HTTPS sites. Guests are unaffected because their phones don't play video. To run the DJ screen on another device (e.g. a TV), serve Hookline over HTTPS. The app shows a warning when this applies.
+>
+> Measured 2026‑11‑11 (6 videos × 2 runs each): LAN `http://192.168.x.x` → 8/12 failed with error 150, always the same 4 label videos. `https://…ngrok-free.app` → 12/12 played. `http://localhost` → 12/12 played.
+
+### Over HTTPS with ngrok (phone/TV as the DJ screen, or remote guests)
+
+This makes your local Hookline **publicly reachable** while the tunnel runs, so lock the Studio first:
+
+```bash
+HOOKLINE_STUDIO_KEY=$(openssl rand -hex 16) npm start   # Studio edits now need this key
+ngrok http 8787                                          # open the https://…ngrok-free.app URL it prints
+```
+
+The QR code automatically uses the ngrok address. Stop ngrok (Ctrl+C) when the party's over.
 
 ### Optional configuration
 
