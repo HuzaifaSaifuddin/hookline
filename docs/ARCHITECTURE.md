@@ -95,7 +95,7 @@ For each candidate: `fit(occasion tags) + energy distance to the arc target + fl
 ## Observability
 - Structured JSON logs (pino via Fastify) for room lifecycle, source failures, unplayable songs, curator edits, AI latency and fallbacks.
 - `GET /api/health`: catalogue size, live rooms and peers, AI status, uptime.
-- `play_events` and `feedback` tables power **Studio → Insights** (most played, skip rates, failing uploads) and the planner's quality scores.
+- `play_events` and `feedback` tables power `GET /api/insights` (most played, skip rates, failing uploads) and the planner's quality scores.
 
 ## Testing
 - **Domain (core):** planner invariants on the *real* catalogue (no repeats, no back‑to‑back artists, the arc rises, language filters and preferences, avoid lists, seeds, requests, stable re‑plans), hook windows and calibration, title matching, intent parsing.

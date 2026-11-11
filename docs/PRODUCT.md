@@ -40,7 +40,7 @@ Spotify's "DJ" talks *to one listener*. Hookline plays *for a room*: it gives up
 | **Room mode**: QR join, requests and votes, 🔥/❤️/😴 reactions → live energy bias, crowd skip votes | Parties are social; this is the most distinctive feature. |
 | **Live steering**: energy ±, like/dislike, play‑next, remove, re‑plan, "talk to the DJ" | The DJ should be autonomous, but the host keeps control. |
 | **Self‑healing catalogue**: oEmbed verification, title‑match quarantine, runtime source failover and demotion | Source data has real errors; the product shouldn't play the wrong song. |
-| **Hook Studio**: preview, set in/out, confirm sources, add any song by link, insights | Curation is how the catalogue gets better. |
+| **Hook Studio**: preview, set in/out, confirm sources, add any song by link | Curation is how the catalogue gets better. |
 | **Learning loop**: completion/skip/like stats → quality score; crowd hook nudges → median‑calibrated hooks | The more it's used, the better it gets, without ML infrastructure. |
 | **Crash recovery**: rooms persisted; host and guests auto‑reconnect; resume the interrupted song | Parties don't forgive outages. |
 

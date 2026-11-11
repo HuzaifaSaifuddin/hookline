@@ -6,7 +6,7 @@ import { createPlayer, loadYouTubeApi, YTState, type YTPlayer } from '../lib/you
 import { Link, Logo, PlaybackOriginNotice, Spinner, Toasts } from '../components/common.tsx';
 import type { Toast } from '../lib/useRoom.ts';
 
-type Tab = 'catalog' | 'add' | 'insights';
+type Tab = 'catalog' | 'add';
 const FILTERS = [
   ['all', 'All songs'],
   ['review', 'Needs review'],
@@ -46,7 +46,6 @@ export function Studio() {
               [
                 ['catalog', 'Catalogue'],
                 ['add', 'Add songs'],
-                ['insights', 'Insights'],
               ] as const
             ).map(([id, label]) => (
               <button key={id} role="tab" aria-selected={tab === id} onClick={() => setTab(id)}>
@@ -88,7 +87,6 @@ export function Studio() {
           }}
         />
       )}
-      {tab === 'insights' && <Insights />}
       <Toasts toasts={toasts} />
     </div>
   );
@@ -193,7 +191,7 @@ function SongBrowser({ meta, selected, onSelect, refreshKey }: { meta: MetaRespo
 
 function HookEditor({ songId, toast, onChanged }: { songId: string; toast: (t: string, tone?: Toast['tone']) => void; onChanged: () => void }) {
   const [song, setSong] = useState<SongDetail | null>(null);
-  const [srcIdx, setSrcIdx] = useState(0);
+  const [srcIdx, setSrcIdx] = useState(0); // best playable upload; chosen once the song loads
   const [inSec, setIn] = useState(0);
   const [outSec, setOut] = useState(60);
   const [pos, setPos] = useState(0);
@@ -433,59 +431,6 @@ function HookEditor({ songId, toast, onChanged }: { songId: string; toast: (t: s
         )}
       </div>
 
-      <details>
-        <summary className="small muted" style={{ cursor: 'pointer' }}>
-          Sources & stats
-        </summary>
-        <div className="stack" style={{ marginTop: 10 }}>
-          <table className="simple">
-            <thead>
-              <tr>
-                <th>Upload</th>
-                <th>Status</th>
-                <th>Title match</th>
-                <th />
-              </tr>
-            </thead>
-            <tbody>
-              {song.sources.map((s, i) => (
-                <tr key={s.id}>
-                  <td className="ellipsis" style={{ maxWidth: 220 }} title={s.providerTitle}>
-                    {s.providerTitle ?? s.id}
-                  </td>
-                  <td>
-                    <span className={`tag ${s.status === 'ok' ? 'ok' : s.status === 'unverified' ? '' : 'hot'}`}>{s.status}</span>
-                  </td>
-                  <td className="mono">{s.titleMatch === null ? '?' : `${Math.round(s.titleMatch * 100)}%`}</td>
-                  <td>
-                    <button className="btn sm ghost" disabled={i === srcIdx} onClick={() => setSrcIdx(i)}>
-                      {i === srcIdx ? 'Previewing' : 'Preview'}
-                    </button>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-          <dl className="kv">
-            <dt>Plays</dt>
-            <dd>{song.stats.plays}</dd>
-            <dt>Completed</dt>
-            <dd>{song.stats.completions}</dd>
-            <dt>Early skips</dt>
-            <dd>{song.stats.earlySkips}</dd>
-            <dt>Likes / dislikes</dt>
-            <dd>
-              {song.stats.likes} / {song.stats.dislikes}
-            </dd>
-            <dt>Crowd hook nudges</dt>
-            <dd>{song.nudges}</dd>
-            <dt>Tags</dt>
-            <dd>{song.tags.join(', ')}</dd>
-            <dt>Origin</dt>
-            <dd>{song.origin}</dd>
-          </dl>
-        </div>
-      </details>
     </div>
   );
 }
@@ -612,89 +557,6 @@ function AddSongs({ meta, toast, onAdded }: { meta: MetaResponse | null; toast: 
           <p className="small muted">
             Set <code>YOUTUBE_API_KEY</code> on the server to search YouTube from here. Until then, paste links on the left.
           </p>
-        )}
-      </div>
-    </div>
-  );
-}
-
-function Insights() {
-  const [data, setData] = useState<Awaited<ReturnType<typeof api.insights>> | null>(null);
-  useEffect(() => {
-    api.insights().then(setData, () => {});
-  }, []);
-  if (!data)
-    return (
-      <div className="card row" style={{ justifyContent: 'center' }}>
-        <Spinner />
-      </div>
-    );
-  return (
-    <div className="studio-grid">
-      <div className="card stack">
-        <h2>Most played</h2>
-        <div className="row wrap" style={{ gap: 16 }}>
-          <span>
-            <b>{data.totals.plays}</b> <span className="muted small">plays</span>
-          </span>
-          <span>
-            <b>{data.totals.rooms}</b> <span className="muted small">parties</span>
-          </span>
-        </div>
-        {data.top.length === 0 ? (
-          <div className="empty">No plays yet. Run a party!</div>
-        ) : (
-          <table className="simple">
-            <thead>
-              <tr>
-                <th>Song</th>
-                <th>Plays</th>
-                <th>Completed</th>
-                <th>Skipped</th>
-              </tr>
-            </thead>
-            <tbody>
-              {data.top.map((t) => (
-                <tr key={t.song_id}>
-                  <td>{t.title}</td>
-                  <td>{t.plays}</td>
-                  <td>{t.completions}</td>
-                  <td>{t.skips}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        )}
-      </div>
-      <div className="card stack">
-        <h2>Catalogue health</h2>
-        <dl className="kv">
-          <dt>Songs</dt>
-          <dd>{data.catalog.songs}</dd>
-          <dt>Quarantined (needs review)</dt>
-          <dd>{data.catalog.quarantined}</dd>
-          <dt>Added in-app</dt>
-          <dd>{data.catalog.custom}</dd>
-          <dt>Invalid entries in files</dt>
-          <dd>{data.catalog.invalid.length}</dd>
-        </dl>
-        <h2>Failing uploads (reported by players)</h2>
-        {data.failing.length === 0 ? (
-          <div className="empty">None so far 🎉</div>
-        ) : (
-          <table className="simple">
-            <tbody>
-              {data.failing.map((f) => (
-                <tr key={f.source_id}>
-                  <td>{f.title}</td>
-                  <td className="mono">{f.source_id}</td>
-                  <td>
-                    {f.failures}× (code {f.last_code})
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
         )}
       </div>
     </div>

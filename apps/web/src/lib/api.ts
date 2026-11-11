@@ -43,13 +43,6 @@ export const api = {
     call<SongDetail>('/api/songs/import', { method: 'POST', body: JSON.stringify(body) }),
   youtubeSearch: (q: string) =>
     call<Array<{ id: string; title: string; channel: string; thumbnail: string; durationSec?: number }>>(`/api/youtube/search?q=${encodeURIComponent(q)}`),
-  insights: () =>
-    call<{
-      totals: { plays: number; rooms: number };
-      top: Array<{ song_id: string; title: string; plays: number; completions: number; skips: number }>;
-      failing: Array<{ song_id: string; title: string; source_id: string; failures: number; last_code: number }>;
-      catalog: { songs: number; quarantined: number; custom: number; invalid: string[] };
-    }>('/api/insights'),
 };
 
 export function safeGet(key: string): string | null {

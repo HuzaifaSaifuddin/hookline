@@ -61,7 +61,7 @@ Everything works without keys. Copy `.env.example` to `.env` to enable extras:
 5. **Guests.** Open the join link (or `http://localhost:8787/join/CODE` in another browser). Search and **Request** a song: it's woven in within a track or two and credited ("🙋 Priya"). Others can ▲ vote. 🔥/😴 reactions shift energy for a few minutes. Skip votes past the threshold (40% of guests, minimum 2) skip the track.
 6. **Recovery.** Stop the server (Ctrl+C) mid‑song and start it again. The DJ page reconnects by itself and offers **Resume the party**, which picks up the interrupted song. Guests reconnect too.
 7. **Hook Studio** (`/studio`). Browse the catalogue, filter **Needs review** (songs whose YouTube video doesn't match the title), preview them, set IN/OUT at the playhead, save. The next play uses the new hook. **Add songs** imports any YouTube link (any language) after checking it allows embedded playback.
-8. **Learning.** On the DJ page, *Hook timing off?* records crowd nudges; three or more agreeing nudges shift the hook by their median. Skips, completions and likes feed a long‑term quality score. Blocked or dead uploads fail over to alternates and are demoted. **Insights** in the Studio shows all of this.
+8. **Learning.** On the DJ page, *Hook timing off?* records crowd nudges; three or more agreeing nudges shift the hook by their median. Skips, completions and likes feed a long‑term quality score. Blocked or dead uploads fail over to alternates and are demoted.
 
 ---
 
