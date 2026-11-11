@@ -1,0 +1,19 @@
+{
+  "name": "@hookline/server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --clear-screen=false --disable-warning=ExperimentalWarning src/index.ts",
+    "start": "NODE_ENV=production tsx --disable-warning=ExperimentalWarning src/index.ts",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "@fastify/static": "^10.1.10",
+    "@fastify/websocket": "^11.3.7",
+    "@hookline/core": "*",
+    "fastify": "^5.12.8",
+    "zod": "^4.6.7"
+  }
+}

@@ -6,3 +6,4 @@ export * from './arc.ts';
 export * from './hooks.ts';
 export * from './planner.ts';
 export * from './intent.ts';
+export * from './protocol.ts';
