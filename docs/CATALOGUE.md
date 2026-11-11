@@ -53,7 +53,11 @@ Explicit, idempotent and reviewable in git history:
 
 ## Current state
 
-976 songs · **973 auto‑playable** (3 are non‑stop mixes) · Hindi 513, Marathi 259, Punjabi 190, English 11 (playable counts). Known issue: 66 YouTube uploads are listed under two different songs, so a few songs are effectively duplicates.
+934 songs · **931 auto‑playable** (3 are non‑stop mixes) · Hindi 502, Marathi 230, Punjabi 188, English 11 (playable counts). Every song has its own uploads (none shared), and none are awaiting review.
+
+Further clean‑up on 2026‑11‑12:
+- **Duplicates** (`scripts/merge-duplicates.ts`): 66 uploads were listed under two or more songs. 15 entries that were the same song entered twice were merged into their twin. Where *different* songs shared an upload (including originals vs remakes), it stays only with the song it actually is. Two entries left with nothing were removed.
+- **Unsure songs** (`scripts/remove-unsure.ts`): 22 songs were removed because their uploads don't establish which song they are (generic "mix"/"dhol" titles pointing at unrelated DJ tracks or drum‑troupe recordings, mismatched titles, unconfirmed credits). Each removal and its reason is listed in the script.
 
 ## Growing it
 

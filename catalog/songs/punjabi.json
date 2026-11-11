@@ -1364,17 +1364,13 @@
       {
         "provider": "youtube",
         "id": "KX06ksuS6Xo"
-      },
-      {
-        "provider": "youtube",
-        "id": "NazIhA_VQWI"
       }
     ],
     "provenance": {
       "origin": "seed",
       "importedAt": "2026-11-11"
     },
-    "popularity": 0.33,
+    "popularity": 0,
     "popularitySource": "derived"
   },
   {
@@ -2474,17 +2470,13 @@
       {
         "provider": "youtube",
         "id": "m8uIthzzMp0"
-      },
-      {
-        "provider": "youtube",
-        "id": "iLHEGrNVf5Y"
       }
     ],
     "provenance": {
       "origin": "seed",
       "importedAt": "2026-11-11"
     },
-    "popularity": 1,
+    "popularity": 0.67,
     "popularitySource": "derived"
   },
   {
@@ -5479,41 +5471,6 @@
     "popularitySource": "derived"
   },
   {
-    "id": "rough",
-    "title": "Rough",
-    "artists": [
-      "Dr Zeus"
-    ],
-    "language": "punjabi",
-    "durationSec": 240,
-    "hook": {
-      "startSec": 22,
-      "endSec": 85,
-      "source": "seed"
-    },
-    "energy": 8,
-    "tags": [
-      "late-night",
-      "party"
-    ],
-    "sources": [
-      {
-        "provider": "youtube",
-        "id": "l-_u7SsGYII"
-      },
-      {
-        "provider": "youtube",
-        "id": "MtL-V_PZpYg"
-      }
-    ],
-    "provenance": {
-      "origin": "seed",
-      "importedAt": "2026-11-11"
-    },
-    "popularity": 0,
-    "popularitySource": "derived"
-  },
-  {
     "id": "ruthless",
     "title": "Ruthless",
     "artists": [
@@ -5641,10 +5598,6 @@
       {
         "provider": "youtube",
         "id": "w_HaezV0DqI"
-      },
-      {
-        "provider": "youtube",
-        "id": "RRkXXkqNBi0"
       }
     ],
     "provenance": {
@@ -6903,45 +6856,6 @@
     },
     "energy": 8,
     "tags": [
-      "sangeet",
-      "wedding"
-    ],
-    "sources": [
-      {
-        "provider": "youtube",
-        "id": "SH9Mtk6XGEk"
-      },
-      {
-        "provider": "youtube",
-        "id": "JkYJmXYreeA"
-      },
-      {
-        "provider": "youtube",
-        "id": "lmdLCz4CAeA"
-      }
-    ],
-    "provenance": {
-      "origin": "seed",
-      "importedAt": "2026-11-11"
-    },
-    "popularity": 0.33,
-    "popularitySource": "derived"
-  },
-  {
-    "id": "viah-jass",
-    "title": "Viah Jass",
-    "artists": [
-      "Jass Manak"
-    ],
-    "language": "punjabi",
-    "durationSec": 240,
-    "hook": {
-      "startSec": 22,
-      "endSec": 85,
-      "source": "seed"
-    },
-    "energy": 9,
-    "tags": [
       "baraat",
       "sangeet",
       "wedding"
@@ -6949,11 +6863,11 @@
     "sources": [
       {
         "provider": "youtube",
-        "id": "JkYJmXYreeA"
+        "id": "SH9Mtk6XGEk"
       },
       {
         "provider": "youtube",
-        "id": "SH9Mtk6XGEk"
+        "id": "JkYJmXYreeA"
       }
     ],
     "provenance": {

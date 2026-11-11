@@ -1,5 +1,5 @@
 /**
- * One-off curation (2026-11-11): resolve every catalogue entry flagged
+ * Curation (2026-11-11, re-run 2026-11-12): resolve every catalogue entry flagged
  * "needs review" (its YouTube upload is a different song than its title says).
  *
  * Instead of quarantining them, adopt what the upload actually is:
@@ -61,11 +61,17 @@ const RENAME: Record<string, { source: string; title: string; artists: string[] 
   'yeg-yeg-yedabai': { source: 'qZglwZH9D_0', title: 'Yedai Maza Jiv', artists: ['Chandan Kamble'] },
   defaulter: { source: 'U2TlQbkog08', title: 'Defend', artists: ['Jordan Sandhu'] },
   'gall-da-kara': { source: 'jD5eZgne4EQ', title: 'Cheek', artists: ['Mankirt Aulakh', 'Karam Brar'] },
+  // Flagged after scripts/merge-duplicates.ts returned their correct upload to its rightful song:
+  'pori-tu-tar-chand-ahes': { source: 'RPrLbwx-Mgg', title: 'Majh First Love', artists: ['Raj Irmali', 'Sonali Sonawane'] },
 };
 /** Correct all along — the title matcher was fooled ("Mehabooba KGF 2" vs upload "Mehabooba"). */
 const VERIFY = new Set(['mehabooba-kgf-2']);
 /** Not a single song: compilations, live streams, political jingles, generic "DJ songs" uploads. */
-const NOT_A_SONG = new Set(['daru-chadli-re', 'dhingana', 'dolby-beat-marathi', 'gsb-seva-mandal-ganpati', 'marathi-dj-songs-2026', 'mi-punha-yein']);
+const NOT_A_SONG = new Set([
+  'daru-chadli-re', 'dhingana', 'dolby-beat-marathi', 'gsb-seva-mandal-ganpati', 'marathi-dj-songs-2026', 'mi-punha-yein',
+  // after merge-duplicates.ts: party anthem, non-stop mix, radio-show episode
+  'aapan-marathi', 'koligeet-tarri', 'torana-powada',
+]);
 
 type Action = { file: string; id: string; kind: 'rename' | 'verify' | 'drop' | 'CONFLICT'; reason: string; entry?: CatalogEntry };
 const files = new Map<string, CatalogEntry[]>();

@@ -1275,10 +1275,6 @@
       {
         "provider": "youtube",
         "id": "0MlndKe6Z7U"
-      },
-      {
-        "provider": "youtube",
-        "id": "bh2O4oyB1UM"
       }
     ],
     "provenance": {
@@ -6090,43 +6086,6 @@
       {
         "provider": "youtube",
         "id": "9RAumxnW5X8"
-      }
-    ],
-    "provenance": {
-      "origin": "seed",
-      "importedAt": "2026-11-11"
-    },
-    "popularity": 1,
-    "popularitySource": "derived"
-  },
-  {
-    "id": "duniya-mein-aayi-ho-to",
-    "title": "Duniya Mein Aayi Ho To",
-    "artists": [
-      "Kumar Sanu",
-      "Kavita Krishnamurthy"
-    ],
-    "language": "hindi",
-    "durationSec": 364,
-    "hook": {
-      "startSec": 24,
-      "endSec": 109,
-      "source": "seed"
-    },
-    "energy": 8,
-    "tags": [
-      "party",
-      "retro",
-      "sangeet"
-    ],
-    "sources": [
-      {
-        "provider": "youtube",
-        "id": "2OmtRl0NflA"
-      },
-      {
-        "provider": "youtube",
-        "id": "MChC6Zr030o"
       },
       {
         "provider": "youtube",
@@ -6137,7 +6096,7 @@
       "origin": "seed",
       "importedAt": "2026-11-11"
     },
-    "popularity": 0.33,
+    "popularity": 1,
     "popularitySource": "derived"
   },
   {
@@ -6582,10 +6541,6 @@
       {
         "provider": "youtube",
         "id": "zaCbuB3w0kg"
-      },
-      {
-        "provider": "youtube",
-        "id": "7tNPxY_ntEA"
       }
     ],
     "provenance": {
@@ -6920,10 +6875,6 @@
       {
         "provider": "youtube",
         "id": "4882Hi-TtHM"
-      },
-      {
-        "provider": "youtube",
-        "id": "IjBAgWKW12Y"
       }
     ],
     "provenance": {
@@ -7470,14 +7421,6 @@
     "sources": [
       {
         "provider": "youtube",
-        "id": "nvKZ8EETiPE"
-      },
-      {
-        "provider": "youtube",
-        "id": "1tVL11ULjYY"
-      },
-      {
-        "provider": "youtube",
         "id": "HiJr9A-wZJY"
       },
       {
@@ -7493,7 +7436,7 @@
       "origin": "seed",
       "importedAt": "2026-11-11"
     },
-    "popularity": 1,
+    "popularity": 0.33,
     "popularitySource": "derived"
   },
   {
@@ -8434,6 +8377,7 @@
     "energy": 7,
     "tags": [
       "baraat",
+      "birthday",
       "party",
       "retro",
       "sangeet",
@@ -8459,6 +8403,10 @@
       {
         "provider": "youtube",
         "id": "SKUgJYDclKI"
+      },
+      {
+        "provider": "youtube",
+        "id": "UXNQzK413GM"
       }
     ],
     "provenance": {
@@ -8648,47 +8596,6 @@
       {
         "provider": "youtube",
         "id": "8HJqprbfaBY"
-      }
-    ],
-    "provenance": {
-      "origin": "seed",
-      "importedAt": "2026-11-11"
-    },
-    "popularity": 0.33,
-    "popularitySource": "derived"
-  },
-  {
-    "id": "janam-samjha-karo",
-    "title": "Janam Samjha Karo",
-    "artists": [
-      "Anu Malik",
-      "Hema Sardesai"
-    ],
-    "language": "hindi",
-    "durationSec": 395,
-    "hook": {
-      "startSec": 24,
-      "endSec": 109,
-      "source": "seed"
-    },
-    "energy": 8,
-    "tags": [
-      "birthday",
-      "party",
-      "retro"
-    ],
-    "sources": [
-      {
-        "provider": "youtube",
-        "id": "UXNQzK413GM"
-      },
-      {
-        "provider": "youtube",
-        "id": "i978MtcO33A"
-      },
-      {
-        "provider": "youtube",
-        "id": "r5iE_9HrcgA"
       }
     ],
     "provenance": {
@@ -9015,44 +8922,6 @@
     "popularitySource": "derived"
   },
   {
-    "id": "jhoom-jo-pathaan",
-    "title": "Jhoom Jo Pathaan",
-    "artists": [
-      "Arijit Singh",
-      "Sukriti Kakar",
-      "Vishal-Shekhar"
-    ],
-    "language": "hindi",
-    "durationSec": 240,
-    "hook": {
-      "startSec": 25,
-      "endSec": 90,
-      "source": "seed"
-    },
-    "energy": 10,
-    "tags": [
-      "baraat",
-      "birthday",
-      "party"
-    ],
-    "sources": [
-      {
-        "provider": "youtube",
-        "id": "dzKSxDEAMDY"
-      },
-      {
-        "provider": "youtube",
-        "id": "YxWlaYCA8MU"
-      }
-    ],
-    "provenance": {
-      "origin": "seed",
-      "importedAt": "2026-11-11"
-    },
-    "popularity": 0,
-    "popularitySource": "derived"
-  },
-  {
     "id": "jhoome-jo-pathaan",
     "title": "Jhoome Jo Pathaan",
     "artists": [
@@ -9068,6 +8937,7 @@
     },
     "energy": 9,
     "tags": [
+      "baraat",
       "birthday",
       "party"
     ],
@@ -11692,10 +11562,6 @@
       {
         "provider": "youtube",
         "id": "7tNPxY_ntEA"
-      },
-      {
-        "provider": "youtube",
-        "id": "zaCbuB3w0kg"
       }
     ],
     "provenance": {
@@ -13382,6 +13248,10 @@
       {
         "provider": "youtube",
         "id": "9dBBLiZ5-m0"
+      },
+      {
+        "provider": "youtube",
+        "id": "4aCiF7Ia-uY"
       }
     ],
     "provenance": {
@@ -13422,81 +13292,6 @@
       {
         "provider": "youtube",
         "id": "IVMquMDUQZY"
-      }
-    ],
-    "provenance": {
-      "origin": "seed",
-      "importedAt": "2026-11-11"
-    },
-    "popularity": 0.33,
-    "popularitySource": "derived"
-  },
-  {
-    "id": "muqabla-muqabla",
-    "title": "Muqabla Muqabla",
-    "artists": [
-      "Mano",
-      "Swarnalatha",
-      "A.R. Rahman"
-    ],
-    "language": "hindi",
-    "durationSec": 229,
-    "hook": {
-      "startSec": 24,
-      "endSec": 109,
-      "source": "seed"
-    },
-    "energy": 9,
-    "tags": [
-      "birthday",
-      "party",
-      "retro",
-      "sangeet"
-    ],
-    "sources": [
-      {
-        "provider": "youtube",
-        "id": "4aCiF7Ia-uY"
-      },
-      {
-        "provider": "youtube",
-        "id": "1IuQaLxgVB0"
-      },
-      {
-        "provider": "youtube",
-        "id": "FQzC23GLptE"
-      }
-    ],
-    "provenance": {
-      "origin": "seed",
-      "importedAt": "2026-11-11"
-    },
-    "popularity": 0.33,
-    "popularitySource": "derived"
-  },
-  {
-    "id": "muqabla-street-dancer",
-    "title": "Muqabla Street Dancer",
-    "artists": [
-      "Yash Narvekar",
-      "Parampara Tandon"
-    ],
-    "language": "hindi",
-    "durationSec": 240,
-    "hook": {
-      "startSec": 24,
-      "endSec": 88,
-      "source": "seed"
-    },
-    "energy": 9,
-    "tags": [
-      "birthday",
-      "party"
-    ],
-    "sources": [
-      {
-        "provider": "youtube",
-        "id": "IVMquMDUQZY"
       },
       {
         "provider": "youtube",
@@ -13507,7 +13302,7 @@
       "origin": "seed",
       "importedAt": "2026-11-11"
     },
-    "popularity": 0,
+    "popularity": 0.67,
     "popularitySource": "derived"
   },
   {
@@ -14040,7 +13835,7 @@
   },
   {
     "id": "navrai-majhe",
-    "title": "Navrai Majhe",
+    "title": "Navrai Majhi",
     "artists": [
       "Sunidhi Chauhan",
       "Swanand Kirkire",
@@ -15012,58 +14807,6 @@
       "importedAt": "2026-11-11"
     },
     "popularity": 0,
-    "popularitySource": "derived"
-  },
-  {
-    "id": "party-mashup-dj-praveen-nonie",
-    "title": "Party Mashup - DJ Praveen - Nonie",
-    "artists": [
-      "Shruti Rane",
-      "Badshah",
-      "Aastha Gill",
-      "Jassie Gill",
-      "Simar Kaur & Dev Negi"
-    ],
-    "language": "hindi",
-    "durationSec": 70,
-    "hook": {
-      "startSec": 18,
-      "endSec": 43,
-      "source": "seed"
-    },
-    "energy": 7,
-    "tags": [
-      "birthday",
-      "late-night",
-      "party"
-    ],
-    "sources": [
-      {
-        "provider": "youtube",
-        "id": "5XTxuz-_myg"
-      },
-      {
-        "provider": "youtube",
-        "id": "Ifg-FPP78aU"
-      },
-      {
-        "provider": "youtube",
-        "id": "_5zG9OxNoYU"
-      },
-      {
-        "provider": "youtube",
-        "id": "qX0T70rkyqI"
-      },
-      {
-        "provider": "youtube",
-        "id": "fluRCUv3lkI"
-      }
-    ],
-    "provenance": {
-      "origin": "seed",
-      "importedAt": "2026-11-11"
-    },
-    "popularity": 1,
     "popularitySource": "derived"
   },
   {
@@ -16405,6 +16148,7 @@
       "baraat",
       "birthday",
       "late-night",
+      "party",
       "sangeet",
       "wedding",
       "workout"
@@ -16436,46 +16180,6 @@
       "importedAt": "2026-11-11"
     },
     "popularity": 1,
-    "popularitySource": "derived"
-  },
-  {
-    "id": "saami-saami-sunidhi-chauhan",
-    "title": "Saami Saami",
-    "artists": [
-      "Sunidhi Chauhan"
-    ],
-    "language": "hindi",
-    "durationSec": 180,
-    "hook": {
-      "startSec": 22,
-      "endSec": 85,
-      "source": "seed"
-    },
-    "energy": 9,
-    "tags": [
-      "party",
-      "sangeet",
-      "wedding"
-    ],
-    "sources": [
-      {
-        "provider": "youtube",
-        "id": "Zk4_H53LzZI"
-      },
-      {
-        "provider": "youtube",
-        "id": "kbGTg-VFoW0"
-      },
-      {
-        "provider": "youtube",
-        "id": "RmR8eBzAN-c"
-      }
-    ],
-    "provenance": {
-      "origin": "seed",
-      "importedAt": "2026-11-11"
-    },
-    "popularity": 0.33,
     "popularitySource": "derived"
   },
   {
@@ -17401,42 +17105,6 @@
     "popularitySource": "derived"
   },
   {
-    "id": "shut-up-and-bounce",
-    "title": "Shut Up and Bounce",
-    "artists": [
-      "Sunidhi Chauhan",
-      "Vishal Dadlani"
-    ],
-    "language": "hindi",
-    "durationSec": 180,
-    "hook": {
-      "startSec": 24,
-      "endSec": 88,
-      "source": "seed"
-    },
-    "energy": 9,
-    "tags": [
-      "birthday",
-      "party"
-    ],
-    "sources": [
-      {
-        "provider": "youtube",
-        "id": "0akqVN4ts0w"
-      },
-      {
-        "provider": "youtube",
-        "id": "5RrSJRTGYzo"
-      }
-    ],
-    "provenance": {
-      "origin": "seed",
-      "importedAt": "2026-11-11"
-    },
-    "popularity": 0,
-    "popularitySource": "derived"
-  },
-  {
     "id": "shut-up-bounce",
     "title": "Shut Up & Bounce",
     "artists": [
@@ -17463,13 +17131,17 @@
       {
         "provider": "youtube",
         "id": "0akqVN4ts0w"
+      },
+      {
+        "provider": "youtube",
+        "id": "5RrSJRTGYzo"
       }
     ],
     "provenance": {
       "origin": "seed",
       "importedAt": "2026-11-11"
     },
-    "popularity": 0,
+    "popularity": 0.33,
     "popularitySource": "derived"
   },
   {
@@ -18096,43 +17768,6 @@
     "popularitySource": "derived"
   },
   {
-    "id": "subha-hone-na-de",
-    "title": "Subha Hone Na De",
-    "artists": [
-      "Mika Singh",
-      "Shefali Alvares"
-    ],
-    "language": "hindi",
-    "durationSec": 240,
-    "hook": {
-      "startSec": 24,
-      "endSec": 88,
-      "source": "seed"
-    },
-    "energy": 10,
-    "tags": [
-      "birthday",
-      "late-night",
-      "party"
-    ],
-    "sources": [
-      {
-        "provider": "youtube",
-        "id": "iWhZ62o-arQ"
-      },
-      {
-        "provider": "youtube",
-        "id": "Y7G-tYRzwYY"
-      }
-    ],
-    "provenance": {
-      "origin": "seed",
-      "importedAt": "2026-11-11"
-    },
-    "popularity": 0,
-    "popularitySource": "derived"
-  },
-  {
     "id": "sultan-title-track",
     "title": "Sultan Title Track",
     "artists": [
@@ -18472,43 +18107,6 @@
     "popularitySource": "derived"
   },
   {
-    "id": "tan-tana-tan",
-    "title": "Tan Tana Tan",
-    "artists": [
-      "Abhijeet",
-      "Poornima"
-    ],
-    "language": "hindi",
-    "durationSec": 240,
-    "hook": {
-      "startSec": 22,
-      "endSec": 86,
-      "source": "seed"
-    },
-    "energy": 10,
-    "tags": [
-      "baraat",
-      "late-night",
-      "party"
-    ],
-    "sources": [
-      {
-        "provider": "youtube",
-        "id": "Gk7brTnVbkY"
-      },
-      {
-        "provider": "youtube",
-        "id": "qeOfhT44XWg"
-      }
-    ],
-    "provenance": {
-      "origin": "seed",
-      "importedAt": "2026-11-11"
-    },
-    "popularity": 0,
-    "popularitySource": "derived"
-  },
-  {
     "id": "tan-tana-tan-tan",
     "title": "Tan Tana Tan Tan",
     "artists": [
@@ -18560,47 +18158,6 @@
       "importedAt": "2026-11-11"
     },
     "popularity": 1,
-    "popularitySource": "derived"
-  },
-  {
-    "id": "tan-tana-tan-tan-tan-tara",
-    "title": "Tan Tana Tan Tan Tan Tara",
-    "artists": [
-      "Abhijeet Bhattacharya",
-      "Poornima"
-    ],
-    "language": "hindi",
-    "durationSec": 180,
-    "hook": {
-      "startSec": 22,
-      "endSec": 85,
-      "source": "seed"
-    },
-    "energy": 10,
-    "tags": [
-      "baraat",
-      "party",
-      "retro"
-    ],
-    "sources": [
-      {
-        "provider": "youtube",
-        "id": "qeOfhT44XWg"
-      },
-      {
-        "provider": "youtube",
-        "id": "Gk7brTnVbkY"
-      },
-      {
-        "provider": "youtube",
-        "id": "_j82l8opw-8"
-      }
-    ],
-    "provenance": {
-      "origin": "seed",
-      "importedAt": "2026-11-11"
-    },
-    "popularity": 0.33,
     "popularitySource": "derived"
   },
   {
@@ -19885,17 +19442,13 @@
       {
         "provider": "youtube",
         "id": "hRfyTM4Clqc"
-      },
-      {
-        "provider": "youtube",
-        "id": "qB2j5FhfOd4"
       }
     ],
     "provenance": {
       "origin": "seed",
       "importedAt": "2026-11-11"
     },
-    "popularity": 0.33,
+    "popularity": 0,
     "popularitySource": "derived"
   },
   {
@@ -19926,17 +19479,13 @@
       {
         "provider": "youtube",
         "id": "_jE5_Mc0QT0"
-      },
-      {
-        "provider": "youtube",
-        "id": "yuKvLHXmX5g"
       }
     ],
     "provenance": {
       "origin": "seed",
       "importedAt": "2026-11-11"
     },
-    "popularity": 0.33,
+    "popularity": 0,
     "popularitySource": "derived"
   },
   {
@@ -20400,10 +19949,6 @@
       },
       {
         "provider": "youtube",
-        "id": "rtkUMX09qRQ"
-      },
-      {
-        "provider": "youtube",
         "id": "2naSX3Gmmdg"
       }
     ],
@@ -20411,7 +19956,7 @@
       "origin": "seed",
       "importedAt": "2026-11-11"
     },
-    "popularity": 0.33,
+    "popularity": 0,
     "popularitySource": "derived"
   },
   {
