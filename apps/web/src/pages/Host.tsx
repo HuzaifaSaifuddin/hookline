@@ -5,7 +5,7 @@ import { DeckEngine, type EngineState } from '../lib/deck-engine.ts';
 import { useRoom } from '../lib/useRoom.ts';
 import { artists, cap, joinUrl, mmss } from '../lib/format.ts';
 import { navigate } from '../lib/router.ts';
-import { Art, Conn, EnergyDot, Link, Logo, QR, Toasts } from '../components/common.tsx';
+import { Art, Conn, EnergyDot, Link, Logo, PlaybackOriginNotice, QR, Toasts } from '../components/common.tsx';
 import { EnergyArc } from '../components/EnergyArc.tsx';
 import { HookBar } from '../components/HookBar.tsx';
 
@@ -181,6 +181,7 @@ function Console({ code, hostKey }: { code: string; hostKey: string }) {
         </div>
       </div>
 
+      <PlaybackOriginNotice />
       <div className="host-grid">
         {/* ------------------------------------------------ left: now playing */}
         <div className="stack" style={{ gap: 16 }}>

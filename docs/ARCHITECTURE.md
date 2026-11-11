@@ -82,7 +82,7 @@ For each candidate: `fit(occasion tags) + energy distance to the arc target + fl
 
 | Failure | Handling |
 |---|---|
-| A YouTube upload is deleted or blocks embedding (errors 100/101/150) | The engine tries the next upload; the server records source health and demotes repeat failures. If no uploads are left, the song is marked unplayable and skipped instantly. Pre‑roll at T‑25s means most failures happen *before* the transition. |
+| A YouTube upload is deleted or blocks embedding (errors 100/101/150) | The engine tries the next upload. The server treats the error as a *report* and confirms it with oEmbed before demoting the upload for everyone, because these errors can be caused by the embedding page rather than the video (label videos fail on plain‑http LAN origins but play on localhost/HTTPS). Unconfirmed failures only skip the song for that party. If no uploads are left, the song is marked unplayable and skipped instantly. Pre‑roll at T‑25s means most failures happen *before* the transition. |
 | Video stalls while loading | 12s watchdog → treated as a failed source. Autoplay blocked → "Tap to let the music play". |
 | Incoming deck fails mid‑crossfade | The fade is aborted, the current song keeps playing, and another track is tried. |
 | Upload shorter or longer than the one the catalogue timed | Hook window clamped to the real duration reported by the player. |

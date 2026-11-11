@@ -13,11 +13,13 @@ let ctx: AppContext;
 let time = Date.parse('2026-11-11T20:00:00Z');
 const clock = () => time;
 
+/** Video ids our fake YouTube says have embedding disabled by the owner. */
+const blockedIds = new Set<string>();
 const fakeFetch: typeof fetch = async (input) => {
   const url = String(input);
   if (url.includes('oembed')) {
     const id = decodeURIComponent(url).match(/v=([\w-]{11})/)?.[1];
-    if (id === 'NOEMBED0000') return new Response('', { status: 401 });
+    if (id === 'NOEMBED0000' || (id && blockedIds.has(id))) return new Response('', { status: 401 });
     if (id === 'GONEGONE000') return new Response('', { status: 404 });
     return Response.json({ title: 'Tum Hi Ho (Official Video) | Aashiqui 2', author_name: 'T-Series' });
   }
@@ -26,6 +28,7 @@ const fakeFetch: typeof fetch = async (input) => {
 
 beforeEach(async () => {
   time = Date.parse('2026-11-11T20:00:00Z');
+  blockedIds.clear();
   const config = { ...loadConfig({ NODE_ENV: 'test' }), dbFile: ':memory:', webDist: '/nonexistent' };
   ctx = await buildApp(config, { clock, fetchImpl: fakeFetch, studioKey: '' });
   await ctx.app.ready();
@@ -227,14 +230,34 @@ describe('realtime party flow', () => {
     expect(snap.queue[0]!.reasons).toContain('Host pick');
   });
 
-  it('a song whose sources all fail is dropped from the plan', async () => {
+  it('a song YouTube confirms is blocked everywhere is dropped from the plan', async () => {
     const { code, hostKey } = await createRoom();
     const host = await connect({ type: 'hello', room: code, role: 'host', hostKey });
     let snap = await host.snapshot();
     const victim = snap.queue[0]!;
+    for (const src of victim.sourceIds) blockedIds.add(src);
     for (const src of victim.sourceIds) host.send({ type: 'sourceFailed', songId: victim.track.id, sourceId: src, code: 150 });
     snap = await host.snapshot((r) => !r.queue.some((q) => q.track.id === victim.track.id));
     expect(ctx.store.catalog.get(victim.track.id)!.review).toBe('no-playable-source');
+  });
+
+  it("one browser's embed error does not demote a video YouTube says is embeddable", async () => {
+    // Regression: label videos refuse to play on plain-http LAN pages (error 150) but are fine
+    // elsewhere. Those reports must stay local to the party, not poison the shared catalogue.
+    const { code, hostKey } = await createRoom();
+    const host = await connect({ type: 'hello', room: code, role: 'host', hostKey });
+    const snap = await host.snapshot();
+    const song = snap.queue[1]!;
+    for (const src of song.sourceIds) host.send({ type: 'sourceFailed', songId: song.track.id, sourceId: src, code: 150 });
+    host.send({ type: 'songUnplayable', songId: song.track.id });
+    await host.snapshot((r) => !r.queue.some((q) => q.track.id === song.track.id)); // skipped for this party
+    await new Promise((r) => setTimeout(r, 50)); // let the oEmbed confirmations settle
+    const live = ctx.store.catalog.get(song.track.id)!;
+    expect(live.review).toBeUndefined();
+    expect(live.sources.every((s) => s.status === 'ok')).toBe(true);
+    // A brand-new party still gets it.
+    const other = await createRoom();
+    expect(ctx.rooms.get(other.code)!.state.taste.bannedSongIds).not.toContain(song.track.id);
   });
 
   it('host dislike removes the song for the night and is remembered globally', async () => {

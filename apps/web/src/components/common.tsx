@@ -99,3 +99,29 @@ export function useNow(ms = 500): number {
   }, [ms]);
   return now;
 }
+
+/**
+ * YouTube refuses to embed many label-owned music videos (error 150, "Video unavailable")
+ * when the page is plain http on a network address (LAN IP or .local name), while the same
+ * videos play on http://localhost and on HTTPS sites. Browsers expose exactly that
+ * distinction as `isSecureContext`, so we warn on the screens that actually play video.
+ */
+export function PlaybackOriginNotice() {
+  if (typeof window === 'undefined' || window.isSecureContext) return null;
+  const local = `http://localhost${location.port ? `:${location.port}` : ''}${location.pathname}${location.search}`;
+  return (
+    <div className="card tight stack" style={{ marginBottom: 16, background: 'rgba(251,191,36,0.07)', borderColor: 'rgba(251,191,36,0.35)' }} role="alert">
+      <div className="small">
+        <b>Many songs won't play from this address.</b> YouTube blocks most label music videos when the player page is opened over plain http at a network
+        address like <span className="mono">{location.host}</span> ("Video unavailable", even though it plays on youtube.com).
+      </div>
+      <div className="small muted">
+        On the computer running Hookline, open{' '}
+        <a href={local} className="mono">
+          {local.replace(/^http:\/\//, '')}
+        </a>{' '}
+        instead. To run the DJ screen on another device (e.g. a TV), serve Hookline over HTTPS. Guests' phones are unaffected: they don't play video.
+      </div>
+    </div>
+  );
+}

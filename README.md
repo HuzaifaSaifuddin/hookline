@@ -23,6 +23,8 @@ Open **http://localhost:8787** on the computer connected to the speaker.
 
 Guests join from phones on the **same Wi‑Fi** by scanning the QR code on the DJ screen, which shows the server's LAN address. Your OS firewall may ask you to allow incoming connections to Node.
 
+> **Open the DJ screen and the Studio at `http://localhost:8787`, not the LAN address.** YouTube refuses to embed many label‑owned music videos ("Video unavailable", error 150) on pages served over plain http from a network address (`192.168.x.x`, `*.local`), while the same videos play on `localhost` and on HTTPS sites. Guests are unaffected because their phones don't play video. To run the DJ screen on another device (e.g. a TV), serve Hookline over HTTPS. The app shows a warning when this applies.
+
 ### Optional configuration
 
 Everything works without keys. Copy `.env.example` to `.env` to enable extras:

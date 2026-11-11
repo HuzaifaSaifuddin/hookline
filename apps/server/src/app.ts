@@ -49,14 +49,14 @@ export async function buildApp(config: Config, opts: BuildOptions = {}): Promise
   });
 
   const db = openDatabase(config.dbFile);
-  const store = new CatalogStore(db, config.catalogDir);
+  const fetchImpl = opts.fetchImpl ?? fetch;
+  const store = new CatalogStore(db, config.catalogDir, (id) => oembed(id, fetchImpl));
   const report = store.load();
   app.log.info(report.invalid.length ? { ...report, invalid: report.invalid.slice(0, 10) } : report, 'catalogue loaded');
 
   const intents = new IntentParser(store, config.ai, app.log);
   app.log.info({ ai: intents.aiEnabled, model: intents.aiEnabled ? config.ai.model : undefined }, 'intent engine');
   const rooms = new RoomManager(db, store, intents, app.log, opts.clock);
-  const fetchImpl = opts.fetchImpl ?? fetch;
   const studioKey = opts.studioKey ?? process.env.HOOKLINE_STUDIO_KEY;
 
   await app.register(websocket, { options: { maxPayload: 16 * 1024 } });

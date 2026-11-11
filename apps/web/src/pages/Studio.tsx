@@ -3,7 +3,7 @@ import type { MetaResponse, SongDetail } from '@hookline/core';
 import { api, safeGet, safeSet } from '../lib/api.ts';
 import { artists, cap, mmss } from '../lib/format.ts';
 import { createPlayer, loadYouTubeApi, YTState, type YTPlayer } from '../lib/youtube.ts';
-import { Link, Logo, Spinner, Toasts } from '../components/common.tsx';
+import { Link, Logo, PlaybackOriginNotice, Spinner, Toasts } from '../components/common.tsx';
 import type { Toast } from '../lib/useRoom.ts';
 
 type Tab = 'catalog' | 'add' | 'insights';
@@ -59,6 +59,7 @@ export function Studio() {
           </Link>
         </div>
       </div>
+      <PlaybackOriginNotice />
       {meta?.studioLocked && <StudioKey />}
 
       {tab === 'catalog' && (

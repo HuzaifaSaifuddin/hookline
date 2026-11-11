@@ -196,9 +196,20 @@ export class RoomManager {
         return room.started(m.songId, m.sourceId, m.actualDurationSec, m.previous);
       case 'preloading':
         return room.preloading(m.songId);
-      case 'sourceFailed':
-        this.log.warn({ room: room.code, song: m.songId, source: m.sourceId, code: m.code }, 'source failed');
-        return room.sourceFailed(m.songId, m.sourceId, m.code);
+      case 'sourceFailed': {
+        this.log.warn({ room: room.code, song: m.songId, source: m.sourceId, code: m.code }, 'source failure reported');
+        const effects = room.sourceFailed(m.songId, m.sourceId, m.code);
+        void this.store
+          .confirmSourceFailure(m.songId, m.sourceId, m.code)
+          .then((song) => {
+            if (!song) return;
+            this.log.warn({ song: m.songId, source: m.sourceId }, 'source failure confirmed by YouTube; demoted globally');
+            room.replan();
+            this.apply(room, { changed: true });
+          })
+          .catch((err) => this.log.error({ err: String(err) }, 'source confirmation failed'));
+        return effects;
+      }
       case 'songUnplayable':
         this.log.warn({ room: room.code, song: m.songId }, 'song unplayable');
         return room.songUnplayable(m.songId);

@@ -76,6 +76,12 @@ const MIGRATIONS: string[] = [
     updated_at INTEGER NOT NULL
   );
   `,
+  // v2: a player error is only a *report*. Whether an upload is really blocked or gone is
+  // confirmed server-side (oEmbed) before it is demoted for everyone — see CatalogStore.
+  `
+  ALTER TABLE source_health ADD COLUMN confirmed_status TEXT;
+  ALTER TABLE source_health ADD COLUMN confirmed_at INTEGER;
+  `,
 ];
 
 export type DB = DatabaseSync;

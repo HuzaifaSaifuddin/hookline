@@ -15,6 +15,16 @@ import type { DB } from './db.ts';
 
 /** A source that fails this many times (with no successes since) is demoted. */
 const FAILURES_TO_DEMOTE = 2;
+/**
+ * YouTube player errors that *claim* a video is blocked (101/150) or gone (2/100).
+ * They can be caused by the embedding page rather than the video: e.g. label-owned
+ * music videos refuse to play on plain-http LAN addresses but play on localhost/HTTPS.
+ * So one browser's report never demotes a source for everyone; we confirm via oEmbed.
+ */
+const CLAIM_CODES = new Set([2, 100, 101, 150]);
+const RECONFIRM_AFTER_MS = 24 * 60 * 60_000;
+
+export type SourceVerifier = (videoId: string) => Promise<{ status: 'ok' | 'unembeddable' | 'unavailable' | 'error' }>;
 /** Skipped within this many seconds = an "early skip" (a negative signal). */
 export const EARLY_SKIP_SEC = 15;
 
@@ -42,6 +52,7 @@ export class CatalogStore {
   constructor(
     private db: DB,
     private catalogDir: string,
+    private verifySource?: SourceVerifier,
   ) {}
 
   load(): CatalogLoadReport {
@@ -100,13 +111,15 @@ export class CatalogStore {
 
     // Runtime source health: demote sources that keep failing in real players.
     const health = this.db
-      .prepare('SELECT source_id, failures, successes, last_code FROM source_health WHERE song_id = ?')
-      .all(id) as Array<{ source_id: string; failures: number; successes: number; last_code: number | null }>;
+      .prepare('SELECT source_id, failures, successes, last_code, confirmed_status FROM source_health WHERE song_id = ?')
+      .all(id) as Array<{ source_id: string; failures: number; successes: number; last_code: number | null; confirmed_status: string | null }>;
     for (const h of health) {
       const src = song.sources.find((s) => s.id === h.source_id);
       if (!src) continue;
-      if (h.last_code === 100) src.status = 'unavailable';
-      else if (h.last_code === 101 || h.last_code === 150) src.status = 'unembeddable';
+      if (h.confirmed_status === 'unavailable') src.status = 'unavailable';
+      else if (h.confirmed_status === 'unembeddable') src.status = 'unembeddable';
+      // Unconfirmed "blocked/gone" claims are context-dependent: never demote on them alone.
+      else if (h.last_code !== null && CLAIM_CODES.has(h.last_code)) continue;
       else if (h.failures >= FAILURES_TO_DEMOTE && h.successes === 0) src.status = 'failing';
     }
     if (song.sources.every((s) => s.status !== 'ok' && s.status !== 'unverified')) song.review = 'no-playable-source';
@@ -189,6 +202,24 @@ export class CatalogStore {
     const s = this.statsFor(songId);
     if (kind === 'like' || kind === 'love') s.likes++;
     else s.dislikes++;
+  }
+
+  /**
+   * Ask YouTube (oEmbed) whether a reported "blocked/gone" upload really is.
+   * Returns the rebuilt song if the catalogue changed for everyone.
+   */
+  async confirmSourceFailure(songId: string, sourceId: string, code: number): Promise<Song | undefined> {
+    if (!this.verifySource || !CLAIM_CODES.has(code)) return undefined;
+    const row = this.db.prepare('SELECT confirmed_at FROM source_health WHERE source_id = ?').get(sourceId) as
+      | { confirmed_at: number | null }
+      | undefined;
+    if (row?.confirmed_at && Date.now() - row.confirmed_at < RECONFIRM_AFTER_MS) return undefined;
+    const result = await this.verifySource(sourceId);
+    if (result.status === 'error') return undefined; // couldn't reach YouTube; try again on the next report
+    this.db
+      .prepare('UPDATE source_health SET confirmed_status = ?, confirmed_at = ? WHERE source_id = ?')
+      .run(result.status, Date.now(), sourceId);
+    return result.status === 'ok' ? undefined : this.rebuild(songId);
   }
 
   recordSourceFailure(songId: string, sourceId: string, code: number): Song | undefined {
