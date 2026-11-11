@@ -521,7 +521,10 @@ function AddSongs({ meta, toast, onAdded }: { meta: MetaResponse | null; toast: 
       </form>
 
       <div className="card stack">
-        <h3 style={{ fontSize: 20 }}>Search YouTube</h3>
+        <div className="row between">
+          <h3 style={{ fontSize: 20 }}>Search YouTube</h3>
+          {!meta?.youtubeSearchEnabled && <span className="tag violet">Coming soon</span>}
+        </div>
         {meta?.youtubeSearchEnabled ? (
           <>
             <form
@@ -554,8 +557,8 @@ function AddSongs({ meta, toast, onAdded }: { meta: MetaResponse | null; toast: 
             </div>
           </>
         ) : (
-          <p className="small muted">
-            Set <code>YOUTUBE_API_KEY</code> on the server to search YouTube from here. Until then, paste links on the left.
+          <p className="small muted" style={{ margin: 0 }}>
+            Find songs without leaving Hookline. For now, paste a YouTube link on the left.
           </p>
         )}
       </div>
