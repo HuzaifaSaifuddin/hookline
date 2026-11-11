@@ -1,0 +1,7480 @@
+[
+  {
+    "id": "295",
+    "title": "295",
+    "artists": [
+      "Sidhu Moosewala"
+    ],
+    "language": "punjabi",
+    "durationSec": 270,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "n_FCrCQ6-bA"
+      },
+      {
+        "provider": "youtube",
+        "id": "6-ahcYZGlU0"
+      },
+      {
+        "provider": "youtube",
+        "id": "U5UljHvcO34"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "3-peg-sharry",
+    "title": "3 Peg",
+    "artists": [
+      "Sharry Mann",
+      "Mista Baaz"
+    ],
+    "language": "punjabi",
+    "durationSec": 242,
+    "hook": {
+      "startSec": 35,
+      "endSec": 120,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "birthday",
+      "late-night",
+      "party",
+      "sangeet",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "fS2RIAMlKwA"
+      },
+      {
+        "provider": "youtube",
+        "id": "LYnHyygU7xE"
+      },
+      {
+        "provider": "youtube",
+        "id": "Pg5t95FoweQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "hzTg4zPBtDU"
+      },
+      {
+        "provider": "youtube",
+        "id": "5JTtOND0a3E"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "5-taara",
+    "title": "5 Taara",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 11,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "2j-R0CLRiZM"
+      },
+      {
+        "provider": "youtube",
+        "id": "HMIb05Gocqo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "52-bars",
+    "title": "52 Bars",
+    "artists": [
+      "Karan Aujla"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "KFsvbVVzkYg"
+      },
+      {
+        "provider": "youtube",
+        "id": "4DfVxVeqk2o"
+      },
+      {
+        "provider": "youtube",
+        "id": "XgX9ZffWfU8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "admirin-you",
+    "title": "Admirin You",
+    "artists": [
+      "Karan Aujla"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "k85UB5b6pJU"
+      },
+      {
+        "provider": "youtube",
+        "id": "V44Gq2tdGac"
+      },
+      {
+        "provider": "youtube",
+        "id": "Mfzk2V_gLfg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "all-black",
+    "title": "All Black",
+    "artists": [
+      "Sukh-E Muzical Doctorz",
+      "Raftaar"
+    ],
+    "language": "punjabi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ReXw6TOnUOc"
+      },
+      {
+        "provider": "youtube",
+        "id": "Sblt0kxp3Dk"
+      },
+      {
+        "provider": "youtube",
+        "id": "kTOYq9Jk8_o"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "all-night-ap",
+    "title": "All Night AP",
+    "artists": [
+      "AP Dhillon"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Vd7F5VHz5BI"
+      },
+      {
+        "provider": "youtube",
+        "id": "YYv5nQ9y8WQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "angreji-beat",
+    "title": "Angreji Beat",
+    "artists": [
+      "Yo Yo Honey Singh",
+      "Gippy Grewal"
+    ],
+    "language": "punjabi",
+    "durationSec": 212,
+    "hook": {
+      "startSec": 30,
+      "endSec": 112,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "birthday",
+      "late-night",
+      "party",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "iAMNnzC9yu8"
+      },
+      {
+        "provider": "youtube",
+        "id": "wSOnIVKh6gU"
+      },
+      {
+        "provider": "youtube",
+        "id": "Iu8210k9WQc"
+      },
+      {
+        "provider": "youtube",
+        "id": "k_g0BBbY--I"
+      },
+      {
+        "provider": "youtube",
+        "id": "Du6Xi5M7D-g"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "antidote",
+    "title": "Antidote",
+    "artists": [
+      "Karan Aujla"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "rXoReWNm8Zo"
+      },
+      {
+        "provider": "youtube",
+        "id": "GYRiW1LI6DI"
+      },
+      {
+        "provider": "youtube",
+        "id": "8ilZtZKa0hM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "arjan-vailly",
+    "title": "Arjan Vailly",
+    "artists": [
+      "Bhupinder Babbal"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "0hYehuznQac"
+      },
+      {
+        "provider": "youtube",
+        "id": "V1r3s-hZeNg"
+      },
+      {
+        "provider": "youtube",
+        "id": "zqGW6x_5N0k"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "bachke-bachke",
+    "title": "Bachke Bachke",
+    "artists": [
+      "Karan Aujla",
+      "Y Shorty"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "QH-87ZXQ2pw"
+      },
+      {
+        "provider": "youtube",
+        "id": "k_eYWdgKfIQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "backbone",
+    "title": "Backbone",
+    "artists": [
+      "Harrdy Sandhu"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "cfBLtdg5lYY"
+      },
+      {
+        "provider": "youtube",
+        "id": "giKbmzLjasc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "badfella",
+    "title": "Badfella",
+    "artists": [
+      "Sidhu Moosewala"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "3B58WjxStX8"
+      },
+      {
+        "provider": "youtube",
+        "id": "VYYGl0dNVJU"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "badnam",
+    "title": "Badnam",
+    "artists": [
+      "Mankirt Aulakh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "MFbWt4HJ5vQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "BUL-xhLt3DM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "baller-shubh",
+    "title": "Baller",
+    "artists": [
+      "Shubh",
+      "Ikky"
+    ],
+    "language": "punjabi",
+    "durationSec": 148,
+    "hook": {
+      "startSec": 18,
+      "endSec": 96,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "xR3V5Ow2dTI"
+      },
+      {
+        "provider": "youtube",
+        "id": "NSVUw0ydxBw"
+      },
+      {
+        "provider": "youtube",
+        "id": "LmpL_rrT8ho"
+      },
+      {
+        "provider": "youtube",
+        "id": "6bJwqnAagjA"
+      },
+      {
+        "provider": "youtube",
+        "id": "UcbCBp3uKGk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "bambiha-bole",
+    "title": "Bambiha Bole",
+    "artists": [
+      "Sidhu Moosewala",
+      "Amrit Maan"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "hpVNMjpjiJc"
+      },
+      {
+        "provider": "youtube",
+        "id": "GCcCMXgWNRE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "bandana",
+    "title": "Bandana",
+    "artists": [
+      "Shubh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "pk1LemEMs9w"
+      },
+      {
+        "provider": "youtube",
+        "id": "j2zxCw3voU8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "bapu-zimidar",
+    "title": "Bapu Zimidar",
+    "artists": [
+      "Jassi Gill"
+    ],
+    "language": "punjabi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "eF5rXiHMUMU"
+      },
+      {
+        "provider": "youtube",
+        "id": "Y8MG5SXkmg0"
+      },
+      {
+        "provider": "youtube",
+        "id": "jOYR3k1VhUQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "bijlee-bijlee",
+    "title": "Bijlee Bijlee",
+    "artists": [
+      "Harrdy Sandhu",
+      "B Praak"
+    ],
+    "language": "punjabi",
+    "durationSec": 188,
+    "hook": {
+      "startSec": 34,
+      "endSec": 115,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "sangeet",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "NwdQx2P_ytk"
+      },
+      {
+        "provider": "youtube",
+        "id": "iW899hOeLw8"
+      },
+      {
+        "provider": "youtube",
+        "id": "7-mAQWiPcBw"
+      },
+      {
+        "provider": "youtube",
+        "id": "WKDwKIOPWgQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "AL-hbIAcDNA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "bitch-im-back",
+    "title": "Bitch I'm Back",
+    "artists": [
+      "Sidhu Moosewala"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "W5NgXKe4SJk"
+      },
+      {
+        "provider": "youtube",
+        "id": "Jdviiy8eaPg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "born-to-shine",
+    "title": "Born To Shine",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 213,
+    "hook": {
+      "startSec": 28,
+      "endSec": 110,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "birthday",
+      "late-night",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "iLHEGrNVf5Y"
+      },
+      {
+        "provider": "youtube",
+        "id": "D9m_tV9TMC8"
+      },
+      {
+        "provider": "youtube",
+        "id": "chmAxyFIVGY"
+      },
+      {
+        "provider": "youtube",
+        "id": "dCmp56tSSmA"
+      },
+      {
+        "provider": "youtube",
+        "id": "yaS2uIZpCM0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "boss-jass",
+    "title": "Boss Jass",
+    "artists": [
+      "Jass Manak"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "pH9ZhqV9-qQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "rv9qC2mMRjo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "brown-munde",
+    "title": "Brown Munde",
+    "artists": [
+      "AP Dhillon",
+      "Gurinder Gill",
+      "Shinda Kahlon"
+    ],
+    "language": "punjabi",
+    "durationSec": 268,
+    "hook": {
+      "startSec": 34,
+      "endSec": 122,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "VNs_cCtdbPc"
+      },
+      {
+        "provider": "youtube",
+        "id": "YBTVJ_jWIGk"
+      },
+      {
+        "provider": "youtube",
+        "id": "KATrXxsb4IA"
+      },
+      {
+        "provider": "youtube",
+        "id": "KL9-RE-73Y8"
+      },
+      {
+        "provider": "youtube",
+        "id": "LCKBVzJOSvg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "built-different",
+    "title": "Built Different",
+    "artists": [
+      "Sidhu Moosewala"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "y-abKv4oqjk"
+      },
+      {
+        "provider": "youtube",
+        "id": "xkBe4Ahd--k"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "butterfly-jass",
+    "title": "Butterfly Jass",
+    "artists": [
+      "Jass Manak"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 80,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "TAikJyLtuXk"
+      },
+      {
+        "provider": "youtube",
+        "id": "8LCEc_xPANw"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "calaboose",
+    "title": "Calaboose",
+    "artists": [
+      "Sidhu Moosewala"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Xf-N1joH6h4"
+      },
+      {
+        "provider": "youtube",
+        "id": "dntYBmZmO3A"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "case",
+    "title": "Case",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 135,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "NazIhA_VQWI"
+      },
+      {
+        "provider": "youtube",
+        "id": "p18TjMLOGUs"
+      },
+      {
+        "provider": "youtube",
+        "id": "g-Ij0idc_dk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "chaar-botal-vodka",
+    "title": "Chaar Botal Vodka",
+    "artists": [
+      "Yo Yo Honey Singh"
+    ],
+    "language": "punjabi",
+    "durationSec": 225,
+    "hook": {
+      "startSec": 26,
+      "endSec": 108,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "I3ckNdCgx2w"
+      },
+      {
+        "provider": "youtube",
+        "id": "nHkfshv7OKc"
+      },
+      {
+        "provider": "youtube",
+        "id": "x8F5dz8kv1w"
+      },
+      {
+        "provider": "youtube",
+        "id": "erg2IpYlwdw"
+      },
+      {
+        "provider": "youtube",
+        "id": "mQ41YEAdnr4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "chauffeur",
+    "title": "Chauffeur",
+    "artists": [
+      "Diljit Dosanjh",
+      "Tory Lanez"
+    ],
+    "language": "punjabi",
+    "durationSec": 204,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "8_UTHcJp4jc"
+      },
+      {
+        "provider": "youtube",
+        "id": "6nxrllqnP2Q"
+      },
+      {
+        "provider": "youtube",
+        "id": "WyC1Jd3bI6c"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "cheques-shubh",
+    "title": "Cheques",
+    "artists": [
+      "Shubh"
+    ],
+    "language": "punjabi",
+    "durationSec": 184,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "4tywp83zkmk"
+      },
+      {
+        "provider": "youtube",
+        "id": "DAqxAqq_jhg"
+      },
+      {
+        "provider": "youtube",
+        "id": "9MDi9ecoXoI"
+      },
+      {
+        "provider": "youtube",
+        "id": "I9L73JYns7g"
+      },
+      {
+        "provider": "youtube",
+        "id": "jKalTZSrwQU"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "chitta-kurta",
+    "title": "Chitta Kurta",
+    "artists": [
+      "Karan Aujla"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "nBrBwGgY-Kg"
+      },
+      {
+        "provider": "youtube",
+        "id": "leTO1NjgYrw"
+      },
+      {
+        "provider": "youtube",
+        "id": "o9PY6NsB3_E"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "chu-gon-do",
+    "title": "Chu Gon Do",
+    "artists": [
+      "Karan Aujla"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ZjLU7eZZeQg"
+      },
+      {
+        "provider": "youtube",
+        "id": "vfVT1ty9qao"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "clash",
+    "title": "Clash",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "swBD8tSMow8"
+      },
+      {
+        "provider": "youtube",
+        "id": "KX06ksuS6Xo"
+      },
+      {
+        "provider": "youtube",
+        "id": "NazIhA_VQWI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "cute-munda",
+    "title": "Cute Munda",
+    "artists": [
+      "Sharry Mann"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Endxmz6evaM"
+      },
+      {
+        "provider": "youtube",
+        "id": "PDlw1Tn-PVk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "daku",
+    "title": "Daku",
+    "artists": [
+      "Chani Nattan",
+      "Inderpal Moga"
+    ],
+    "language": "punjabi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "WOdnRhWeHoY"
+      },
+      {
+        "provider": "youtube",
+        "id": "x6MzyZ4WBVA"
+      },
+      {
+        "provider": "youtube",
+        "id": "3p99lnLO0f4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "daru-badnaam",
+    "title": "Daru Badnaam",
+    "artists": [
+      "Kamal Kahlon",
+      "Param Singh"
+    ],
+    "language": "punjabi",
+    "durationSec": 195,
+    "hook": {
+      "startSec": 22,
+      "endSec": 105,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "KOlvd1Zl4VU"
+      },
+      {
+        "provider": "youtube",
+        "id": "nY-b6Aw9pMQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "K30dA_3vAGs"
+      },
+      {
+        "provider": "youtube",
+        "id": "F00pPs2WOIM"
+      },
+      {
+        "provider": "youtube",
+        "id": "9AnI9v5HKRU"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dear-mama",
+    "title": "Dear Mama",
+    "artists": [
+      "Sidhu Moosewala"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "8kI9YddbSz0"
+      },
+      {
+        "provider": "youtube",
+        "id": "4wub_PF4Oaw"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "defaulter",
+    "title": "Defaulter",
+    "artists": [
+      "Jordan Sandhu"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "6yUjcSTv_C4"
+      },
+      {
+        "provider": "youtube",
+        "id": "U2TlQbkog08"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dhol-jageero-da",
+    "title": "Dhol Jageero Da",
+    "artists": [
+      "Master Saleem",
+      "Panjabi MC"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "party",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "9kSVs8u5H80"
+      },
+      {
+        "provider": "youtube",
+        "id": "0OqIY138ppI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "diamond-gurnam",
+    "title": "Diamond Gurnam",
+    "artists": [
+      "Gurnam Bhullar"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ggJMQHltiQc"
+      },
+      {
+        "provider": "youtube",
+        "id": "DkufwMyI21g"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dil-le-gayee-kudi",
+    "title": "Dil Le Gayee Kudi",
+    "artists": [
+      "Jasbir Jassi"
+    ],
+    "language": "punjabi",
+    "durationSec": 158,
+    "hook": {
+      "startSec": 24,
+      "endSec": 109,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party",
+      "retro",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "DZ4jaKLPYCw"
+      },
+      {
+        "provider": "youtube",
+        "id": "lTuedTVFctw"
+      },
+      {
+        "provider": "youtube",
+        "id": "4kpHRALS22k"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dil-nu",
+    "title": "Dil Nu",
+    "artists": [
+      "AP Dhillon"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "p2EdDiiVHh4"
+      },
+      {
+        "provider": "youtube",
+        "id": "V_w2o98zHU8"
+      },
+      {
+        "provider": "youtube",
+        "id": "Dp-lv5nTjS0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dior",
+    "title": "Dior",
+    "artists": [
+      "Shubh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "SeC91H4nWCk"
+      },
+      {
+        "provider": "youtube",
+        "id": "vyrPwLoIYkc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "do-you-know",
+    "title": "Do You Know",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "DT9fEmSL_Lw"
+      },
+      {
+        "provider": "youtube",
+        "id": "HBjTA2v_Ly8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dollar",
+    "title": "Dollar",
+    "artists": [
+      "Sidhu Moosewala"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Eh2IMZ5Na7o"
+      },
+      {
+        "provider": "youtube",
+        "id": "VD4RrUG6rgY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dont-be-shy-dr-zeus",
+    "title": "Don't Be Shy Dr Zeus",
+    "artists": [
+      "Dr Zeus",
+      "Rouge"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "MtL-V_PZpYg"
+      },
+      {
+        "provider": "youtube",
+        "id": "l-_u7SsGYII"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dont-look",
+    "title": "Don't Look",
+    "artists": [
+      "Karan Aujla"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "6Pd-3nvYDRk"
+      },
+      {
+        "provider": "youtube",
+        "id": "YeiV39P09QQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dope-shope",
+    "title": "Dope Shope",
+    "artists": [
+      "Yo Yo Honey Singh",
+      "Deep Money"
+    ],
+    "language": "punjabi",
+    "durationSec": 190,
+    "hook": {
+      "startSec": 25,
+      "endSec": 105,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "usdMie3BGIk"
+      },
+      {
+        "provider": "youtube",
+        "id": "NrXdauEv9HY"
+      },
+      {
+        "provider": "youtube",
+        "id": "V41e5xWbRcs"
+      },
+      {
+        "provider": "youtube",
+        "id": "eE-9-mxGGis"
+      },
+      {
+        "provider": "youtube",
+        "id": "ekXWqLNUK8E"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "droptop",
+    "title": "Droptop",
+    "artists": [
+      "AP Dhillon",
+      "Gurinder Gill"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "YINxH2VLP-A"
+      },
+      {
+        "provider": "youtube",
+        "id": "qIeYLPCJcxE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dupatta-tera-satrang-da",
+    "title": "Dupatta Tera Satrang Da",
+    "artists": [
+      "Surjit Bindrakhia"
+    ],
+    "language": "punjabi",
+    "durationSec": 278,
+    "hook": {
+      "startSec": 24,
+      "endSec": 109,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "late-night",
+      "retro",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "0JgIYnjj0sk"
+      },
+      {
+        "provider": "youtube",
+        "id": "jjcNS8aKU1A"
+      },
+      {
+        "provider": "youtube",
+        "id": "GpkzitzJ2n4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "el-sueno",
+    "title": "El Sueno",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "FoP3ivuZL4A"
+      },
+      {
+        "provider": "youtube",
+        "id": "uI5xFLnBJJE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "elevated",
+    "title": "Elevated",
+    "artists": [
+      "Shubh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "9CvwbW9UhJc"
+      },
+      {
+        "provider": "youtube",
+        "id": "I1nX5EuvwzE"
+      },
+      {
+        "provider": "youtube",
+        "id": "rbscdpxjw_k"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "everybody-hurts",
+    "title": "Everybody Hurts",
+    "artists": [
+      "Sidhu Moosewala"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Eu-CJl1bsIU"
+      },
+      {
+        "provider": "youtube",
+        "id": "NL7bTZqUqas"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "excuses",
+    "title": "Excuses",
+    "artists": [
+      "AP Dhillon",
+      "Gurinder Gill"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "vX2cDW8LUWk"
+      },
+      {
+        "provider": "youtube",
+        "id": "38Hc9vK5OF4"
+      },
+      {
+        "provider": "youtube",
+        "id": "EUJtrKvzucQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "famous",
+    "title": "Famous",
+    "artists": [
+      "Sidhu Moosewala"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "H-w3KEHBwcA"
+      },
+      {
+        "provider": "youtube",
+        "id": "n_L1Msc3uk8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "filhall",
+    "title": "Filhall",
+    "artists": [
+      "B Praak"
+    ],
+    "language": "punjabi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 28,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "hMy5za-m5Ew"
+      },
+      {
+        "provider": "youtube",
+        "id": "zG6oP5m8lo0"
+      },
+      {
+        "provider": "youtube",
+        "id": "g5E-0RAwej0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "g-shit",
+    "title": "G-Shit",
+    "artists": [
+      "Sidhu Moosewala",
+      "Blockboi Twitch"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "hFPL35TV8Xg"
+      },
+      {
+        "provider": "youtube",
+        "id": "LzlwVuhoj7g"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gaal-ni-kadni",
+    "title": "Gaal Ni Kadni",
+    "artists": [
+      "Parmish Verma"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "U65TWIP3mpQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "-SdR8r3leEo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gal-ban-gayi",
+    "title": "Gal Ban Gayi",
+    "artists": [
+      "Meet Bros",
+      "Sukhbir",
+      "Neha Kakkar",
+      "Yo Yo Honey Singh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "vS2QwrWUzMY"
+      },
+      {
+        "provider": "youtube",
+        "id": "cRPSDFWmhNk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gall-da-kara",
+    "title": "Gall Da Kara",
+    "artists": [
+      "Mankirt Aulakh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "1xkkaYwrPbw"
+      },
+      {
+        "provider": "youtube",
+        "id": "jD5eZgne4EQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gallan-goriyan-mann",
+    "title": "Gallan Goriyan Mann",
+    "artists": [
+      "Harbhajan Mann"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "baraat",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "lbwu8KcQ7oM"
+      },
+      {
+        "provider": "youtube",
+        "id": "6klTAp6oKKg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gangland",
+    "title": "Gangland",
+    "artists": [
+      "Mankirt Aulakh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "eI9neaB4BmY"
+      },
+      {
+        "provider": "youtube",
+        "id": "h5QBSQv0XeU"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "goat-diljit",
+    "title": "G.O.A.T.",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 223,
+    "hook": {
+      "startSec": 28,
+      "endSec": 110,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "birthday",
+      "late-night",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "tAizFLCucdY"
+      },
+      {
+        "provider": "youtube",
+        "id": "styw0TbwUu0"
+      },
+      {
+        "provider": "youtube",
+        "id": "SFNRuYDdInw"
+      },
+      {
+        "provider": "youtube",
+        "id": "m8uIthzzMp0"
+      },
+      {
+        "provider": "youtube",
+        "id": "iLHEGrNVf5Y"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "god-damn",
+    "title": "God Damn",
+    "artists": [
+      "Karan Aujla",
+      "Badshah"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "au5uNkCKzaY"
+      },
+      {
+        "provider": "youtube",
+        "id": "rd1nY0cfC00"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gora-rang",
+    "title": "Gora Rang",
+    "artists": [
+      "Gurnam Bhullar"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "YcqWbFiFCxE"
+      },
+      {
+        "provider": "youtube",
+        "id": "Xe53gFvlUD4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gud-naal-ishq-mitha",
+    "title": "Gud Naal Ishq Mitha",
+    "artists": [
+      "Navraj Hans",
+      "Harshdeep Kaur",
+      "Rochak Kohli"
+    ],
+    "language": "punjabi",
+    "durationSec": 218,
+    "hook": {
+      "startSec": 30,
+      "endSec": 115,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "late-night",
+      "mehendi",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "CvF0ijhxy7c"
+      },
+      {
+        "provider": "youtube",
+        "id": "uX6i2JXZ1Ow"
+      },
+      {
+        "provider": "youtube",
+        "id": "KxRm6aIZD7s"
+      },
+      {
+        "provider": "youtube",
+        "id": "r5J7gTryqB4"
+      },
+      {
+        "provider": "youtube",
+        "id": "8p8ZIE3riEU"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gulabi-pagg",
+    "title": "Gulabi Pagg",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "wKXPDkA-6bM"
+      },
+      {
+        "provider": "youtube",
+        "id": "iydWQVpv8c8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gur-naalo-ishq-mitha",
+    "title": "Gur Naalo Ishq Mitha",
+    "artists": [
+      "Malkit Singh",
+      "Bally Sagoo"
+    ],
+    "language": "punjabi",
+    "durationSec": 211,
+    "hook": {
+      "startSec": 24,
+      "endSec": 109,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "late-night",
+      "retro",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "_rGz16v3CUM"
+      },
+      {
+        "provider": "youtube",
+        "id": "NRcCpRwptK4"
+      },
+      {
+        "provider": "youtube",
+        "id": "FWgqQHu9REo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "handsome-jatta",
+    "title": "Handsome Jatta",
+    "artists": [
+      "Jordan Sandhu"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "_rj4cw0oIlA"
+      },
+      {
+        "provider": "youtube",
+        "id": "t9z3ZVV7l54"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "hass-hass",
+    "title": "Hass Hass",
+    "artists": [
+      "Diljit Dosanjh",
+      "Sia"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "jADTdg-o8i0"
+      },
+      {
+        "provider": "youtube",
+        "id": "FoeqJJMG7Kc"
+      },
+      {
+        "provider": "youtube",
+        "id": "E8OEoiaTlEA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "her",
+    "title": "Her",
+    "artists": [
+      "Shubh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "eD3TP-C3nYE"
+      },
+      {
+        "provider": "youtube",
+        "id": "Y8wpU98-bEQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "hidden-gems",
+    "title": "Hidden Gems",
+    "artists": [
+      "AP Dhillon"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "GdGwB6j_Wg8"
+      },
+      {
+        "provider": "youtube",
+        "id": "Drn-7rlj6xE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "high-end",
+    "title": "High End",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "g3CbTyADKwA"
+      },
+      {
+        "provider": "youtube",
+        "id": "UCoogBnurWk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "high-rated-gabru",
+    "title": "High Rated Gabru",
+    "artists": [
+      "Guru Randhawa"
+    ],
+    "language": "punjabi",
+    "durationSec": 214,
+    "hook": {
+      "startSec": 30,
+      "endSec": 110,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "hjWf8A0YNSE"
+      },
+      {
+        "provider": "youtube",
+        "id": "EU6vf42qkfk"
+      },
+      {
+        "provider": "youtube",
+        "id": "MwuG3YntNhI"
+      },
+      {
+        "provider": "youtube",
+        "id": "DxCfhmYe-Cw"
+      },
+      {
+        "provider": "youtube",
+        "id": "wlQsnqgGv2M"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "hood-anthem",
+    "title": "Hood Anthem",
+    "artists": [
+      "Shubh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "EWlQVvCX8y0"
+      },
+      {
+        "provider": "youtube",
+        "id": "jjiC7PfoIaY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "hornn-blow",
+    "title": "Hornn Blow",
+    "artists": [
+      "Harrdy Sandhu"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "DAqxAqq_jhg"
+      },
+      {
+        "provider": "youtube",
+        "id": "-Chif1XK2e8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "hostel",
+    "title": "Hostel",
+    "artists": [
+      "Sharry Mann"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Kd57YHWqrsI"
+      },
+      {
+        "provider": "youtube",
+        "id": "Bsj_ftM7VXA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "ice",
+    "title": "Ice",
+    "artists": [
+      "Shubh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "xOeniWOjA3M"
+      },
+      {
+        "provider": "youtube",
+        "id": "DqirS6OxiMc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "idk-how",
+    "title": "IDK HOW",
+    "artists": [
+      "Karan Aujla"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "fqTR0UUL-OQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "nRo-2QY0COs"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "ik-tera",
+    "title": "Ik Tera",
+    "artists": [
+      "Maninder Buttar"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "5smkzhhAJdY"
+      },
+      {
+        "provider": "youtube",
+        "id": "dxraN_JvyPc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "insane",
+    "title": "Insane",
+    "artists": [
+      "AP Dhillon",
+      "Gurinder Gill",
+      "Shinda Kahlon"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "LkqVkPgCv5o"
+      },
+      {
+        "provider": "youtube",
+        "id": "cqP8I5aaud8"
+      },
+      {
+        "provider": "youtube",
+        "id": "cn7yM5mqP-M"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "ishq-tera-tadpave",
+    "title": "Ishq Tera Tadpave (Oh Ho Ho Ho)",
+    "artists": [
+      "Sukhbir"
+    ],
+    "language": "punjabi",
+    "durationSec": 295,
+    "hook": {
+      "startSec": 38,
+      "endSec": 120,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "birthday",
+      "late-night",
+      "party",
+      "retro",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "lKJBBClbW3M"
+      },
+      {
+        "provider": "youtube",
+        "id": "9fQJlxwgsdE"
+      },
+      {
+        "provider": "youtube",
+        "id": "qJCm1o8Ue3o"
+      },
+      {
+        "provider": "youtube",
+        "id": "lVH6C9As4MA"
+      },
+      {
+        "provider": "youtube",
+        "id": "U0BDIzH8kws"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "issa-jatt",
+    "title": "Issa Jatt",
+    "artists": [
+      "Sidhu Moosewala",
+      "Sunny Malton"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "GmS6fe2IxZA"
+      },
+      {
+        "provider": "youtube",
+        "id": "SQD5DgwhZeM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "itz-a-hustle",
+    "title": "Itz A Hustle",
+    "artists": [
+      "Karan Aujla"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Nz_B8I8qvDg"
+      },
+      {
+        "provider": "youtube",
+        "id": "2tOD6cFj1g0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "jaguar",
+    "title": "Jaguar",
+    "artists": [
+      "Sukh-E Muzical Doctorz",
+      "Bohemia"
+    ],
+    "language": "punjabi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "LJSTvyOICrs"
+      },
+      {
+        "provider": "youtube",
+        "id": "myqVejBz5oQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "i2GC06euEDE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "jatt-da-muqabala",
+    "title": "Jatt Da Muqabala",
+    "artists": [
+      "Sidhu Moosewala"
+    ],
+    "language": "punjabi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "1a98SSuRykk"
+      },
+      {
+        "provider": "youtube",
+        "id": "LSDxjp6sWYQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "HYhdyu-_mgk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "jatt-fire-karda",
+    "title": "Jatt Fire Karda",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "d8zv01zk8NI"
+      },
+      {
+        "provider": "youtube",
+        "id": "vbBOuvVDJC8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "jatt-zimidaar",
+    "title": "Jatt Zimidaar",
+    "artists": [
+      "Gurnam Bhullar"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "NIQ86pmGyvw"
+      },
+      {
+        "provider": "youtube",
+        "id": "VxBauqz5RkA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "jee-ni-lagda",
+    "title": "Jee Ni Lagda",
+    "artists": [
+      "Karan Aujla"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "EQYGA92P70Y"
+      },
+      {
+        "provider": "youtube",
+        "id": "BXNxrT59MzQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "B14cLnuoOaI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "jind-mahi",
+    "title": "Jind Mahi",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "VTTE4YKacrM"
+      },
+      {
+        "provider": "youtube",
+        "id": "HAcYoKJBwco"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "jogi",
+    "title": "Jogi",
+    "artists": [
+      "Panjabi MC"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "o1CtH_J2UUc"
+      },
+      {
+        "provider": "youtube",
+        "id": "y9GHO-UND1s"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "jugni-ji",
+    "title": "Jugni Ji",
+    "artists": [
+      "Dr Zeus",
+      "Kanika Kapoor"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "G7TjeKbhTYc"
+      },
+      {
+        "provider": "youtube",
+        "id": "B4Dk77lF1SM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "just-listen",
+    "title": "Just Listen",
+    "artists": [
+      "Sidhu Moosewala",
+      "Sunny Malton"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "rMQ_TUEwQEs"
+      },
+      {
+        "provider": "youtube",
+        "id": "-PGlaF7BCA0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kadar",
+    "title": "Kadar",
+    "artists": [
+      "Mankirt Aulakh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "_BgrJ4k5FtE"
+      },
+      {
+        "provider": "youtube",
+        "id": "FiVskm2QyeE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kangna-tera-ni",
+    "title": "Kangna Tera Ni",
+    "artists": [
+      "Dr Zeus"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "-CVD7PUBzLk"
+      },
+      {
+        "provider": "youtube",
+        "id": "tndA-MeIu7c"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kharku",
+    "title": "Kharku",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ge6Ijf8MT8w"
+      },
+      {
+        "provider": "youtube",
+        "id": "Pl-2u5zmNE4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "king-shit",
+    "title": "King Shit",
+    "artists": [
+      "Shubh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "d2ofxg8pHfQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "oHAJbs7BKEQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "jUU0SRqjQRQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kinni-kinni",
+    "title": "Kinni Kinni",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ejYe2GwBEJ0"
+      },
+      {
+        "provider": "youtube",
+        "id": "1pWFJxCP07A"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kudiyan-lahore-diyan",
+    "title": "Kudiyan Lahore Diyan",
+    "artists": [
+      "Harrdy Sandhu"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "fBWUSK-AedE"
+      },
+      {
+        "provider": "youtube",
+        "id": "RDY3c0lsH4c"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kya-baat-ay",
+    "title": "Kya Baat Ay",
+    "artists": [
+      "Harrdy Sandhu"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "-uta_ywYl4k"
+      },
+      {
+        "provider": "youtube",
+        "id": "G0Hx6uN2AJE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kya-baat-hai-karan",
+    "title": "Kya Baat Hai Karan",
+    "artists": [
+      "Karan Aujla"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "x-KbnJ9fvJc"
+      },
+      {
+        "provider": "youtube",
+        "id": "mekgC_-_ckg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kya-loge-tum",
+    "title": "Kya Loge Tum",
+    "artists": [
+      "B Praak"
+    ],
+    "language": "punjabi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 25,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "rYEg7bngl7I"
+      },
+      {
+        "provider": "youtube",
+        "id": "cAMHx-m9oh8"
+      },
+      {
+        "provider": "youtube",
+        "id": "8WHmzENIRnw"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "laare",
+    "title": "Laare",
+    "artists": [
+      "Maninder Buttar"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "if1yDpAk45Y"
+      },
+      {
+        "provider": "youtube",
+        "id": "K16m3rLKylw"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "laembadgini",
+    "title": "Laembadgini",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "_oMWP-ukR2U"
+      },
+      {
+        "provider": "youtube",
+        "id": "MS8WJIajegM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "lalkara",
+    "title": "Lalkara",
+    "artists": [
+      "Diljit Dosanjh",
+      "Sultaan"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "x8f1U9MNfhk"
+      },
+      {
+        "provider": "youtube",
+        "id": "-mgGnx1p3b8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "laung-gawacha",
+    "title": "Laung Gawacha",
+    "artists": [
+      "Bally Sagoo",
+      "Rama"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "iAhA9KBGlt8"
+      },
+      {
+        "provider": "youtube",
+        "id": "DSdhnrLYd6c"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "legend",
+    "title": "Legend",
+    "artists": [
+      "Sidhu Moosewala"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "YZAFd9o3RYQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "iFUM8seLpuQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "lehanga",
+    "title": "Lehanga",
+    "artists": [
+      "Jass Manak"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "sHMv8tnCUg8"
+      },
+      {
+        "provider": "youtube",
+        "id": "F2Q5FC7Xouc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "lemonade",
+    "title": "Lemonade",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 166,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Sb9SsxBPBEU"
+      },
+      {
+        "provider": "youtube",
+        "id": "ZVgergj8Xe4"
+      },
+      {
+        "provider": "youtube",
+        "id": "ojqnAZ2pbT8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "levels",
+    "title": "Levels",
+    "artists": [
+      "Sidhu Moosewala",
+      "Sunny Malton"
+    ],
+    "language": "punjabi",
+    "durationSec": 228,
+    "hook": {
+      "startSec": 20,
+      "endSec": 105,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "tpFljbJxZiw"
+      },
+      {
+        "provider": "youtube",
+        "id": "gZceLbzJZLc"
+      },
+      {
+        "provider": "youtube",
+        "id": "D6fuJmKpFPo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "london-thumakda",
+    "title": "London Thumakda",
+    "artists": [
+      "Labh Janjua",
+      "Sonu Kakkar",
+      "Neha Kakkar"
+    ],
+    "language": "punjabi",
+    "durationSec": 231,
+    "hook": {
+      "startSec": 52,
+      "endSec": 135,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "mehendi",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "N5bELC8MXeU"
+      },
+      {
+        "provider": "youtube",
+        "id": "OqlQ5eVxbX0"
+      },
+      {
+        "provider": "youtube",
+        "id": "ic9g0JkEyJA"
+      },
+      {
+        "provider": "youtube",
+        "id": "J7h1HIUnYq8"
+      },
+      {
+        "provider": "youtube",
+        "id": "yb4oCde7Zqs"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "lover-diljit",
+    "title": "Lover",
+    "artists": [
+      "Diljit Dosanjh",
+      "Intense"
+    ],
+    "language": "punjabi",
+    "durationSec": 185,
+    "hook": {
+      "startSec": 24,
+      "endSec": 105,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "sangeet",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "3K66ntQkJko"
+      },
+      {
+        "provider": "youtube",
+        "id": "aoIhamvZKdQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "9j4WRlFwrcA"
+      },
+      {
+        "provider": "youtube",
+        "id": "Z8zmvx5QvqQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "mH_LFkWxpI0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "magic",
+    "title": "Magic",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "0c65c2rDAo0"
+      },
+      {
+        "provider": "youtube",
+        "id": "JLxRRWDwz0w"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "majhail",
+    "title": "Majhail",
+    "artists": [
+      "AP Dhillon",
+      "Gurinder Gill"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "yzIyufV6ADk"
+      },
+      {
+        "provider": "youtube",
+        "id": "_dP4TvK0kUY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "makhna",
+    "title": "Makhna",
+    "artists": [
+      "Tanishk Bagchi",
+      "Yasser Desai",
+      "Asees Kaur"
+    ],
+    "language": "punjabi",
+    "durationSec": 183,
+    "hook": {
+      "startSec": 30,
+      "endSec": 110,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "late-night",
+      "mehendi",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "5D8wwE4_3sE"
+      },
+      {
+        "provider": "youtube",
+        "id": "1PnJxaZLLXI"
+      },
+      {
+        "provider": "youtube",
+        "id": "xNn1vcZ51vg"
+      },
+      {
+        "provider": "youtube",
+        "id": "QcT5b7pcaaI"
+      },
+      {
+        "provider": "youtube",
+        "id": "J-kkIWC2Rbg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "mann-bharryaa-20",
+    "title": "Mann Bharryaa 2.0",
+    "artists": [
+      "B Praak"
+    ],
+    "language": "punjabi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 30,
+      "endSec": 95,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "th7cK7fDFA4"
+      },
+      {
+        "provider": "youtube",
+        "id": "JEgKJZEYsIU"
+      },
+      {
+        "provider": "youtube",
+        "id": "g3SCgXV1OUw"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "me-and-my-girlfriend",
+    "title": "Me and My Girlfriend",
+    "artists": [
+      "Sidhu Moosewala"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "4ILzJGtw9sA"
+      },
+      {
+        "provider": "youtube",
+        "id": "NgHJIyQ0foo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "mexico",
+    "title": "Mexico",
+    "artists": [
+      "Karan Aujla"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Fifv0zWPDlk"
+      },
+      {
+        "provider": "youtube",
+        "id": "5d3EuRN43bU"
+      },
+      {
+        "provider": "youtube",
+        "id": "V6QtMeFgxZo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "mirza-panjabi-mc",
+    "title": "Mirza Panjabi MC",
+    "artists": [
+      "Panjabi MC"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "5B2zCR_Kwng"
+      },
+      {
+        "provider": "youtube",
+        "id": "2sn8AS5FQgM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "morni-banke",
+    "title": "Morni Banke",
+    "artists": [
+      "Guru Randhawa",
+      "Neha Kakkar",
+      "Tanishk Bagchi"
+    ],
+    "language": "punjabi",
+    "durationSec": 198,
+    "hook": {
+      "startSec": 33,
+      "endSec": 115,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "mehendi",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "lcEDhOlcIb0"
+      },
+      {
+        "provider": "youtube",
+        "id": "MhgURCPNoD0"
+      },
+      {
+        "provider": "youtube",
+        "id": "GFPUy8nNAFI"
+      },
+      {
+        "provider": "youtube",
+        "id": "bRVXwWZYiHo"
+      },
+      {
+        "provider": "youtube",
+        "id": "1EadhOBcfI0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "muchh",
+    "title": "Muchh",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "1qts2j_hAdM"
+      },
+      {
+        "provider": "youtube",
+        "id": "7QdAkHjfldQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "muchh-phut-gabru",
+    "title": "Muchh Phut Gabru",
+    "artists": [
+      "Jordan Sandhu"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "-Z8pNxGYCSg"
+      },
+      {
+        "provider": "youtube",
+        "id": "6Oa4Fy1YmqE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "mundian-to-bach-ke",
+    "title": "Mundian To Bach Ke",
+    "artists": [
+      "Panjabi MC"
+    ],
+    "language": "punjabi",
+    "durationSec": 245,
+    "hook": {
+      "startSec": 22,
+      "endSec": 105,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "birthday",
+      "late-night",
+      "retro",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "DJztXj2GPfk"
+      },
+      {
+        "provider": "youtube",
+        "id": "0bPtSOiBK7M"
+      },
+      {
+        "provider": "youtube",
+        "id": "H2gmeNH_oZ0"
+      },
+      {
+        "provider": "youtube",
+        "id": "Q9yCPw_uahw"
+      },
+      {
+        "provider": "youtube",
+        "id": "x9WO2ieJMYk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "naah",
+    "title": "Naah",
+    "artists": [
+      "Harrdy Sandhu",
+      "Nora Fatehi"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "FzRIzafbqj8"
+      },
+      {
+        "provider": "youtube",
+        "id": "8qs2dZO6wcc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "nachde-ne-saare",
+    "title": "Nachde Ne Saare",
+    "artists": [
+      "Jasleen Royal",
+      "Harshdeep Kaur",
+      "Siddharth Mahadevan"
+    ],
+    "language": "punjabi",
+    "durationSec": 218,
+    "hook": {
+      "startSec": 35,
+      "endSec": 118,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "late-night",
+      "mehendi",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "kfXU_Vs0fVk"
+      },
+      {
+        "provider": "youtube",
+        "id": "D6wg-gLpLOk"
+      },
+      {
+        "provider": "youtube",
+        "id": "HgIW7P4dsXU"
+      },
+      {
+        "provider": "youtube",
+        "id": "bpiggjsWjPk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.67,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "naina-crew",
+    "title": "Naina Crew",
+    "artists": [
+      "Diljit Dosanjh",
+      "Badshah"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Hz-cauEL2rg"
+      },
+      {
+        "provider": "youtube",
+        "id": "H6YmdpN--1M"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "never-fold",
+    "title": "Never Fold",
+    "artists": [
+      "Sidhu Moosewala"
+    ],
+    "language": "punjabi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "-CJ3_0vyzNs"
+      },
+      {
+        "provider": "youtube",
+        "id": "8NMcl89YD9c"
+      },
+      {
+        "provider": "youtube",
+        "id": "096Y-ZZ1Aok"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "no-love",
+    "title": "No Love",
+    "artists": [
+      "Shubh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "6RrEQJNZwPQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "8NSwBRrhadc"
+      },
+      {
+        "provider": "youtube",
+        "id": "0pWsCiBvLOk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "offshore",
+    "title": "Offshore",
+    "artists": [
+      "Shubh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ixgaS-3FfK4"
+      },
+      {
+        "provider": "youtube",
+        "id": "94_AgHf8Zv0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "old-skool",
+    "title": "Old Skool",
+    "artists": [
+      "Prem Dhillon",
+      "Sidhu Moosewala"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "hBlO1i_WTiY"
+      },
+      {
+        "provider": "youtube",
+        "id": "7iK8yYEAtPk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "on-top",
+    "title": "On Top",
+    "artists": [
+      "Karan Aujla"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "CwWj4LSb_kU"
+      },
+      {
+        "provider": "youtube",
+        "id": "ZUraMTzvBPE"
+      },
+      {
+        "provider": "youtube",
+        "id": "aFWDOFg7X2A"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "one-love",
+    "title": "One Love",
+    "artists": [
+      "Shubh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "dHA_zwwfSCo"
+      },
+      {
+        "provider": "youtube",
+        "id": "9jChPqtT9Zs"
+      },
+      {
+        "provider": "youtube",
+        "id": "XfXgUZDCAoA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "pani-di-gal",
+    "title": "Pani Di Gal",
+    "artists": [
+      "Maninder Buttar",
+      "Asees Kaur"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ZOkqVYB3ULA"
+      },
+      {
+        "provider": "youtube",
+        "id": "v6eMKfr8qEY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "patiala-peg",
+    "title": "Patiala Peg",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "VupkZ5mgAoM"
+      },
+      {
+        "provider": "youtube",
+        "id": "VL2mdsJ1TrI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "peaches",
+    "title": "Peaches",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "x7_2hINDn_I"
+      },
+      {
+        "provider": "youtube",
+        "id": "Kx_Xz3vfzWE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "phone-maar-di",
+    "title": "Phone Maar Di",
+    "artists": [
+      "Gurnam Bhullar"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "C3ap6S4mAco"
+      },
+      {
+        "provider": "youtube",
+        "id": "TcTfJ_-AbpE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "players",
+    "title": "Players",
+    "artists": [
+      "Karan Aujla",
+      "Badshah"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "CeFQO9MQNqs"
+      },
+      {
+        "provider": "youtube",
+        "id": "kSYCyBkAd-s"
+      },
+      {
+        "provider": "youtube",
+        "id": "piOZhztxUIk"
+      },
+      {
+        "provider": "youtube",
+        "id": "5v2-SnJMhjw"
+      },
+      {
+        "provider": "youtube",
+        "id": "yA3K2TC5Wz4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "prada-jass",
+    "title": "Prada Jass",
+    "artists": [
+      "Jass Manak"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "PjTU0DmBWiU"
+      },
+      {
+        "provider": "youtube",
+        "id": "MjD1j_QwVOI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "putt-jatt-da",
+    "title": "Putt Jatt Da",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "aoQzytCLOJ8"
+      },
+      {
+        "provider": "youtube",
+        "id": "In0oiD2PDSc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "raat-di-gedi",
+    "title": "Raat Di Gedi",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "zMSi4VtRZGQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "RtYSclR5DzQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "rim-vs-jhanjar",
+    "title": "Rim vs Jhanjar",
+    "artists": [
+      "Karan Aujla"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "QuRcMziDPi4"
+      },
+      {
+        "provider": "youtube",
+        "id": "O1jTzOJ4Ahk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "rough",
+    "title": "Rough",
+    "artists": [
+      "Dr Zeus"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "l-_u7SsGYII"
+      },
+      {
+        "provider": "youtube",
+        "id": "MtL-V_PZpYg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "ruthless",
+    "title": "Ruthless",
+    "artists": [
+      "Shubh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "KaZRiIsQjhM"
+      },
+      {
+        "provider": "youtube",
+        "id": "uJwIN6LNUVY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "saada-pyaar",
+    "title": "Saada Pyaar",
+    "artists": [
+      "AP Dhillon"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "L6fr053Z_pU"
+      },
+      {
+        "provider": "youtube",
+        "id": "qQ84ZwaRD8o"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "sab-fade-jange",
+    "title": "Sab Fade Jange",
+    "artists": [
+      "Parmish Verma"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "zZmIv91hvwo"
+      },
+      {
+        "provider": "youtube",
+        "id": "XJbMq1KEsKA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "sadi-gali-aaya-karo",
+    "title": "Sadi Gali Aaya Karo",
+    "artists": [
+      "RDB"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "w_HaezV0DqI"
+      },
+      {
+        "provider": "youtube",
+        "id": "RRkXXkqNBi0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "safety-off",
+    "title": "Safety Off",
+    "artists": [
+      "Shubh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "LjfY3qSTBQc"
+      },
+      {
+        "provider": "youtube",
+        "id": "Y5HIqjf3rek"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "sakhiyaan",
+    "title": "Sakhiyaan",
+    "artists": [
+      "Maninder Buttar"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "2OcBIFD4vZ0"
+      },
+      {
+        "provider": "youtube",
+        "id": "4N76_rUm3cQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "same-beef",
+    "title": "Same Beef",
+    "artists": [
+      "Bohemia",
+      "Sidhu Moosewala"
+    ],
+    "language": "punjabi",
+    "durationSec": 290,
+    "hook": {
+      "startSec": 20,
+      "endSec": 105,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "qk2WMmiiVFE"
+      },
+      {
+        "provider": "youtube",
+        "id": "lzgfqc9duik"
+      },
+      {
+        "provider": "youtube",
+        "id": "_q0C73u1WGA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "sauda-khara-khara",
+    "title": "Sauda Khara Khara",
+    "artists": [
+      "Diljit Dosanjh",
+      "Sukhbir",
+      "Dhvani Bhanushali"
+    ],
+    "language": "punjabi",
+    "durationSec": 225,
+    "hook": {
+      "startSec": 35,
+      "endSec": 120,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "birthday",
+      "late-night",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "LYEqeUr-158"
+      },
+      {
+        "provider": "youtube",
+        "id": "oJVVAf5kLEY"
+      },
+      {
+        "provider": "youtube",
+        "id": "4pNwmsxXuZA"
+      },
+      {
+        "provider": "youtube",
+        "id": "rt8xGHYof2s"
+      },
+      {
+        "provider": "youtube",
+        "id": "IisVw5WjSKQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "sawan-mein-lag-gayi-aag",
+    "title": "Sawan Mein Lag Gayi Aag",
+    "artists": [
+      "Mika Singh"
+    ],
+    "language": "punjabi",
+    "durationSec": 220,
+    "hook": {
+      "startSec": 32,
+      "endSec": 110,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "birthday",
+      "late-night",
+      "party",
+      "retro",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "bryAmFYcFOY"
+      },
+      {
+        "provider": "youtube",
+        "id": "82eGj8wpzoo"
+      },
+      {
+        "provider": "youtube",
+        "id": "jd50AOu9Jaw"
+      },
+      {
+        "provider": "youtube",
+        "id": "xwdHPgcdM7E"
+      },
+      {
+        "provider": "youtube",
+        "id": "7iAmXLrLizM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "shada",
+    "title": "Shada",
+    "artists": [
+      "Parmish Verma"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "UpEB0bj3dKo"
+      },
+      {
+        "provider": "youtube",
+        "id": "HB33Ph9Y0fw"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "sheikh",
+    "title": "Sheikh",
+    "artists": [
+      "Karan Aujla"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "6Uhq93LuWlY"
+      },
+      {
+        "provider": "youtube",
+        "id": "4uMchksQJng"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "shopping-jass",
+    "title": "Shopping Jass",
+    "artists": [
+      "Jass Manak"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "E3s0MqtlP-M"
+      },
+      {
+        "provider": "youtube",
+        "id": "J2TsJsT80dI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "sleepless",
+    "title": "Sleepless",
+    "artists": [
+      "AP Dhillon"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "7xzZhyURjdI"
+      },
+      {
+        "provider": "youtube",
+        "id": "sdhsp6NaB-A"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "so-high",
+    "title": "So High",
+    "artists": [
+      "Sidhu Moosewala"
+    ],
+    "language": "punjabi",
+    "durationSec": 233,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "H1Cxq1MFCuo"
+      },
+      {
+        "provider": "youtube",
+        "id": "YIrT3h-duMg"
+      },
+      {
+        "provider": "youtube",
+        "id": "GgmFC8y8q3k"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "softly-karan-aujla",
+    "title": "Softly",
+    "artists": [
+      "Karan Aujla",
+      "Ikky"
+    ],
+    "language": "punjabi",
+    "durationSec": 156,
+    "hook": {
+      "startSec": 20,
+      "endSec": 98,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "cWMxCE2HTag"
+      },
+      {
+        "provider": "youtube",
+        "id": "-Chif1XK2e8"
+      },
+      {
+        "provider": "youtube",
+        "id": "h_k14yNonzA"
+      },
+      {
+        "provider": "youtube",
+        "id": "etCehdbr-gE"
+      },
+      {
+        "provider": "youtube",
+        "id": "zjr78P_wZpQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "spaceship",
+    "title": "Spaceship",
+    "artists": [
+      "AP Dhillon"
+    ],
+    "language": "punjabi",
+    "durationSec": 124,
+    "hook": {
+      "startSec": 20,
+      "endSec": 105,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "RatDV50alQE"
+      },
+      {
+        "provider": "youtube",
+        "id": "BLEjUL5Ona0"
+      },
+      {
+        "provider": "youtube",
+        "id": "WE93s_slcJM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "still-rollin",
+    "title": "Still Rollin",
+    "artists": [
+      "Shubh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "OREPxVPAGPk"
+      },
+      {
+        "provider": "youtube",
+        "id": "0mCVpUDCkEk"
+      },
+      {
+        "provider": "youtube",
+        "id": "RLhuPD2ASKE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "suit-punjabi",
+    "title": "Suit Punjabi",
+    "artists": [
+      "Jass Manak"
+    ],
+    "language": "punjabi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ufoiF8wH7gc"
+      },
+      {
+        "provider": "youtube",
+        "id": "HG96KYzCnbY"
+      },
+      {
+        "provider": "youtube",
+        "id": "uIuQtaWyp3g"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "suit-suit",
+    "title": "Suit Suit",
+    "artists": [
+      "Guru Randhawa",
+      "Arjun"
+    ],
+    "language": "punjabi",
+    "durationSec": 210,
+    "hook": {
+      "startSec": 24,
+      "endSec": 102,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "late-night",
+      "mehendi",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "jRszQSQZu1o"
+      },
+      {
+        "provider": "youtube",
+        "id": "Yb7sGA1p-A0"
+      },
+      {
+        "provider": "youtube",
+        "id": "Ol29LpEjoHI"
+      },
+      {
+        "provider": "youtube",
+        "id": "uQ763VvqiEM"
+      },
+      {
+        "provider": "youtube",
+        "id": "aM5qAi9FPL4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "summer-high",
+    "title": "Summer High",
+    "artists": [
+      "AP Dhillon"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "CnBX7_ErLvA"
+      },
+      {
+        "provider": "youtube",
+        "id": "yXuc2dKA85s"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tauba-tauba",
+    "title": "Tauba Tauba",
+    "artists": [
+      "Karan Aujla"
+    ],
+    "language": "punjabi",
+    "durationSec": 206,
+    "hook": {
+      "startSec": 28,
+      "endSec": 115,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "sangeet",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "LK7-_dgAVQE"
+      },
+      {
+        "provider": "youtube",
+        "id": "3YQKuAP79Q8"
+      },
+      {
+        "provider": "youtube",
+        "id": "BBrQWOuE_pg"
+      },
+      {
+        "provider": "youtube",
+        "id": "hLRpIaE0yrY"
+      },
+      {
+        "provider": "youtube",
+        "id": "bYy4vvQvsV4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "teeje-week",
+    "title": "Teeje Week",
+    "artists": [
+      "Jordan Sandhu"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ypEM4jlYA5c"
+      },
+      {
+        "provider": "youtube",
+        "id": "n92qIk6nU84"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tera-mera-viah",
+    "title": "Tera Mera Viah",
+    "artists": [
+      "Jass Manak"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "PZskwNHXsuU"
+      },
+      {
+        "provider": "youtube",
+        "id": "lmdLCz4CAeA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tere-te",
+    "title": "Tere Te",
+    "artists": [
+      "AP Dhillon",
+      "Gurinder Gill"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "fG70qm6usR8"
+      },
+      {
+        "provider": "youtube",
+        "id": "XDWJjwF0C-U"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "the-last-ride",
+    "title": "The Last Ride",
+    "artists": [
+      "Sidhu Moosewala"
+    ],
+    "language": "punjabi",
+    "durationSec": 262,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "6xoB4ZiKKn0"
+      },
+      {
+        "provider": "youtube",
+        "id": "uzEflg9g70o"
+      },
+      {
+        "provider": "youtube",
+        "id": "vuZ3CoVxWNk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "these-days",
+    "title": "These Days",
+    "artists": [
+      "Sidhu Moosewala",
+      "Bohemia"
+    ],
+    "language": "punjabi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "gnpw_Z-mBlY"
+      },
+      {
+        "provider": "youtube",
+        "id": "lC8ICLq6kdo"
+      },
+      {
+        "provider": "youtube",
+        "id": "bZ6e7xPRbGo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tibeyan-da-putt",
+    "title": "Tibeyan Da Putt",
+    "artists": [
+      "Sidhu Moosewala"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "W6N1qh9-fSA"
+      },
+      {
+        "provider": "youtube",
+        "id": "twCHVhk8iMU"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "titliaan",
+    "title": "Titliaan",
+    "artists": [
+      "Afsana Khan",
+      "Harrdy Sandhu"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "YPohR_9v6HA"
+      },
+      {
+        "provider": "youtube",
+        "id": "oaNN6oYAecE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tochan",
+    "title": "Tochan",
+    "artists": [
+      "Sidhu Moosewala"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "53NpFhoo7lM"
+      },
+      {
+        "provider": "youtube",
+        "id": "OwJsxa5iRdc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "toxic-ap",
+    "title": "Toxic AP",
+    "artists": [
+      "AP Dhillon"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "7v0_uipNGao"
+      },
+      {
+        "provider": "youtube",
+        "id": "jwk9H4eQTDg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "trending-nakhra",
+    "title": "Trending Nakhra",
+    "artists": [
+      "Amrit Maan"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "GwDYdbE_Sew"
+      },
+      {
+        "provider": "youtube",
+        "id": "nqzIQh2D_Es"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "true-stories",
+    "title": "True Stories",
+    "artists": [
+      "AP Dhillon",
+      "Shinda Kahlon"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "-wFTG_f-W4c"
+      },
+      {
+        "provider": "youtube",
+        "id": "_0yqGxHHEiw"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "try-me",
+    "title": "Try Me",
+    "artists": [
+      "Karan Aujla"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "6wkwmDzZ3n4"
+      },
+      {
+        "provider": "youtube",
+        "id": "R8w5UAmBo6U"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tunak-tunak-tun",
+    "title": "Tunak Tunak Tun",
+    "artists": [
+      "Daler Mehndi"
+    ],
+    "language": "punjabi",
+    "durationSec": 256,
+    "hook": {
+      "startSec": 42,
+      "endSec": 125,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "birthday",
+      "late-night",
+      "retro",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "QoEONbxXWIQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "eZ2PtEx9-ls"
+      },
+      {
+        "provider": "youtube",
+        "id": "MoVk0NnUueM"
+      },
+      {
+        "provider": "youtube",
+        "id": "yDrdg1R4zCM"
+      },
+      {
+        "provider": "youtube",
+        "id": "5ayTfo_p0Kc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "veervaar",
+    "title": "Veervaar",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "DjZj_ZRLUuA"
+      },
+      {
+        "provider": "youtube",
+        "id": "40m0wrEnewk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "viah",
+    "title": "Viah",
+    "artists": [
+      "Jass Manak"
+    ],
+    "language": "punjabi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "SH9Mtk6XGEk"
+      },
+      {
+        "provider": "youtube",
+        "id": "JkYJmXYreeA"
+      },
+      {
+        "provider": "youtube",
+        "id": "lmdLCz4CAeA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "viah-jass",
+    "title": "Viah Jass",
+    "artists": [
+      "Jass Manak"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "JkYJmXYreeA"
+      },
+      {
+        "provider": "youtube",
+        "id": "SH9Mtk6XGEk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "vibe",
+    "title": "Vibe",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "A9b5ceNhI_w"
+      },
+      {
+        "provider": "youtube",
+        "id": "ubRL9SvcpXw"
+      },
+      {
+        "provider": "youtube",
+        "id": "1Exi5csUOKk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "warning-diljit",
+    "title": "Warning Diljit",
+    "artists": [
+      "Diljit Dosanjh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "MyYVs4VntUU"
+      },
+      {
+        "provider": "youtube",
+        "id": "CGhGAVH2GqY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "white-brown-black",
+    "title": "White Brown Black",
+    "artists": [
+      "Karan Aujla",
+      "Avvy Sra"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "_Z9eQTDtuwU"
+      },
+      {
+        "provider": "youtube",
+        "id": "BtQp2U6hJII"
+      },
+      {
+        "provider": "youtube",
+        "id": "8tzR_MjmLYg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "winning-speech-aujla",
+    "title": "Winning Speech",
+    "artists": [
+      "Karan Aujla",
+      "MXRCI"
+    ],
+    "language": "punjabi",
+    "durationSec": 214,
+    "hook": {
+      "startSec": 26,
+      "endSec": 108,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "iCGdF4YMvFY"
+      },
+      {
+        "provider": "youtube",
+        "id": "0DS5jYQeiw0"
+      },
+      {
+        "provider": "youtube",
+        "id": "wGiaxBbGQk4"
+      },
+      {
+        "provider": "youtube",
+        "id": "Mv8ez_tf1Xk"
+      },
+      {
+        "provider": "youtube",
+        "id": "uGzAM61-zRg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "with-you",
+    "title": "With You",
+    "artists": [
+      "AP Dhillon"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "fe9udc210tM"
+      },
+      {
+        "provider": "youtube",
+        "id": "mZQH8CPQ-wo"
+      },
+      {
+        "provider": "youtube",
+        "id": "8yQAYwuEN2M"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "wo-noor",
+    "title": "Wo Noor",
+    "artists": [
+      "AP Dhillon"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "HrcjFEK58ik"
+      },
+      {
+        "provider": "youtube",
+        "id": "45zJNqiANA4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "woofer",
+    "title": "Woofer",
+    "artists": [
+      "Dr Zeus",
+      "Snoop Dogg",
+      "Zora Randhawa"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "u5lxsBjCGc0"
+      },
+      {
+        "provider": "youtube",
+        "id": "mDGboKHlBqs"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "yaar-anmulle",
+    "title": "Yaar Anmulle",
+    "artists": [
+      "Sharry Mann"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Zfcda4FKBpI"
+      },
+      {
+        "provider": "youtube",
+        "id": "frBz1vyagpY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "yaari-maninder",
+    "title": "Yaari Maninder",
+    "artists": [
+      "Maninder Buttar"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "fr_HG-9ilOU"
+      },
+      {
+        "provider": "youtube",
+        "id": "xX7ssvyfezU"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "you-and-me",
+    "title": "You and Me",
+    "artists": [
+      "Shubh"
+    ],
+    "language": "punjabi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "EZwVeBnZ1-0"
+      },
+      {
+        "provider": "youtube",
+        "id": "NYg04z-XzhM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "you-and-me-shubh",
+    "title": "You and Me Shubh",
+    "artists": [
+      "Shubh"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "IAvw60x0Kn4"
+      },
+      {
+        "provider": "youtube",
+        "id": "T_SupLnhMO4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "zulfa",
+    "title": "Zulfa",
+    "artists": [
+      "Dr Zeus",
+      "Jaz Dhami"
+    ],
+    "language": "punjabi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "e-vk47q1-5s"
+      },
+      {
+        "provider": "youtube",
+        "id": "P6YJy2fmJ1o"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  }
+]

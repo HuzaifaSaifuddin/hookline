@@ -1,0 +1,10338 @@
+[
+  {
+    "id": "aai-bhavani-gondhalala-ya",
+    "title": "Aai Bhavani Gondhalala Ya",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "devotional",
+      "festival",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ubUnVE3PCjk"
+      },
+      {
+        "provider": "youtube",
+        "id": "niWf3pLvplQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "HdAAoj3tJ_4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "aala-holicha-san",
+    "title": "Aala Holicha San",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "VpMDnNg1bRQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "owKB8VD_MAo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "aali-thumkat-naar",
+    "title": "Aali Thumkat Naar",
+    "artists": [
+      "Traditional Lavani"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ZLlMsrISSUA"
+      },
+      {
+        "provider": "youtube",
+        "id": "GP3FIFALPYg"
+      },
+      {
+        "provider": "youtube",
+        "id": "G9DoI3xM6mA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "aapan-marathi",
+    "title": "Aapan Marathi",
+    "artists": [
+      "Avadhoot Gupte"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "sv6pkrhzR10"
+      },
+      {
+        "provider": "youtube",
+        "id": "sBn8It752_w"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "aata-majhi-satakli-marathi",
+    "title": "Aata Majhi Satakli Marathi",
+    "artists": [
+      "Yo Yo Honey Singh"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "JUx-9vQ9YHc"
+      },
+      {
+        "provider": "youtube",
+        "id": "M3KqzpP6Ej0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "aata-thambaych-naay",
+    "title": "Aata Thambaych Naay",
+    "artists": [
+      "Boyz 3"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "uGb1UkK9Z6c"
+      },
+      {
+        "provider": "youtube",
+        "id": "JdBgCtvvqc4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "aatach-baya-ka-baavarla",
+    "title": "Aatach Baya Ka Baavarla",
+    "artists": [
+      "Shreya Ghoshal"
+    ],
+    "language": "marathi",
+    "durationSec": 334,
+    "hook": {
+      "startSec": 35,
+      "endSec": 98,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "6-p813-LTek"
+      },
+      {
+        "provider": "youtube",
+        "id": "b4xmNrnQuYU"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "afzal-khan-vadh-powada",
+    "title": "Afzal Khan Vadh Powada",
+    "artists": [
+      "Shahir Sable"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "yHZdAoN3DzA"
+      },
+      {
+        "provider": "youtube",
+        "id": "Aszfvp23Eyg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "aga-pori-sambhal",
+    "title": "Aga Pori Sambhal",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Ewwn5bPdxSQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "MrFm2iMfvuE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "aika-dajiba",
+    "title": "Aika Dajiba",
+    "artists": [
+      "Vaishali Samant"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "retro",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "NPpHnkXbJko"
+      },
+      {
+        "provider": "youtube",
+        "id": "4GowgfCbYmM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "ambabai-gondhal",
+    "title": "Ambabai Gondhal",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "devotional",
+      "festival",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "sx2W-g3bhvI"
+      },
+      {
+        "provider": "youtube",
+        "id": "vbc2mVaBxsY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "amhi-kolhapuri",
+    "title": "Amhi Kolhapuri",
+    "artists": [
+      "Avadhoot Gupte"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Xhb3H19iYBE"
+      },
+      {
+        "provider": "youtube",
+        "id": "KYgrr8_ujzc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "andhericha-raja",
+    "title": "Andhericha Raja",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "mIZ_16uJNqM"
+      },
+      {
+        "provider": "youtube",
+        "id": "G2Hhzx8WCBM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "apsara-aali",
+    "title": "Apsara Aali",
+    "artists": [
+      "Bela Shende",
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 238,
+    "hook": {
+      "startSec": 35,
+      "endSec": 118,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "OY5vL4aXMAo"
+      },
+      {
+        "provider": "youtube",
+        "id": "Eg0_lQqJccc"
+      },
+      {
+        "provider": "youtube",
+        "id": "4boWV-Ba4Vw"
+      },
+      {
+        "provider": "youtube",
+        "id": "tBSMbEb6NL0"
+      },
+      {
+        "provider": "youtube",
+        "id": "HGPnwOToZ6M"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "ashtavinayak-darshan",
+    "title": "Ashtavinayak Darshan",
+    "artists": [
+      "Ravindra Sathe"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "FAzbmaSS9rg"
+      },
+      {
+        "provider": "youtube",
+        "id": "v2jYpTCyQU8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "ashwini-ye-na",
+    "title": "Ashwini Ye Na",
+    "artists": [
+      "Kishore Kumar",
+      "Anuradha Paudwal"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "retro",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "gRpNfTZYQ8Y"
+      },
+      {
+        "provider": "youtube",
+        "id": "4Jj4YcnW-8c"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "awaaz-vadhav-dj",
+    "title": "Awaaz Vadhav DJ",
+    "artists": [
+      "Anand Shinde",
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "6Dxqa-uoQEI"
+      },
+      {
+        "provider": "youtube",
+        "id": "miPkQPoO6o8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "baba",
+    "title": "Baba",
+    "artists": [
+      "Priyanka Chopra"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 30,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 7,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "iNqrgjJMo8M"
+      },
+      {
+        "provider": "youtube",
+        "id": "3b9F0MUvfdo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "baburao",
+    "title": "Baburao",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "zkt7DfOUlyM"
+      },
+      {
+        "provider": "youtube",
+        "id": "UwkOleuVykw"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "baburao-mast-hai",
+    "title": "Baburao Mast Hai",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "UwkOleuVykw"
+      },
+      {
+        "provider": "youtube",
+        "id": "TpITWDciuw8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "bai-ga",
+    "title": "Bai Ga",
+    "artists": [
+      "Aarya Ambekar",
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 370,
+    "hook": {
+      "startSec": 32,
+      "endSec": 95,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "OEFvnUtgNJ4"
+      },
+      {
+        "provider": "youtube",
+        "id": "ujZAfdm1cfg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "bai-wadyavar-ya",
+    "title": "Bai Wadyavar Ya",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 265,
+    "hook": {
+      "startSec": 20,
+      "endSec": 80,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "pceTISuW9GQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "tilj3VlLFsA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "bajarang-bali-ki-jai",
+    "title": "Bajarang Bali Ki Jai",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "OQZq2OgaCOc"
+      },
+      {
+        "provider": "youtube",
+        "id": "Nz2oNWUFaJw"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "baji-prabhu-powada",
+    "title": "Baji Prabhu Powada",
+    "artists": [
+      "Shahir Sable"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "awygb6r0Two"
+      },
+      {
+        "provider": "youtube",
+        "id": "jx5XJ5Dbqqo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "banjo-bappa",
+    "title": "Banjo Bappa",
+    "artists": [
+      "Amitraj",
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "e0-SwM80bvI"
+      },
+      {
+        "provider": "youtube",
+        "id": "5fjuiFx5TwE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "banu-navari-zali-halgi",
+    "title": "Banu Navari Zali Halgi",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "2_Bd2hxFklk"
+      },
+      {
+        "provider": "youtube",
+        "id": "12ZYnEhCkN0"
+      },
+      {
+        "provider": "youtube",
+        "id": "7baxnx8IJj8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "banu-navri-zali",
+    "title": "Banu Navri Zali",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "n-kRD9eGR8g"
+      },
+      {
+        "provider": "youtube",
+        "id": "vpP8gNYUbPI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "bappa-moraya",
+    "title": "Bappa Moraya",
+    "artists": [
+      "Swapnil Bandodkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "CmN-6jJhYqQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "9fWf-sl0Mc0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "bapu-zindabad",
+    "title": "Bapu Zindabad",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "vTQLr-nsJkk"
+      },
+      {
+        "provider": "youtube",
+        "id": "WRxHjyMpOWo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "bhairavnath-aarti",
+    "title": "Bhairavnath Aarti",
+    "artists": [
+      "Ravindra Sathe"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ukR8m1SissU"
+      },
+      {
+        "provider": "youtube",
+        "id": "99-OFlvwg_s"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "bhalari",
+    "title": "Bhalari",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 345,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "D7s3Dk8xAAs"
+      },
+      {
+        "provider": "youtube",
+        "id": "HUjZu6bLiOE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "bhandara-udhalala",
+    "title": "Bhandara Udhalala",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "MPYCCMdQwYs"
+      },
+      {
+        "provider": "youtube",
+        "id": "l_nrvNkoF6A"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "bhetali-tu-punha",
+    "title": "Bhetali Tu Punha",
+    "artists": [
+      "Swapnil Bandodkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "VZ9qyUNhqTQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "P8S07TZ_0S0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "bring-it-on-marathi",
+    "title": "Bring It On",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 205,
+    "hook": {
+      "startSec": 30,
+      "endSec": 112,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "RJ9trb9hDNU"
+      },
+      {
+        "provider": "youtube",
+        "id": "-a78xi3ag_Q"
+      },
+      {
+        "provider": "youtube",
+        "id": "zkt7DfOUlyM"
+      },
+      {
+        "provider": "youtube",
+        "id": "zYeJqzHVkkU"
+      },
+      {
+        "provider": "youtube",
+        "id": "tO5e9XfX9OY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "bugadi-mazi-sandli-ga",
+    "title": "Bugadi Mazi Sandli Ga",
+    "artists": [
+      "Bela Shende"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 30,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "lSLMTR0tCZY"
+      },
+      {
+        "provider": "youtube",
+        "id": "zFd1Ppvgoes"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "chabidar-chabi",
+    "title": "Chabidar Chabi",
+    "artists": [
+      "Usha Mangeshkar"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "retro",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "y_TRjZz_iy8"
+      },
+      {
+        "provider": "youtube",
+        "id": "J254al4lm_M"
+      },
+      {
+        "provider": "youtube",
+        "id": "hp2sM7qTziI"
+      },
+      {
+        "provider": "youtube",
+        "id": "757283B6yYk"
+      },
+      {
+        "provider": "youtube",
+        "id": "-w_NQWrU2Ho"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "chal-hawa-yeu-dya-title",
+    "title": "Chal Hawa Yeu Dya Title",
+    "artists": [
+      "Avadhoot Gupte"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 80,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "eeT0VdDbnAE"
+      },
+      {
+        "provider": "youtube",
+        "id": "zWSYARPXHHk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "cham-cham-karta-hai",
+    "title": "Cham Cham Karta Hai",
+    "artists": [
+      "Swapnil Bandodkar"
+    ],
+    "language": "marathi",
+    "durationSec": 378,
+    "hook": {
+      "startSec": 24,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "zXxE4X8opIE"
+      },
+      {
+        "provider": "youtube",
+        "id": "iJy2enZME_I"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "chandra",
+    "title": "Chandra",
+    "artists": [
+      "Shreya Ghoshal",
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 301,
+    "hook": {
+      "startSec": 28,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "mehendi",
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "fSV_HmnD6JU"
+      },
+      {
+        "provider": "youtube",
+        "id": "r6tU3GvJ5so"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "chham-chham-payal-baje",
+    "title": "Chham Chham Payal Baje",
+    "artists": [
+      "Vaishali Samant"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "EaOJ7A8zxJ0"
+      },
+      {
+        "provider": "youtube",
+        "id": "zXxE4X8opIE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "chhatrapati-title",
+    "title": "Chhatrapati Title",
+    "artists": [
+      "Shankar Mahadevan"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "DwFVMXJW5j8"
+      },
+      {
+        "provider": "youtube",
+        "id": "iBe-MLeFbHA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "chinchpokli-cha-chintamani",
+    "title": "Chinchpokli Cha Chintamani",
+    "artists": [
+      "Pravin Koli"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "8CzmchQRlbQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "mnSc_oCObnk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dagdusheth-ganpati-aarti",
+    "title": "Dagdusheth Ganpati Aarti",
+    "artists": [
+      "Anuradha Paudwal"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "LHsbfkP0YCY"
+      },
+      {
+        "provider": "youtube",
+        "id": "6do08iDf0_I"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "daru-chadli-re",
+    "title": "Daru Chadli Re",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "0CACciZAb28"
+      },
+      {
+        "provider": "youtube",
+        "id": "I5UrEQC_ihc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "deva-kalji-re",
+    "title": "Deva Kalji Re",
+    "artists": [
+      "Ajay Gogavale"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "shpk54ZqicY"
+      },
+      {
+        "provider": "youtube",
+        "id": "U3ziOd-b7lI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "deva-shree-ganesha-marathi",
+    "title": "Deva Shree Ganesha Marathi",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 30,
+      "endSec": 95,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "RYqJ5w-GrfM"
+      },
+      {
+        "provider": "youtube",
+        "id": "iXdQrcDwuuU"
+      },
+      {
+        "provider": "youtube",
+        "id": "6vgHnYT0Rx4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "deva-tuza-mi-aabhari",
+    "title": "Deva Tuza Mi Aabhari",
+    "artists": [
+      "Pravin Koli"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "izQkbF9oz8s"
+      },
+      {
+        "provider": "youtube",
+        "id": "ISHXPbf8RN8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "devachiye-dwari",
+    "title": "Devachiye Dwari",
+    "artists": [
+      "Bhimsen Joshi"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 30,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 7,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ZcIuZ-OTgHg"
+      },
+      {
+        "provider": "youtube",
+        "id": "peqgsw2JnD0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dhaga-dhaga",
+    "title": "Dhaga Dhaga",
+    "artists": [
+      "Daagdi Chaawl"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "JHraK6Z8Ty8"
+      },
+      {
+        "provider": "youtube",
+        "id": "sPfRSnPyR_o"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dhagala-lagli-dj-mix",
+    "title": "Dhagala Lagli DJ Mix",
+    "artists": [
+      "DJ Aqeel"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "late-night",
+      "party",
+      "retro"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "VHH-CRaNgTk"
+      },
+      {
+        "provider": "youtube",
+        "id": "b_9j6L3uxLY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dhagala-lagli-kala",
+    "title": "Dhagala Lagli Kala",
+    "artists": [
+      "Dada Kondke"
+    ],
+    "language": "marathi",
+    "durationSec": 131,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party",
+      "retro"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "03vKTb-ENNk"
+      },
+      {
+        "provider": "youtube",
+        "id": "X91b6cbtBnw"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dhinchak",
+    "title": "Dhinchak",
+    "artists": [
+      "Boyz"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "o0ZXANjujO8"
+      },
+      {
+        "provider": "youtube",
+        "id": "NInf8U2QpdQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dhingana",
+    "title": "Dhingana",
+    "artists": [
+      "Sachin Pilgaonkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "OE_clkHFPQM"
+      },
+      {
+        "provider": "youtube",
+        "id": "6pr-ZbtIupc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dhol-tasha-rhythm",
+    "title": "Dhol Tasha Rhythm",
+    "artists": [
+      "DJ Marathi Halgi"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 18,
+      "endSec": 80,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "VNvdKLpCrw4"
+      },
+      {
+        "provider": "youtube",
+        "id": "gja1Poosw5o"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dhol-tashyancha-awaaz",
+    "title": "Dhol Tashyancha Awaaz",
+    "artists": [
+      "DJ Halgi"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 18,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "tpa9p1Oygec"
+      },
+      {
+        "provider": "youtube",
+        "id": "J8xtZG3ksb8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dholakchya-taalaat",
+    "title": "Dholakchya Taalaat",
+    "artists": [
+      "Vaishali Samant"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "rWdabx0n_4U"
+      },
+      {
+        "provider": "youtube",
+        "id": "FwyieTi5W9E"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dholakpur-ka-raja",
+    "title": "Dholakpur Ka Raja",
+    "artists": [
+      "Sanju Rathod"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 80,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ONGVHnY5YLU"
+      },
+      {
+        "provider": "youtube",
+        "id": "SlRW-qNVKtE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dholkichya-talavar",
+    "title": "Dholkichya Talavar",
+    "artists": [
+      "Vaishali Samant"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "YU8LdhgWyns"
+      },
+      {
+        "provider": "youtube",
+        "id": "4EnK6BPvCsc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "digambara-digambara",
+    "title": "Digambara Digambara",
+    "artists": [
+      "Suresh Wadkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "3W0kxv_OyQQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "TDs-rh9aunQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dil-ki-tapori",
+    "title": "Dil Ki Tapori",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "7gOBcaxQWjs"
+      },
+      {
+        "provider": "youtube",
+        "id": "WRxHjyMpOWo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dimple-yetay-galavar",
+    "title": "Dimple Yetay Galavar",
+    "artists": [
+      "Sanju Rathod"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "CNt7V99wsn4"
+      },
+      {
+        "provider": "youtube",
+        "id": "FULBUmc9aV8"
+      },
+      {
+        "provider": "youtube",
+        "id": "vcMT1UwB3Wg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "disla-ga-disla",
+    "title": "Disla Ga Disla",
+    "artists": [
+      "Ajay-Atul",
+      "Sunidhi Chauhan"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "AOqlTj_2i-o"
+      },
+      {
+        "provider": "youtube",
+        "id": "CYvZbm_b-O4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dj-aala-ganpati-pawaala",
+    "title": "DJ Aala Ganpati Pawaala",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "lN16TG_DHsY"
+      },
+      {
+        "provider": "youtube",
+        "id": "QJ_naLiw8k8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dj-halgi-mix",
+    "title": "DJ Halgi Mix",
+    "artists": [
+      "DJ Marathi"
+    ],
+    "language": "marathi",
+    "durationSec": 269,
+    "hook": {
+      "startSec": 15,
+      "endSec": 78,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "3UeS4BgPAvk"
+      },
+      {
+        "provider": "youtube",
+        "id": "2RWTmZ1Ijrw"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dol-doltay-varyavar",
+    "title": "Dol Doltay Varyavar",
+    "artists": [
+      "Shrikant Narayan",
+      "Anuradha Paudwal"
+    ],
+    "language": "marathi",
+    "durationSec": 245,
+    "hook": {
+      "startSec": 45,
+      "endSec": 130,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "retro",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "MSMaR6j_uFI"
+      },
+      {
+        "provider": "youtube",
+        "id": "zhrYlb675-w"
+      },
+      {
+        "provider": "youtube",
+        "id": "IvOADGu4ImU"
+      },
+      {
+        "provider": "youtube",
+        "id": "1805RHXtg6Q"
+      },
+      {
+        "provider": "youtube",
+        "id": "IMT9-RMBcl8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dolby-beat-marathi",
+    "title": "Dolby Beat Marathi",
+    "artists": [
+      "DJ Marathi Mix"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 18,
+      "endSec": 80,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "xe3FX02w4ZQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "wPvB964s5CY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dolby-walya",
+    "title": "Dolby Walya",
+    "artists": [
+      "Nagesh Morwekar",
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 232,
+    "hook": {
+      "startSec": 32,
+      "endSec": 115,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "birthday",
+      "late-night",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "u6rKhw7nFbE"
+      },
+      {
+        "provider": "youtube",
+        "id": "g2EQJToNc7Y"
+      },
+      {
+        "provider": "youtube",
+        "id": "8uJtiXElNt0"
+      },
+      {
+        "provider": "youtube",
+        "id": "W1TWm2qnYs8"
+      },
+      {
+        "provider": "youtube",
+        "id": "5mmm1Dq-ZHs"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "dongarmathyavari",
+    "title": "Dongarmathyavari",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "R-PtTPZLbKc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "ekvira-mauli-majhi",
+    "title": "Ekvira Mauli Majhi",
+    "artists": [
+      "Keval Walanj"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "2hURycMZcgM"
+      },
+      {
+        "provider": "youtube",
+        "id": "FPiQWPbyj1w"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gajar-vithalacha",
+    "title": "Gajar Vithalacha",
+    "artists": [
+      "Ajay Gogavale"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "vz6g_FlomK0"
+      },
+      {
+        "provider": "youtube",
+        "id": "JBAyL9eu0C4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "galavar-khali",
+    "title": "Galavar Khali",
+    "artists": [
+      "Swapnil Bandodkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "1a07OVciamI"
+      },
+      {
+        "provider": "youtube",
+        "id": "EwXxMBL1ZIM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "galyan-sakli-sonyachi",
+    "title": "Galyan Sakli Sonyachi",
+    "artists": [
+      "Traditional Koli"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "retro",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "raJ49EjrlTA"
+      },
+      {
+        "provider": "youtube",
+        "id": "KGdtqG1vlvE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "ganpati-bappa-morya-mangal-murti",
+    "title": "Ganpati Bappa Morya Mangal Murti",
+    "artists": [
+      "Shankar Mahadevan"
+    ],
+    "language": "marathi",
+    "durationSec": 349,
+    "hook": {
+      "startSec": 26,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "xeXcq1SWgLw"
+      },
+      {
+        "provider": "youtube",
+        "id": "GrVOG4POsko"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "ganpati-bappa-morya-pudhchya-varshi",
+    "title": "Ganpati Bappa Morya Pudhchya Varshi",
+    "artists": [
+      "Suresh Wadkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "JOp0rFxYCBI"
+      },
+      {
+        "provider": "youtube",
+        "id": "9VkLSxctRbs"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "ganraya",
+    "title": "Ganraya",
+    "artists": [
+      "Ajay Gogavale"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 30,
+      "endSec": 95,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "gRht9ogf3OQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "0z7FYpz433Y"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "garja-maharashtra-akhand",
+    "title": "Garja Maharashtra Akhand",
+    "artists": [
+      "Avadhoot Gupte"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "JgdfVaOYJMM"
+      },
+      {
+        "provider": "youtube",
+        "id": "XRFBosf_3mU"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "garja-maharashtra-majha",
+    "title": "Garja Maharashtra Majha",
+    "artists": [
+      "Shahir Sable"
+    ],
+    "language": "marathi",
+    "durationSec": 200,
+    "hook": {
+      "startSec": 20,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "LKZYuaZ_rxc"
+      },
+      {
+        "provider": "youtube",
+        "id": "sXqqbOIz3VY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gauri-ganpati-aale",
+    "title": "Gauri Ganpati Aale",
+    "artists": [
+      "Suresh Wadkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "4sjiSw5CE0w"
+      },
+      {
+        "provider": "youtube",
+        "id": "NHF51AWT8dE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "ghadlay-bighadlay",
+    "title": "Ghadlay Bighadlay",
+    "artists": [
+      "Avadhoot Gupte"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "r8IKWDNLcOo"
+      },
+      {
+        "provider": "youtube",
+        "id": "V3snyMEbG30"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gheun-tak",
+    "title": "Gheun Tak",
+    "artists": [
+      "Avadhoot Gupte"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "kkKb4p4O2x4"
+      },
+      {
+        "provider": "youtube",
+        "id": "mUB83z2Gx1I"
+      },
+      {
+        "provider": "youtube",
+        "id": "7GTY91Dtgxc"
+      },
+      {
+        "provider": "youtube",
+        "id": "ATMOb9_i06U"
+      },
+      {
+        "provider": "youtube",
+        "id": "LoF4eH7cfZk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "girgaon-dhol-tasha",
+    "title": "Girgaon Dhol Tasha",
+    "artists": [
+      "Traditional"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "qMOU2Jj2FNY"
+      },
+      {
+        "provider": "youtube",
+        "id": "vuRnNNCWRLk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "golyachi-pend",
+    "title": "Golyachi Pend",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Ce1uHA-3Tw0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gomu-sangtina",
+    "title": "Gomu Sangtina",
+    "artists": [
+      "Hemant Kumar",
+      "Suman Kalyanpur"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 80,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "retro",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "7ln3dZ-tOZk"
+      },
+      {
+        "provider": "youtube",
+        "id": "2rIV3iGz2yo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gondhal-re-gondhal",
+    "title": "Gondhal Re Gondhal",
+    "artists": [
+      "Ajay Gogavale"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "devotional",
+      "festival",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "2pVK0kxgfE4"
+      },
+      {
+        "provider": "youtube",
+        "id": "cmP7KcveagU"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gondhal-sairat",
+    "title": "Gondhal Sairat",
+    "artists": [
+      "Ajay Gogavale"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 28,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "devotional",
+      "festival",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "fbv1dyRiav0"
+      },
+      {
+        "provider": "youtube",
+        "id": "iO_pNJKE8zA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gori-paan-shalu",
+    "title": "Gori Paan Shalu",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "C_VtOyVbOZA"
+      },
+      {
+        "provider": "youtube",
+        "id": "6t3h_F05K04"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gorya-gorya-galavari",
+    "title": "Gorya Gorya Galavari",
+    "artists": [
+      "Suresh Wadkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "retro",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "cHHGQP7uF9M"
+      },
+      {
+        "provider": "youtube",
+        "id": "WmsoZCfQqtg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gsb-seva-mandal-ganpati",
+    "title": "GSB Seva Mandal Ganpati",
+    "artists": [
+      "Suresh Wadkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "x-TtVkAWijk"
+      },
+      {
+        "provider": "youtube",
+        "id": "Dr0jL_wyubs"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gulabachi-kali",
+    "title": "Gulabachi Kali",
+    "artists": [
+      "Amitraj",
+      "Vaishali Samant"
+    ],
+    "language": "marathi",
+    "durationSec": 218,
+    "hook": {
+      "startSec": 34,
+      "endSec": 115,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "FVQa8T71oYI"
+      },
+      {
+        "provider": "youtube",
+        "id": "mqPLj0frBO8"
+      },
+      {
+        "provider": "youtube",
+        "id": "TwOqzJoFfF4"
+      },
+      {
+        "provider": "youtube",
+        "id": "STwEHSztqaA"
+      },
+      {
+        "provider": "youtube",
+        "id": "0XP3-gVrzLg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gulabi-sadi",
+    "title": "Gulabi Sadi",
+    "artists": [
+      "Sanju Rathod",
+      "G-Spark"
+    ],
+    "language": "marathi",
+    "durationSec": 223,
+    "hook": {
+      "startSec": 15,
+      "endSec": 75,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "B_6d3RBiEN0"
+      },
+      {
+        "provider": "youtube",
+        "id": "_-zdCXBjL5k"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "halad-lagali",
+    "title": "Halad Lagali",
+    "artists": [
+      "Keval Walanj",
+      "Sneha Mahadik"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "MWs1zndm5Os"
+      },
+      {
+        "provider": "youtube",
+        "id": "hdMnvlG4hFs"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "halad-rusli-kunku-hasla",
+    "title": "Halad Rusli Kunku Hasla",
+    "artists": [
+      "Anuradha Paudwal"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 26,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "gDhgA0K4tzw"
+      },
+      {
+        "provider": "youtube",
+        "id": "bOhgUgRP7QQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "1B__5GGK7dY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "halgi-vaje-chaugada",
+    "title": "Halgi Vaje Chaugada",
+    "artists": [
+      "DJ Halgi"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 18,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "gw4IiBwPiHI"
+      },
+      {
+        "provider": "youtube",
+        "id": "xuFiofjCYIY"
+      },
+      {
+        "provider": "youtube",
+        "id": "VNvdKLpCrw4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "halgi-vaje-tarri",
+    "title": "Halgi Vaje Tarri",
+    "artists": [
+      "DJ Marathi"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 18,
+      "endSec": 80,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "6Zj0QYeJu8k"
+      },
+      {
+        "provider": "youtube",
+        "id": "VNvdKLpCrw4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "halu-halu-chaal",
+    "title": "Halu Halu Chaal",
+    "artists": [
+      "Suresh Wadkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "retro",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "iiDrpRhl38A"
+      },
+      {
+        "provider": "youtube",
+        "id": "Sh_YnZurI1U"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "har-har-mahadev-title",
+    "title": "Har Har Mahadev Title",
+    "artists": [
+      "Shankar Mahadevan"
+    ],
+    "language": "marathi",
+    "durationSec": 251,
+    "hook": {
+      "startSec": 28,
+      "endSec": 94,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "v_g7Q_E1BH8"
+      },
+      {
+        "provider": "youtube",
+        "id": "S980-z1qx3g"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "hi-chaal-turu-turu",
+    "title": "Hi Chaal Turu Turu",
+    "artists": [
+      "Jaywant Kulkarni"
+    ],
+    "language": "marathi",
+    "durationSec": 230,
+    "hook": {
+      "startSec": 32,
+      "endSec": 110,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "birthday",
+      "late-night",
+      "party",
+      "retro",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "hpJScLFl0z4"
+      },
+      {
+        "provider": "youtube",
+        "id": "yQn9q2U6NA4"
+      },
+      {
+        "provider": "youtube",
+        "id": "chGJn7E4wlc"
+      },
+      {
+        "provider": "youtube",
+        "id": "Ucx15Gytx1c"
+      },
+      {
+        "provider": "youtube",
+        "id": "9_B1olDwR_I"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "hi-poli-saajuk-tupatli",
+    "title": "Hi Poli Saajuk Tupatli",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Qnac7Yeq5Xg"
+      },
+      {
+        "provider": "youtube",
+        "id": "ntGInLYUpEg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "hil-pori-hila",
+    "title": "Hil Pori Hila",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 222,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "IbUcrzkMuQw"
+      },
+      {
+        "provider": "youtube",
+        "id": "Kvd5ZRszjnY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "hridayi-vasant-phultana",
+    "title": "Hridayi Vasant Phultana",
+    "artists": [
+      "Suresh Wadkar",
+      "Anuradha Paudwal"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 42,
+      "endSec": 125,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "mehendi",
+      "retro",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "iazsz_EuS2s"
+      },
+      {
+        "provider": "youtube",
+        "id": "ZsXH5AFvYxk"
+      },
+      {
+        "provider": "youtube",
+        "id": "NsVIaN-1P90"
+      },
+      {
+        "provider": "youtube",
+        "id": "MZwz7pvsRMQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "6RjZ1TiAAHA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "jai-maharashtra",
+    "title": "Jai Maharashtra",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "o78uBSTCiio"
+      },
+      {
+        "provider": "youtube",
+        "id": "sXqqbOIz3VY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "jatra-re-jatra",
+    "title": "Jatra Re Jatra",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "2KaDL9TSja0"
+      },
+      {
+        "provider": "youtube",
+        "id": "U6Wpo9jLwBI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "jau-nako-dur-pori",
+    "title": "Jau Nako Dur Pori",
+    "artists": [
+      "Sanju Rathod"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "EwXxMBL1ZIM"
+      },
+      {
+        "provider": "youtube",
+        "id": "TtqlJIf_bWQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "1a07OVciamI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "jay-bhavani-jay-shivaji",
+    "title": "Jay Bhavani Jay Shivaji",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "k6ELRUYZJSY"
+      },
+      {
+        "provider": "youtube",
+        "id": "D5F7K8C3Ebs"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "jayostute",
+    "title": "Jayostute",
+    "artists": [
+      "Lata Mangeshkar"
+    ],
+    "language": "marathi",
+    "durationSec": 419,
+    "hook": {
+      "startSec": 30,
+      "endSec": 95,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "pdwhxM1ka_A"
+      },
+      {
+        "provider": "youtube",
+        "id": "vtCE-8EZ1o0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "jeev-majha-tutato",
+    "title": "Jeev Majha Tutato",
+    "artists": [
+      "Swapnil Bandodkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "43Yj6jLH47I"
+      },
+      {
+        "provider": "youtube",
+        "id": "A1UQbp6y3uQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "jejuri-cha-khanderaya",
+    "title": "Jejuri Cha Khanderaya",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Dr6PxTaGP-Y"
+      },
+      {
+        "provider": "youtube",
+        "id": "A-snnqe7xCw"
+      },
+      {
+        "provider": "youtube",
+        "id": "ODB7Pc_QfIU"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "jejuri-khandoba-dhol",
+    "title": "Jejuri Khandoba Dhol",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "qj-wRJooZoA"
+      },
+      {
+        "provider": "youtube",
+        "id": "FJrHSqeMbX4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "jiv-rangla",
+    "title": "Jiv Rangla",
+    "artists": [
+      "Hariharan",
+      "Shreya Ghoshal"
+    ],
+    "language": "marathi",
+    "durationSec": 281,
+    "hook": {
+      "startSec": 35,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "JULTqp4jP64"
+      },
+      {
+        "provider": "youtube",
+        "id": "en60_iC0u2M"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kaakan-title-song",
+    "title": "Kaakan Title Song",
+    "artists": [
+      "Shankar Mahadevan"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 32,
+      "endSec": 95,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "MMwoepXJwSs"
+      },
+      {
+        "provider": "youtube",
+        "id": "qCCNhoCRq7Q"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kaal-bhairav-ashtak",
+    "title": "Kaal Bhairav Ashtak",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "MvNyxxK07H4"
+      },
+      {
+        "provider": "youtube",
+        "id": "Vpa6JXgZ5nk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kahi-tari-bhas-hoto",
+    "title": "Kahi Tari Bhas Hoto",
+    "artists": [
+      "Bela Shende"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 30,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "JuIfN8F037E"
+      },
+      {
+        "provider": "youtube",
+        "id": "uahGXxm3PSc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kal-ratri-mala-swapna-padla",
+    "title": "Kal Ratri Mala Swapna Padla",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "hsUUM1mzyFY"
+      },
+      {
+        "provider": "youtube",
+        "id": "cXqgTiuV1iI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kali-bindi",
+    "title": "Kali Bindi",
+    "artists": [
+      "Sanju Rathod"
+    ],
+    "language": "marathi",
+    "durationSec": 232,
+    "hook": {
+      "startSec": 20,
+      "endSec": 80,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "R-SmeE-0rdg"
+      },
+      {
+        "provider": "youtube",
+        "id": "niiAjd5uh2c"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kalubai-dhol-tasha",
+    "title": "Kalubai Dhol Tasha",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "lD4X7zlgYAI"
+      },
+      {
+        "provider": "youtube",
+        "id": "cbtHjlGBhIw"
+      },
+      {
+        "provider": "youtube",
+        "id": "9gq1jldZkAg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kalubai-gondhal",
+    "title": "Kalubai Gondhal",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "devotional",
+      "festival",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ypKOT8EjZkU"
+      },
+      {
+        "provider": "youtube",
+        "id": "cZuPZyJVuKs"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kanha",
+    "title": "Kanha",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 243,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Nl8wAhDPB64"
+      },
+      {
+        "provider": "youtube",
+        "id": "NVB6jiYQAg4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kanho-patra",
+    "title": "Kanho Patra",
+    "artists": [
+      "Bela Shende"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 30,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Y-1tOiKJkAc"
+      },
+      {
+        "provider": "youtube",
+        "id": "yrdFXi801MY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "karla-dongarachi-ekvira",
+    "title": "Karla Dongarachi Ekvira",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "z_P2Oqw3GNw"
+      },
+      {
+        "provider": "youtube",
+        "id": "hCCKT7Bub_Y"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kasba-ganpati",
+    "title": "Kasba Ganpati",
+    "artists": [
+      "Shankar Mahadevan"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "cJWS5etrV50"
+      },
+      {
+        "provider": "youtube",
+        "id": "ensD5t1Xn0o"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kashala-udyachi-baat",
+    "title": "Kashala Udyachi Baat",
+    "artists": [
+      "Sanju Rathod"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 80,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "kdoanJQbXVA"
+      },
+      {
+        "provider": "youtube",
+        "id": "C6vn9jefNj8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kashi-zali-daina",
+    "title": "Kashi Zali Daina",
+    "artists": [
+      "Keval Walanj"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "nI3MJFN4wiU"
+      },
+      {
+        "provider": "youtube",
+        "id": "2KqAM62Swjk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "khanderaya-zaali-majhi-daina",
+    "title": "Khanderaya Zaali Majhi Daina",
+    "artists": [
+      "Keval Walanj"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "EhqMT9dV0mU"
+      },
+      {
+        "provider": "youtube",
+        "id": "zn1jZUkJgz0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "khandoba-jhala-malhari",
+    "title": "Khandoba Jhala Malhari",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ZdJrCkCFSUQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "9lQSvLb5gTc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "khandoba-tali-aarti",
+    "title": "Khandoba Tali Aarti",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "VVQPotePTrk"
+      },
+      {
+        "provider": "youtube",
+        "id": "qLzRmOqrwtU"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "khandoba-tali-halgi",
+    "title": "Khandoba Tali Halgi",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 20,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "12ZYnEhCkN0"
+      },
+      {
+        "provider": "youtube",
+        "id": "qLzRmOqrwtU"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "khari-biscuit-title",
+    "title": "Khari Biscuit Title",
+    "artists": [
+      "Kunal Ganjawala"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "QDjrBpLYV_E"
+      },
+      {
+        "provider": "youtube",
+        "id": "2f_crEdJgU8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "khel-mandala",
+    "title": "Khel Mandala",
+    "artists": [
+      "Ajay Gogavale"
+    ],
+    "language": "marathi",
+    "durationSec": 287,
+    "hook": {
+      "startSec": 35,
+      "endSec": 105,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "mUDfIdT-2Ek"
+      },
+      {
+        "provider": "youtube",
+        "id": "HY8Y_uqnVzU"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "khel-mandala-rock",
+    "title": "Khel Mandala Rock",
+    "artists": [
+      "Ajay Gogavale"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "p3bvzKQsmm0"
+      },
+      {
+        "provider": "youtube",
+        "id": "tnup0Y0Q0iM"
+      },
+      {
+        "provider": "youtube",
+        "id": "dLoQ0DfP8jA"
+      },
+      {
+        "provider": "youtube",
+        "id": "YMuPrlP6Tso"
+      },
+      {
+        "provider": "youtube",
+        "id": "UPR1DzpWwZM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "khetwadi-ganpati",
+    "title": "Khetwadi Ganpati",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "D2BjJWEtgqI"
+      },
+      {
+        "provider": "youtube",
+        "id": "JlQT257endI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kiti-sangaychay-mala",
+    "title": "Kiti Sangaychay Mala",
+    "artists": [
+      "Bela Shende"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "3zdCPhX7ah4"
+      },
+      {
+        "provider": "youtube",
+        "id": "7_eS0qQuNlk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kolhapuri-jatra-mix",
+    "title": "Kolhapuri Jatra Mix",
+    "artists": [
+      "DJ Marathi"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 18,
+      "endSec": 80,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "hpCeyvhClmQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "AcAhyOM0pPA"
+      },
+      {
+        "provider": "youtube",
+        "id": "mKmyklciNPg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kolhapuri-tadka",
+    "title": "Kolhapuri Tadka",
+    "artists": [
+      "Avadhoot Gupte"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "7PAqPlGzXNU"
+      },
+      {
+        "provider": "youtube",
+        "id": "zdUdc2MGyBE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "koli-dance-mix",
+    "title": "Koli Dance Mix",
+    "artists": [
+      "DJ Saurabh Marathi"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "O09cF9zhsN0"
+      },
+      {
+        "provider": "youtube",
+        "id": "Y8_gfB8I-XY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "koli-geet-nonstop-mashup",
+    "title": "Koli Geet Nonstop Mashup",
+    "artists": [
+      "Pravin Koli"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "medley",
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "2gGurQsa7dE"
+      },
+      {
+        "provider": "youtube",
+        "id": "DYGzMVogkWE"
+      },
+      {
+        "provider": "youtube",
+        "id": "Cf3FpjMldQs"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "koligeet-mashup",
+    "title": "Koligeet Mashup",
+    "artists": [
+      "Pravin Koli",
+      "Kumar Sanu"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Sb60VaYqa8M"
+      },
+      {
+        "provider": "youtube",
+        "id": "2gGurQsa7dE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "koligeet-tarri",
+    "title": "Koligeet Tarri",
+    "artists": [
+      "Pravin Koli"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "DYGzMVogkWE"
+      },
+      {
+        "provider": "youtube",
+        "id": "rsHY9q0JnI4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "koliwada-song",
+    "title": "Koliwada Song",
+    "artists": [
+      "Pravin Koli"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Mh4tijR19CE"
+      },
+      {
+        "provider": "youtube",
+        "id": "6dmH5DfEn4o"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kombdi-palali",
+    "title": "Kombdi Palali",
+    "artists": [
+      "Anand Shinde",
+      "Vaishali Samant"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 38,
+      "endSec": 120,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "birthday",
+      "late-night",
+      "retro",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "piORdqwIfwY"
+      },
+      {
+        "provider": "youtube",
+        "id": "2KaDL9TSja0"
+      },
+      {
+        "provider": "youtube",
+        "id": "MkuECqS3bZQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "bGo6X71kocI"
+      },
+      {
+        "provider": "youtube",
+        "id": "nFS0vWoTYok"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kondhana-powada",
+    "title": "Kondhana Powada",
+    "artists": [
+      "Shahir Sable"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "RbLskoK0WYU"
+      },
+      {
+        "provider": "youtube",
+        "id": "qUUsFIjRqWQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "kutha-kutha-jayacha-honeymoonla",
+    "title": "Kutha Kutha Jayacha Honeymoonla",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "CyltPSXydU8"
+      },
+      {
+        "provider": "youtube",
+        "id": "U-XQY7baajs"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "lagin-ghadi",
+    "title": "Lagin Ghadi",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "baraat",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ezlBg6GFbao"
+      },
+      {
+        "provider": "youtube",
+        "id": "ub6j-OB0nGY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "lagin-sarai",
+    "title": "Lagin Sarai",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "oVfLNJkHr3k"
+      },
+      {
+        "provider": "youtube",
+        "id": "RTxi4RscGVc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "lagnalu",
+    "title": "Lagnalu",
+    "artists": [
+      "Boyz"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "NInf8U2QpdQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "ju2kyGHDpS0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "lalbaugcha-raja-aarti",
+    "title": "Lalbaugcha Raja Aarti",
+    "artists": [
+      "Shankar Mahadevan"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Voay3d2ePVc"
+      },
+      {
+        "provider": "youtube",
+        "id": "0iTb6b8F5to"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "lallati-bhandar",
+    "title": "Lallati Bhandar",
+    "artists": [
+      "Ajay Gogavale"
+    ],
+    "language": "marathi",
+    "durationSec": 301,
+    "hook": {
+      "startSec": 25,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "DRNb1q63PBk"
+      },
+      {
+        "provider": "youtube",
+        "id": "6qwOQe2BiYY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "lavani-queen",
+    "title": "Lavani Queen",
+    "artists": [
+      "Vaishali Samant"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "_DzSCGFri4k"
+      },
+      {
+        "provider": "youtube",
+        "id": "mUB83z2Gx1I"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "mahalakshmi-aarti-marathi",
+    "title": "Mahalakshmi Aarti Marathi",
+    "artists": [
+      "Anuradha Paudwal"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "SyqgAt-T0iQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "Fu2x5HLOrCM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "maharashtra-desha",
+    "title": "Maharashtra Desha",
+    "artists": [
+      "Shankar Mahadevan"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "sXqqbOIz3VY"
+      },
+      {
+        "provider": "youtube",
+        "id": "8wL5nltGbkQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "maharashtrachi-hasya-jatra-title",
+    "title": "Maharashtrachi Hasya Jatra Title",
+    "artists": [
+      "Avadhoot Gupte"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 80,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Aawlf-Ut2ck"
+      },
+      {
+        "provider": "youtube",
+        "id": "kAal2jW4Qns"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "majha-bappa",
+    "title": "Majha Bappa",
+    "artists": [
+      "Pravin Koli",
+      "Yogita Koli"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "jl9kHKoSijU"
+      },
+      {
+        "provider": "youtube",
+        "id": "rMMcNTFYVLY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "majhe-maher-pandhari",
+    "title": "Majhe Maher Pandhari",
+    "artists": [
+      "Bhimsen Joshi"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 32,
+      "endSec": 95,
+      "source": "seed"
+    },
+    "energy": 7,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "MHTz8OEYqTw"
+      },
+      {
+        "provider": "youtube",
+        "id": "vmFqQseBtxk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "mala-baghun-galat-hasli",
+    "title": "Mala Baghun Galat Hasli",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "qfAQGfFga48"
+      },
+      {
+        "provider": "youtube",
+        "id": "VuDQPp_KULI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "mala-jau-de",
+    "title": "Mala Jau De",
+    "artists": [
+      "Urmila Dhangar"
+    ],
+    "language": "marathi",
+    "durationSec": 256,
+    "hook": {
+      "startSec": 26,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "5g0RsS_KgvU"
+      },
+      {
+        "provider": "youtube",
+        "id": "FIYgIGWe0TY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "malhari-martand",
+    "title": "Malhari Martand",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "qZ4Ke9vlqd4"
+      },
+      {
+        "provider": "youtube",
+        "id": "9itYvVy3jnY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "malhari-martand-halgi",
+    "title": "Malhari Martand Halgi",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 24,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "eQQBXK2e3nY"
+      },
+      {
+        "provider": "youtube",
+        "id": "0Fl8TE7KrX4"
+      },
+      {
+        "provider": "youtube",
+        "id": "ysZifwNZ5fY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "man-he-vede",
+    "title": "Man He Vede",
+    "artists": [
+      "Swapnil Bandodkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 7,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "VK6PUxDdMTI"
+      },
+      {
+        "provider": "youtube",
+        "id": "T8M2M_pfYaA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "man-udhan-varyache",
+    "title": "Man Udhan Varyache",
+    "artists": [
+      "Shankar Mahadevan"
+    ],
+    "language": "marathi",
+    "durationSec": 279,
+    "hook": {
+      "startSec": 32,
+      "endSec": 95,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "2JZTIVd4XN0"
+      },
+      {
+        "provider": "youtube",
+        "id": "XZogVSlBB34"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "mangalagaur-geet",
+    "title": "Mangalagaur Geet",
+    "artists": [
+      "Traditional Marathi"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "2tPdrOVc-XI"
+      },
+      {
+        "provider": "youtube",
+        "id": "PRi3CuAXkT0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "maratha-tituka-melvava",
+    "title": "Maratha Tituka Melvava",
+    "artists": [
+      "Shankar Mahadevan"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "778u0os92Zk"
+      },
+      {
+        "provider": "youtube",
+        "id": "AxYuN0E7KYc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "marathi-dj-songs-2026",
+    "title": "Marathi DJ Songs 2026",
+    "artists": [
+      "Extreme Beats"
+    ],
+    "language": "marathi",
+    "durationSec": 2715,
+    "hook": {
+      "startSec": 23,
+      "endSec": 108,
+      "source": "seed"
+    },
+    "energy": 7,
+    "tags": [
+      "late-night",
+      "medley",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "DQ3GPXS7qeI"
+      },
+      {
+        "provider": "youtube",
+        "id": "W6dSccUXDG8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "maskhari",
+    "title": "Maskhari",
+    "artists": [
+      "Boyz 2"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "pI5hG1hURiI"
+      },
+      {
+        "provider": "youtube",
+        "id": "8f6EPOKn6zg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "mauli-mauli",
+    "title": "Mauli Mauli",
+    "artists": [
+      "Ajay Gogavale"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "6EI0ruuLx3c"
+      },
+      {
+        "provider": "youtube",
+        "id": "uWi5aOuSmN4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "maza-bappa-moraya",
+    "title": "Maza Bappa Moraya",
+    "artists": [
+      "Pravin Koli"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "8iVbizk15d4"
+      },
+      {
+        "provider": "youtube",
+        "id": "rMMcNTFYVLY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "mee-marathi",
+    "title": "Mee Marathi",
+    "artists": [
+      "Swapnil Bandodkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "h-cZnXc02Mg"
+      },
+      {
+        "provider": "youtube",
+        "id": "vQMnd9CigxI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "meri-madhubala",
+    "title": "Meri Madhubala",
+    "artists": [
+      "Vaishali Samant"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "NS3Xt2wyDHs"
+      },
+      {
+        "provider": "youtube",
+        "id": "sv6pkrhzR10"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "mi-hai-koli",
+    "title": "Mi Hai Koli",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 306,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "6XJlCa50R3M"
+      },
+      {
+        "provider": "youtube",
+        "id": "CKMt3FCHGlk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "mi-koli-rikshawala",
+    "title": "Mi Koli Rikshawala",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 80,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "hl-71-9Qpro"
+      },
+      {
+        "provider": "youtube",
+        "id": "x5mjONtE-nk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "mi-naadkhula",
+    "title": "Mi Naadkhula",
+    "artists": [
+      "Rohit Raut"
+    ],
+    "language": "marathi",
+    "durationSec": 299,
+    "hook": {
+      "startSec": 22,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "MZlgZmu-q1Q"
+      },
+      {
+        "provider": "youtube",
+        "id": "M1i57CQGkHE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "mi-punha-yein",
+    "title": "Mi Punha Yein",
+    "artists": [
+      "Avadhoot Gupte"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "GaIbwFexobY"
+      },
+      {
+        "provider": "youtube",
+        "id": "vVfhwkn5Kfk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "mitwaa-title-song",
+    "title": "Mitwaa Title Song",
+    "artists": [
+      "Shankar Mahadevan",
+      "Janhavi Prabhu"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 30,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "lXX9IH12WR8"
+      },
+      {
+        "provider": "youtube",
+        "id": "trDHmX2-eOs"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "morachi-chaal",
+    "title": "Morachi Chaal",
+    "artists": [
+      "Bela Shende"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "evwAU1EtJtY"
+      },
+      {
+        "provider": "youtube",
+        "id": "c8olVjKGD7U"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "morya",
+    "title": "Morya",
+    "artists": [
+      "Daagdi Chaawl"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "JvRIC2fqAkw"
+      },
+      {
+        "provider": "youtube",
+        "id": "wiva0Lh_H-Y"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "morya-morya",
+    "title": "Morya Morya",
+    "artists": [
+      "Ajay Gogavale"
+    ],
+    "language": "marathi",
+    "durationSec": 356,
+    "hook": {
+      "startSec": 30,
+      "endSec": 95,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "-nF5azYcko8"
+      },
+      {
+        "provider": "youtube",
+        "id": "DPH4r-nRNE0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "mumbai-chi-pori",
+    "title": "Mumbai Chi Pori",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "jVyIUGBdO4g"
+      },
+      {
+        "provider": "youtube",
+        "id": "Ewwn5bPdxSQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "mungda-mungda-marathi",
+    "title": "Mungda Mungda Marathi",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "-ksPw5QuLRc"
+      },
+      {
+        "provider": "youtube",
+        "id": "QuCHKl2RKaw"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "naad-khula",
+    "title": "Naad Khula",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "WCwxrqpf-uE"
+      },
+      {
+        "provider": "youtube",
+        "id": "EKl2sk09QU0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "nach-shalu-nach",
+    "title": "Nach Shalu Nach",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "kFBmVIFU14o"
+      },
+      {
+        "provider": "youtube",
+        "id": "clrT_9yReM4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "nagpuri-tarri-poha",
+    "title": "Nagpuri Tarri Poha",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "u2tCI4LWUCE"
+      },
+      {
+        "provider": "youtube",
+        "id": "MZlgZmu-q1Q"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "nakhvachya-pori",
+    "title": "Nakhvachya Pori",
+    "artists": [
+      "Traditional Koli"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "tNGIY4BP-uk"
+      },
+      {
+        "provider": "youtube",
+        "id": "5GnFdlZ_f5U"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "nashikchi-dhol",
+    "title": "Nashikchi Dhol",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "zKOEhIRuV6E"
+      },
+      {
+        "provider": "youtube",
+        "id": "VB152joni4Y"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "nauvaari-sanju",
+    "title": "Nauvaari",
+    "artists": [
+      "Sanju Rathod"
+    ],
+    "language": "marathi",
+    "durationSec": 195,
+    "hook": {
+      "startSec": 22,
+      "endSec": 105,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Vb4qfhRaBTs"
+      },
+      {
+        "provider": "youtube",
+        "id": "MnGAYS-v7lQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "TUpxNrU9aQ4"
+      },
+      {
+        "provider": "youtube",
+        "id": "l6mG--k3zLg"
+      },
+      {
+        "provider": "youtube",
+        "id": "56EQWfyY1pw"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "nauvari",
+    "title": "Nauvari",
+    "artists": [
+      "Sanju Rathod"
+    ],
+    "language": "marathi",
+    "durationSec": 222,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "mehendi",
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "MnGAYS-v7lQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "TUpxNrU9aQ4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "navrai-majhi-marathi",
+    "title": "Navrai Majhi Marathi",
+    "artists": [
+      "Sunidhi Chauhan"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "2Cy-j4Oxrqs"
+      },
+      {
+        "provider": "youtube",
+        "id": "bfam02NlPBQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "navri-aali-dholachya-taalaat",
+    "title": "Navri Aali Dholachya Taalaat",
+    "artists": [
+      "Avadhoot Gupte"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "GP3FIFALPYg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "new-nahari-gele-ga-baai",
+    "title": "New Nahari Gele Ga Baai",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "8YpbLqps_w4"
+      },
+      {
+        "provider": "youtube",
+        "id": "kKh3X9SaNVQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "nonstop-2026-trending-roadshow-mix",
+    "title": "Nonstop 2026 Trending Roadshow Mix",
+    "artists": [
+      "New Marathi Dj Song"
+    ],
+    "language": "marathi",
+    "durationSec": 1393,
+    "hook": {
+      "startSec": 27,
+      "endSec": 112,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "late-night",
+      "medley",
+      "party",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "GdKZzELiFxk"
+      },
+      {
+        "provider": "youtube",
+        "id": "Bl6o7LY0qZk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "padar-varti-khurchi-khali",
+    "title": "Padar Varti Khurchi Khali",
+    "artists": [
+      "Traditional Lavani"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "1Y2_zfDVIAE"
+      },
+      {
+        "provider": "youtube",
+        "id": "vVfhwkn5Kfk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "pandharicha-vaas",
+    "title": "Pandharicha Vaas",
+    "artists": [
+      "Suresh Wadkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Wz_dKNu09n0"
+      },
+      {
+        "provider": "youtube",
+        "id": "1G0kvVrcdOk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "pappu-cant-dance-marathi-mix",
+    "title": "Pappu Can't Dance Marathi Mix",
+    "artists": [
+      "DJ Saurabh"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ukzUYDpfQPM"
+      },
+      {
+        "provider": "youtube",
+        "id": "jLEzCb69i80"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "pawankhind-title-song",
+    "title": "Pawankhind Title Song",
+    "artists": [
+      "Devdutta Manisha Baji"
+    ],
+    "language": "marathi",
+    "durationSec": 128,
+    "hook": {
+      "startSec": 30,
+      "endSec": 95,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "a7UvE2JxbPo"
+      },
+      {
+        "provider": "youtube",
+        "id": "HkRpsdaLmmw"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "pinga-ga-pori-pinga",
+    "title": "Pinga Ga Pori Pinga",
+    "artists": [
+      "Shreya Ghoshal",
+      "Vaishali Made"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "mehendi",
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "KMuOUIfFOPw"
+      },
+      {
+        "provider": "youtube",
+        "id": "4JjkpZYlnc4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "porga-zala-talli",
+    "title": "Porga Zala Talli",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "S8bBA7RRCHw"
+      },
+      {
+        "provider": "youtube",
+        "id": "e--9emE6WEQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "pori-jara-japun-dandya-dhar",
+    "title": "Pori Jara Japun Dandya Dhar",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "8eong8XHDB4"
+      },
+      {
+        "provider": "youtube",
+        "id": "bGo6X71kocI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "pori-tu-tar-chand-ahes",
+    "title": "Pori Tu Tar Chand Ahes",
+    "artists": [
+      "Keval Walanj"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "RPrLbwx-Mgg"
+      },
+      {
+        "provider": "youtube",
+        "id": "M1rUEOcRCZo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "pori-tujha-bhau",
+    "title": "Pori Tujha Bhau",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "_lRLuGe4-do"
+      },
+      {
+        "provider": "youtube",
+        "id": "kV-TYI20Z4U"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "pori-tujhe-nadan",
+    "title": "Pori Tujhe Nadan",
+    "artists": [
+      "Pravin Koli"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "I7xSUu1dBPQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "Cq1eB2TOu9I"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "porya-zaala-sharabi",
+    "title": "Porya Zaala Sharabi",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "YfBws8j6Uj4"
+      },
+      {
+        "provider": "youtube",
+        "id": "0cIf3M3vO1Y"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "pratham-tula-vandito",
+    "title": "Pratham Tula Vandito",
+    "artists": [
+      "Vasantrao Deshpande"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "NCIGW4ttJ5I"
+      },
+      {
+        "provider": "youtube",
+        "id": "LwNuUZDK8_M"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "pune-festival-dhol",
+    "title": "Pune Festival Dhol",
+    "artists": [
+      "Traditional"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "zjPNDNZCFyo"
+      },
+      {
+        "provider": "youtube",
+        "id": "RYAc4FETVbI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "punyachi-missal",
+    "title": "Punyachi Missal",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "bJxoA-YV9lw"
+      },
+      {
+        "provider": "youtube",
+        "id": "P3vg-6U6x5o"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "radha-hi-bawari",
+    "title": "Radha Hi Bawari",
+    "artists": [
+      "Swapnil Bandodkar"
+    ],
+    "language": "marathi",
+    "durationSec": 254,
+    "hook": {
+      "startSec": 42,
+      "endSec": 120,
+      "source": "seed"
+    },
+    "energy": 7,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "-wkoDlGv2y8"
+      },
+      {
+        "provider": "youtube",
+        "id": "N2foIIJIPzI"
+      },
+      {
+        "provider": "youtube",
+        "id": "eDkb16KDMqE"
+      },
+      {
+        "provider": "youtube",
+        "id": "QQCcvHc0ACs"
+      },
+      {
+        "provider": "youtube",
+        "id": "rGu2yX9taz0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "radhika-re",
+    "title": "Radhika Re",
+    "artists": [
+      "Vaishali Samant"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "GZytDaji8Vs"
+      },
+      {
+        "provider": "youtube",
+        "id": "Zk6Tpjt5Ii0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "raja-aala",
+    "title": "Raja Aala",
+    "artists": [
+      "Devdutta Manisha Baji"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "7mVCkGlsT8E"
+      },
+      {
+        "provider": "youtube",
+        "id": "LMgVnhNpcFc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "raja-shivchhatrapati",
+    "title": "Raja Shivchhatrapati",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 94,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "lyiq_VuwhBM"
+      },
+      {
+        "provider": "youtube",
+        "id": "fB06erdWOdM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "rani-majhya-malyamandi",
+    "title": "Rani Majhya Malyamandi",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "-iRTJj5g4Ks"
+      },
+      {
+        "provider": "youtube",
+        "id": "n-kRD9eGR8g"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "renuka-mata-gondhal",
+    "title": "Renuka Mata Gondhal",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "devotional",
+      "festival",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Smvd9EdQR30"
+      },
+      {
+        "provider": "youtube",
+        "id": "kuCeSP3Ww-s"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "renuka-mata-gondhal-dhol",
+    "title": "Renuka Mata Gondhal Dhol",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "devotional",
+      "festival",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Qh_CM4iYV2o"
+      },
+      {
+        "provider": "youtube",
+        "id": "ZD9nvhhagAs"
+      },
+      {
+        "provider": "youtube",
+        "id": "7RZmfbUKBug"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "reshamachya-reghani",
+    "title": "Reshamachya Reghani",
+    "artists": [
+      "Asha Bhosle"
+    ],
+    "language": "marathi",
+    "durationSec": 212,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "retro",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "5TMAOGI1ZPI"
+      },
+      {
+        "provider": "youtube",
+        "id": "wn-4n9BdXwQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "rickshawala",
+    "title": "Rickshawala",
+    "artists": [
+      "Reshma Sonawane"
+    ],
+    "language": "marathi",
+    "durationSec": 289,
+    "hook": {
+      "startSec": 18,
+      "endSec": 80,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "BzJdJCbOyys"
+      },
+      {
+        "provider": "youtube",
+        "id": "FKEtK-udZ5w"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "roz-roz-navyane",
+    "title": "Roz Roz Navyane",
+    "artists": [
+      "Classmates"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "MeIKPRSSRGU"
+      },
+      {
+        "provider": "youtube",
+        "id": "7_eS0qQuNlk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "saavar-re-mana",
+    "title": "Saavar Re Mana",
+    "artists": [
+      "Janhavi Prabhu"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 32,
+      "endSec": 94,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "dkEiYeWbFQs"
+      },
+      {
+        "provider": "youtube",
+        "id": "fZ6693jsyrM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "saavariya",
+    "title": "Saavariya",
+    "artists": [
+      "Classmates"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 30,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ea5af6K_cCI"
+      },
+      {
+        "provider": "youtube",
+        "id": "8el8P2u8qX4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "saglyat-bhari-marathi",
+    "title": "Saglyat Bhari Marathi",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "nssv0r1HDss"
+      },
+      {
+        "provider": "youtube",
+        "id": "kV-TYI20Z4U"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "sai-baba-aarti-marathi",
+    "title": "Sai Baba Aarti Marathi",
+    "artists": [
+      "Anuradha Paudwal"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "9hdwqPdk4Mg"
+      },
+      {
+        "provider": "youtube",
+        "id": "BhDabbHi3pQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "sairat-zaala-ji",
+    "title": "Sairat Zaala Ji",
+    "artists": [
+      "Chinmayi Sripaada",
+      "Ajay Gogavale"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 35,
+      "endSec": 100,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "n-WfejfrQCQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "ZL3MnrnLLpo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "sambal-vaje",
+    "title": "Sambal Vaje",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "cqGxc4XfMSU"
+      },
+      {
+        "provider": "youtube",
+        "id": "zXxE4X8opIE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "sambhaji-title-song",
+    "title": "Sambhaji Title Song",
+    "artists": [
+      "Avadhoot Gupte"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "qVVVbfrpP1E"
+      },
+      {
+        "provider": "youtube",
+        "id": "gMg-nX0_NKA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "sanj-yed-pori",
+    "title": "Sanj Yed Pori",
+    "artists": [
+      "Fandry"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ET7JalQFxlM"
+      },
+      {
+        "provider": "youtube",
+        "id": "FxGvi8O3mxM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "satyam-shivam-sundaram-marathi",
+    "title": "Satyam Shivam Sundaram Marathi",
+    "artists": [
+      "Bela Shende"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "J4JkwT4So4c"
+      },
+      {
+        "provider": "youtube",
+        "id": "EpSekM4n87Q"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "sawal",
+    "title": "Sawal",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 460,
+    "hook": {
+      "startSec": 30,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "8nkD_gmf9P8"
+      },
+      {
+        "provider": "youtube",
+        "id": "zWkVvwsaIXc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "shantabai",
+    "title": "Shantabai",
+    "artists": [
+      "Sanjay Londhe"
+    ],
+    "language": "marathi",
+    "durationSec": 215,
+    "hook": {
+      "startSec": 28,
+      "endSec": 110,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "birthday",
+      "late-night",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ydG0sojfKQ0"
+      },
+      {
+        "provider": "youtube",
+        "id": "tOiYF39zzZM"
+      },
+      {
+        "provider": "youtube",
+        "id": "IONyywsmu0A"
+      },
+      {
+        "provider": "youtube",
+        "id": "fvWl5e0vYW8"
+      },
+      {
+        "provider": "youtube",
+        "id": "qUbTYdGXp3w"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "shendur-lal-chadhayo",
+    "title": "Shendur Lal Chadhayo",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "vVgz3Pg-EMs"
+      },
+      {
+        "provider": "youtube",
+        "id": "YwsrubQIZnw"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "shitti-vajali-gaadi-sutli",
+    "title": "Shitti Vajali Gaadi Sutli",
+    "artists": [
+      "Avadhoot Gupte",
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "KLmmtA8obD4"
+      },
+      {
+        "provider": "youtube",
+        "id": "ulGzzWdIo3Y"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "shiv-tandav-marathi",
+    "title": "Shiv Tandav Marathi",
+    "artists": [
+      "Shankar Mahadevan"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 95,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "4qyXO5UhNDQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "vcLFIRJ8Kd4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "shivba-amcha-raja",
+    "title": "Shivba Amcha Raja",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 380,
+    "hook": {
+      "startSec": 24,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "gAzMqmenkMY"
+      },
+      {
+        "provider": "youtube",
+        "id": "LMgVnhNpcFc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "shivneri-powada",
+    "title": "Shivneri Powada",
+    "artists": [
+      "Shahir Sable"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "CAjfiInm1Fg"
+      },
+      {
+        "provider": "youtube",
+        "id": "lqknamR1qNs"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "shivrajyabhishek-sohala",
+    "title": "Shivrajyabhishek Sohala",
+    "artists": [
+      "Devdutta Manisha Baji"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 26,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Cm64qYau9Yo"
+      },
+      {
+        "provider": "youtube",
+        "id": "BorvWkg2PGk"
+      },
+      {
+        "provider": "youtube",
+        "id": "gN_mc_3qa3o"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "shivrayancha-chhava",
+    "title": "Shivrayancha Chhava",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "s2OcYGNf-kY"
+      },
+      {
+        "provider": "youtube",
+        "id": "iFeVcLwaczk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "shona-re",
+    "title": "Shona Re",
+    "artists": [
+      "Boyz 3"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "OKwdcXXfuRg"
+      },
+      {
+        "provider": "youtube",
+        "id": "mtqKENSg1V4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "shoor-amhi-sardar",
+    "title": "Shoor Amhi Sardar",
+    "artists": [
+      "Hridaynath Mangeshkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ZL8wnzW98KY"
+      },
+      {
+        "provider": "youtube",
+        "id": "1-VFkunADw0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "shree-swami-samarth-jaap",
+    "title": "Shree Swami Samarth Jaap",
+    "artists": [
+      "Anuradha Paudwal"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 30,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 7,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "VTos6oXDDFY"
+      },
+      {
+        "provider": "youtube",
+        "id": "0Dbp8vyzPr0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "sindoor-lal-chadhaayo",
+    "title": "Sindoor Lal Chadhaayo",
+    "artists": [
+      "Ravindra Sathe"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "YwsrubQIZnw"
+      },
+      {
+        "provider": "youtube",
+        "id": "vVgz3Pg-EMs"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "soniyachi-ugavali-sakaal",
+    "title": "Soniyachi Ugavali Sakaal",
+    "artists": [
+      "Suresh Wadkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "HT1jv_ZKDEc"
+      },
+      {
+        "provider": "youtube",
+        "id": "PBfonaGilDk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "sukh-karta-dukh-harta",
+    "title": "Sukh Karta Dukh Harta",
+    "artists": [
+      "Lata Mangeshkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 80,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "v4yld6Dbhgc"
+      },
+      {
+        "provider": "youtube",
+        "id": "S1_p3PJtNkc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "sunbai-gharaat-aali",
+    "title": "Sunbai Gharaat Aali",
+    "artists": [
+      "Suresh Wadkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "K7FvVWlFc_E"
+      },
+      {
+        "provider": "youtube",
+        "id": "ETWUmuwL-xg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "sur-niragas-ho",
+    "title": "Sur Niragas Ho",
+    "artists": [
+      "Shankar Mahadevan"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 30,
+      "endSec": 95,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Lf8sEW9r3pk"
+      },
+      {
+        "provider": "youtube",
+        "id": "4DgkCeXLayY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "swami-samarth-tarrak-mantra",
+    "title": "Swami Samarth Tarrak Mantra",
+    "artists": [
+      "Anuradha Paudwal"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "devotional",
+      "festival"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "3mTopjbq_N0"
+      },
+      {
+        "provider": "youtube",
+        "id": "tabGtc0MmZ4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "swapna-chalun-aale",
+    "title": "Swapna Chalun Aale",
+    "artists": [
+      "Suresh Wadkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 30,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "cmFSNn4VnEo"
+      },
+      {
+        "provider": "youtube",
+        "id": "dbrtwPaaJ1o"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "taambdi-chaamdi",
+    "title": "Taambdi Chaamdi",
+    "artists": [
+      "Kratex",
+      "Shreyas"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 25,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "02gbyd0xHeY"
+      },
+      {
+        "provider": "youtube",
+        "id": "kmjeMrjOjFA"
+      },
+      {
+        "provider": "youtube",
+        "id": "U8ytqf92KcI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "talli-re-talli",
+    "title": "Talli Re Talli",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "tFoKhmcT8S4"
+      },
+      {
+        "provider": "youtube",
+        "id": "OBDe-8K27GU"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tambdi-jogeshwari",
+    "title": "Tambdi Jogeshwari",
+    "artists": [
+      "Suresh Wadkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "xanzhlk35m4"
+      },
+      {
+        "provider": "youtube",
+        "id": "O2oTs2oDTec"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tejukaya-ganpati",
+    "title": "Tejukaya Ganpati",
+    "artists": [
+      "Pravin Koli"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "wxmX6c45qS4"
+      },
+      {
+        "provider": "youtube",
+        "id": "UQ4Wwo9qvww"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "teri-meri-yaariyan",
+    "title": "Teri Meri Yaariyan",
+    "artists": [
+      "Classmates"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "8el8P2u8qX4"
+      },
+      {
+        "provider": "youtube",
+        "id": "Nn8xEzRrQYA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tithe-padli-kaay",
+    "title": "Tithe Padli Kaay",
+    "artists": [
+      "Boyz"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "BMhjvc-PTyM"
+      },
+      {
+        "provider": "youtube",
+        "id": "li-PcJzeyRU"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "titwala-ganpati",
+    "title": "Titwala Ganpati",
+    "artists": [
+      "Swapnil Bandodkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "bMjPw_j380o"
+      },
+      {
+        "provider": "youtube",
+        "id": "kT55LIlvYWM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tod-fod",
+    "title": "Tod Fod",
+    "artists": [
+      "Boyz 2"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "QKmGfHjyQRU"
+      },
+      {
+        "provider": "youtube",
+        "id": "ZDLwS8CZlB4"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "torana-powada",
+    "title": "Torana Powada",
+    "artists": [
+      "Shahir Sable"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Ni3NGj35U5c"
+      },
+      {
+        "provider": "youtube",
+        "id": "CAjfiInm1Fg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tu-havishi",
+    "title": "Tu Havishi",
+    "artists": [
+      "Swapnil Bandodkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "nsPdZDMG_vg"
+      },
+      {
+        "provider": "youtube",
+        "id": "M1rUEOcRCZo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tu-majhi-rani",
+    "title": "Tu Majhi Rani",
+    "artists": [
+      "Pravin Koli"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "TUuw_ENXt7w"
+      },
+      {
+        "provider": "youtube",
+        "id": "cmgLd_0gkrY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tu-sukhkarta-tu-dukhaharta",
+    "title": "Tu Sukhkarta Tu Dukhaharta",
+    "artists": [
+      "Suresh Wadkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "1CmFyb4jMOo"
+      },
+      {
+        "provider": "youtube",
+        "id": "6NmU5fxxlu0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tujha-magato-me-aata",
+    "title": "Tujha Magato Me Aata",
+    "artists": [
+      "Lata Mangeshkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 30,
+      "endSec": 92,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "_f3PZ0qVZAg"
+      },
+      {
+        "provider": "youtube",
+        "id": "N4Ilw97aKn0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tujhya-premacha-ha-rang",
+    "title": "Tujhya Premacha Ha Rang",
+    "artists": [
+      "Keval Walanj"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "6Qh0TOPVkIM"
+      },
+      {
+        "provider": "youtube",
+        "id": "2KqAM62Swjk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tujhya-rupacha-chandana",
+    "title": "Tujhya Rupacha Chandana",
+    "artists": [
+      "Pravin Koli"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "AoPAK1U_qWw"
+      },
+      {
+        "provider": "youtube",
+        "id": "-TfQkqAJL0A"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tula-japnar-aahe",
+    "title": "Tula Japnar Aahe",
+    "artists": [
+      "Swapnil Bandodkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 32,
+      "endSec": 95,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "-CChWdx_pF4"
+      },
+      {
+        "provider": "youtube",
+        "id": "ug3ZRrJ186I"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tula-pahate-re-title",
+    "title": "Tula Pahate Re Title",
+    "artists": [
+      "Ashok Patki"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "2EB2WgWbMK0"
+      },
+      {
+        "provider": "youtube",
+        "id": "soZUw-kZSeI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tula-pahato-me",
+    "title": "Tula Pahato Me",
+    "artists": [
+      "Swapnil Bandodkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "GWAETokXeiQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "93gVwLzd2QA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tuljabhavani-gondhal",
+    "title": "Tuljabhavani Gondhal",
+    "artists": [
+      "Ajay Gogavale"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "devotional",
+      "festival",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "HqgdSkf_7qg"
+      },
+      {
+        "provider": "youtube",
+        "id": "3DUbXDN-iDY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tuljabhavani-gondhal-dj",
+    "title": "Tuljabhavani Gondhal DJ",
+    "artists": [
+      "Ajay Gogavale"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 25,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "devotional",
+      "festival",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "pnMVZ3FRGLY"
+      },
+      {
+        "provider": "youtube",
+        "id": "SY967tehRNg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tulshibaug-ganpati",
+    "title": "Tulshibaug Ganpati",
+    "artists": [
+      "Swapnil Bandodkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 26,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "539f7PePbf4"
+      },
+      {
+        "provider": "youtube",
+        "id": "QVZBYQvovbM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tumhavar-keli-me-marji-bahaal",
+    "title": "Tumhavar Keli Me Marji Bahaal",
+    "artists": [
+      "Traditional Lavani"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "RgWY8JS4VZI"
+      },
+      {
+        "provider": "youtube",
+        "id": "uSoKCYNOoDo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "tutari-vaje",
+    "title": "Tutari Vaje",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "uca0y2kVmwU"
+      },
+      {
+        "provider": "youtube",
+        "id": "0VS6jrnDplU"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "valhav-re-nakha",
+    "title": "Valhav Re Nakha",
+    "artists": [
+      "Traditional Koli"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "retro"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "lfX9GBrGdak"
+      },
+      {
+        "provider": "youtube",
+        "id": "JcvPix3OE3o"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "vedat-marathe-veer-daudle-saat",
+    "title": "Vedat Marathe Veer Daudle Saat",
+    "artists": [
+      "Lata Mangeshkar"
+    ],
+    "language": "marathi",
+    "durationSec": 273,
+    "hook": {
+      "startSec": 32,
+      "endSec": 96,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "ryeuLRVdYi0"
+      },
+      {
+        "provider": "youtube",
+        "id": "EvnCREmKito"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "veer-marathe",
+    "title": "Veer Marathe",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 28,
+      "endSec": 95,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "v2YsMtMOq1I"
+      },
+      {
+        "provider": "youtube",
+        "id": "MBYCEDODinw"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "vesavchi-paru",
+    "title": "Vesavchi Paru",
+    "artists": [
+      "Traditional Koli"
+    ],
+    "language": "marathi",
+    "durationSec": 178,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "moeXjO5OmbU"
+      },
+      {
+        "provider": "youtube",
+        "id": "DYGzMVogkWE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "vithu-mauli-tu",
+    "title": "Vithu Mauli Tu",
+    "artists": [
+      "Ajay Gogavale"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 30,
+      "endSec": 95,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "0tpJ7PhRS0w"
+      },
+      {
+        "provider": "youtube",
+        "id": "6EI0ruuLx3c"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "vitthal-vitthal-vithala",
+    "title": "Vitthal Vitthal Vithala",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 90,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "3fgxIrJ_VXo"
+      },
+      {
+        "provider": "youtube",
+        "id": "6EI0ruuLx3c"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "wajle-ki-bara",
+    "title": "Wajle Ki Bara",
+    "artists": [
+      "Bela Shende",
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 228,
+    "hook": {
+      "startSec": 40,
+      "endSec": 125,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "7R7QJkznJGU"
+      },
+      {
+        "provider": "youtube",
+        "id": "AYbjuH5k5w4"
+      },
+      {
+        "provider": "youtube",
+        "id": "VWq1YMIa5wU"
+      },
+      {
+        "provider": "youtube",
+        "id": "AOyilzmp55k"
+      },
+      {
+        "provider": "youtube",
+        "id": "qjb366_y9S8"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "ya-go-dandyavarna",
+    "title": "Ya Go Dandyavarna",
+    "artists": [
+      "Traditional Koli"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "retro",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "r1I6Wz7Hqko"
+      },
+      {
+        "provider": "youtube",
+        "id": "4ika793lCVI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "ya-ravji-basa-bhavji",
+    "title": "Ya Ravji Basa Bhavji",
+    "artists": [
+      "Traditional Lavani"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "putZ_aSAwp4"
+      },
+      {
+        "provider": "youtube",
+        "id": "yqIoTivbPjo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "ya-re-ya-saare-ya",
+    "title": "Ya Re Ya Saare Ya",
+    "artists": [
+      "Swapnil Bandodkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "2EprrIWK_VY"
+      },
+      {
+        "provider": "youtube",
+        "id": "tgI3i6x_3TY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "ya-re-ya-sare-ga",
+    "title": "Ya Re Ya Sare Ga",
+    "artists": [
+      "Swapnil Bandodkar"
+    ],
+    "language": "marathi",
+    "durationSec": 180,
+    "hook": {
+      "startSec": 25,
+      "endSec": 88,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "party",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "bBFV2GcP8zI"
+      },
+      {
+        "provider": "youtube",
+        "id": "oqCpc4qQnQQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "AybcmBiJcrc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0.33,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "yad-lagla",
+    "title": "Yad Lagla",
+    "artists": [
+      "Ajay Gogavale"
+    ],
+    "language": "marathi",
+    "durationSec": 314,
+    "hook": {
+      "startSec": 40,
+      "endSec": 105,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "0PKUIu3FMwQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "VmU1ZsXUbG0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "ye-go-ye-maina",
+    "title": "Ye Go Ye Maina",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 84,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "yd2DwdqZsrY"
+      },
+      {
+        "provider": "youtube",
+        "id": "DJ-s5nxAUAE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "yeg-yeg-yedabai",
+    "title": "Yeg Yeg Yedabai",
+    "artists": [
+      "Adarsh Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "baraat",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "41w8-n_qGCM"
+      },
+      {
+        "provider": "youtube",
+        "id": "qZglwZH9D_0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "yere-yere-pavsa",
+    "title": "Yere Yere Pavsa",
+    "artists": [
+      "Swapnil Bandodkar"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "30bkItS9_g0"
+      },
+      {
+        "provider": "youtube",
+        "id": "J08N2i2eTyE"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "zimma-zimma",
+    "title": "Zimma Zimma",
+    "artists": [
+      "Traditional Marathi"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 24,
+      "endSec": 86,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "mehendi",
+      "sangeet",
+      "wedding"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "vpSFA9DKPUA"
+      },
+      {
+        "provider": "youtube",
+        "id": "GP3FIFALPYg"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "zingaat-dhol-remix",
+    "title": "Zingaat Dhol Remix",
+    "artists": [
+      "DJ Chetas"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "5mMYlA-2yX4"
+      },
+      {
+        "provider": "youtube",
+        "id": "XkTLyNOOSJM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "zingaat-hindi",
+    "title": "Zingaat",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 226,
+    "hook": {
+      "startSec": 45,
+      "endSec": 130,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "bt4v4I09iR0"
+      },
+      {
+        "provider": "youtube",
+        "id": "xsVAbnukCMA"
+      },
+      {
+        "provider": "youtube",
+        "id": "ztUF1DOUMt4"
+      },
+      {
+        "provider": "youtube",
+        "id": "8eong8XHDB4"
+      },
+      {
+        "provider": "youtube",
+        "id": "luhVm60Wiro"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "zingaat-marathi",
+    "title": "Zingaat (Original Marathi)",
+    "artists": [
+      "Ajay-Atul"
+    ],
+    "language": "marathi",
+    "durationSec": 226,
+    "hook": {
+      "startSec": 44,
+      "endSec": 130,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "birthday",
+      "late-night",
+      "sangeet",
+      "wedding",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "YNeiG_eYOWk"
+      },
+      {
+        "provider": "youtube",
+        "id": "8eong8XHDB4"
+      },
+      {
+        "provider": "youtube",
+        "id": "luhVm60Wiro"
+      },
+      {
+        "provider": "youtube",
+        "id": "5AeX7Ddq4ts"
+      },
+      {
+        "provider": "youtube",
+        "id": "SuxjeMBJKGw"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "zopadpatti-dance",
+    "title": "Zopadpatti Dance",
+    "artists": [
+      "Anand Shinde"
+    ],
+    "language": "marathi",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 22,
+      "endSec": 85,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "MGGxF9qkf9I"
+      },
+      {
+        "provider": "youtube",
+        "id": "aLuM9d0FZwM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  }
+]

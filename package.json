@@ -1,0 +1,29 @@
+{
+  "name": "hookline",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Hookline — an autonomous, hook-based party DJ that reads the room.",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "dev": "npm run dev -w @hookline/server & npm run dev -w @hookline/web; wait",
+    "build": "npm run build -w @hookline/web && npm run build -w @hookline/server",
+    "start": "npm run start -w @hookline/server",
+    "test": "vitest run",
+    "typecheck": "tsc -p packages/core && tsc -p apps/server && tsc -p apps/web",
+    "catalog:verify": "node scripts/verify-youtube.mjs",
+    "catalog:validate": "vitest run packages/core/test/catalog-files.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}

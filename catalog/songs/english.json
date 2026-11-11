@@ -1,0 +1,540 @@
+[
+  {
+    "id": "bailando",
+    "title": "Bailando",
+    "artists": [
+      "Enrique Iglesias",
+      "Descemer Bueno",
+      "Gente de Zona"
+    ],
+    "language": "english",
+    "durationSec": 243,
+    "hook": {
+      "startSec": 35,
+      "endSec": 120,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "sangeet",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "NUsoVlDFqZg"
+      },
+      {
+        "provider": "youtube",
+        "id": "IJihBuoEhDk"
+      },
+      {
+        "provider": "youtube",
+        "id": "5Q7PIOEmB9w"
+      },
+      {
+        "provider": "youtube",
+        "id": "y4RAKGoLVHQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "b8I-7Wk_Vbc"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "big-dawgs-hanumankind",
+    "title": "Big Dawgs",
+    "artists": [
+      "Hanumankind",
+      "Kalmi"
+    ],
+    "language": "english",
+    "durationSec": 232,
+    "hook": {
+      "startSec": 25,
+      "endSec": 108,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "hOHKltAiKXQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "sqw90xibWaE"
+      },
+      {
+        "provider": "youtube",
+        "id": "dSxmFDwJnXE"
+      },
+      {
+        "provider": "youtube",
+        "id": "Dygu1vz2HEw"
+      },
+      {
+        "provider": "youtube",
+        "id": "UWje2mHjpsY"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "cheap-thrills",
+    "title": "Cheap Thrills",
+    "artists": [
+      "Sia",
+      "Sean Paul"
+    ],
+    "language": "english",
+    "durationSec": 224,
+    "hook": {
+      "startSec": 32,
+      "endSec": 115,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "sangeet",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "nYh-n7EOtMA"
+      },
+      {
+        "provider": "youtube",
+        "id": "J1b22l1kFKY"
+      },
+      {
+        "provider": "youtube",
+        "id": "mY9fNwGE7YA"
+      },
+      {
+        "provider": "youtube",
+        "id": "nEIHHydwec8"
+      },
+      {
+        "provider": "youtube",
+        "id": "HbzZPpWr4MI"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "danza-kuduro",
+    "title": "Danza Kuduro",
+    "artists": [
+      "Don Omar",
+      "Lucenzo"
+    ],
+    "language": "english",
+    "durationSec": 198,
+    "hook": {
+      "startSec": 24,
+      "endSec": 105,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "baraat",
+      "birthday",
+      "late-night",
+      "party",
+      "sangeet",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "7zp1TbLFPp8"
+      },
+      {
+        "provider": "youtube",
+        "id": "xnknaDotE0g"
+      },
+      {
+        "provider": "youtube",
+        "id": "ZESyq7kvjeE"
+      },
+      {
+        "provider": "youtube",
+        "id": "dODGSTWt1Z4"
+      },
+      {
+        "provider": "youtube",
+        "id": "qdGvQweTghA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "fireball",
+    "title": "Fireball",
+    "artists": [
+      "Pitbull",
+      "John Ryan"
+    ],
+    "language": "english",
+    "durationSec": 236,
+    "hook": {
+      "startSec": 28,
+      "endSec": 110,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "If27FnxvjZA"
+      },
+      {
+        "provider": "youtube",
+        "id": "WJT5SGS6qkY"
+      },
+      {
+        "provider": "youtube",
+        "id": "HMqgVXSvwGo"
+      },
+      {
+        "provider": "youtube",
+        "id": "rSsqprejGag"
+      },
+      {
+        "provider": "youtube",
+        "id": "yAngUyvTZV0"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "gasolina",
+    "title": "Gasolina",
+    "artists": [
+      "Daddy Yankee"
+    ],
+    "language": "english",
+    "durationSec": 193,
+    "hook": {
+      "startSec": 20,
+      "endSec": 102,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "GJP9ZTsgxJs"
+      },
+      {
+        "provider": "youtube",
+        "id": "Th2qSOGPXFo"
+      },
+      {
+        "provider": "youtube",
+        "id": "CCF1_jI8Prk"
+      },
+      {
+        "provider": "youtube",
+        "id": "aZmHDSZgyes"
+      },
+      {
+        "provider": "youtube",
+        "id": "2CiHQpN58Mo"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "industry-baby",
+    "title": "Industry Baby",
+    "artists": [
+      "Lil Nas X",
+      "Jack Harlow"
+    ],
+    "language": "english",
+    "durationSec": 212,
+    "hook": {
+      "startSec": 25,
+      "endSec": 108,
+      "source": "seed"
+    },
+    "energy": 10,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "i9PSG5mFYoo"
+      },
+      {
+        "provider": "youtube",
+        "id": "HCq1OcAEAm0"
+      },
+      {
+        "provider": "youtube",
+        "id": "hfoKlM2FTsI"
+      },
+      {
+        "provider": "youtube",
+        "id": "-SCoB_C7ICE"
+      },
+      {
+        "provider": "youtube",
+        "id": "UTHLKHL_whs"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "lean-on",
+    "title": "Lean On",
+    "artists": [
+      "Major Lazer",
+      "DJ Snake",
+      "MO"
+    ],
+    "language": "english",
+    "durationSec": 176,
+    "hook": {
+      "startSec": 30,
+      "endSec": 115,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "YqeW9_5kURI"
+      },
+      {
+        "provider": "youtube",
+        "id": "rn9AQoI7mYU"
+      },
+      {
+        "provider": "youtube",
+        "id": "4ZxFyXV7w0c"
+      },
+      {
+        "provider": "youtube",
+        "id": "T_i01_w7M6k"
+      },
+      {
+        "provider": "youtube",
+        "id": "NEjF9np9_NU"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "monster-song-kgf",
+    "title": "Monster Song KGF",
+    "artists": [
+      "Adithi Sagar"
+    ],
+    "language": "english",
+    "durationSec": 240,
+    "hook": {
+      "startSec": 20,
+      "endSec": 82,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "R4He_Gcn7cA"
+      },
+      {
+        "provider": "youtube",
+        "id": "WsBGgvpO-xM"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "shape-of-you",
+    "title": "Shape of You",
+    "artists": [
+      "Ed Sheeran"
+    ],
+    "language": "english",
+    "durationSec": 233,
+    "hook": {
+      "startSec": 28,
+      "endSec": 110,
+      "source": "seed"
+    },
+    "energy": 8,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "JGwWNGJdvx8"
+      },
+      {
+        "provider": "youtube",
+        "id": "_dK2tDK9grQ"
+      },
+      {
+        "provider": "youtube",
+        "id": "nQrwTHTfhto"
+      },
+      {
+        "provider": "youtube",
+        "id": "liTfD88dbCo"
+      },
+      {
+        "provider": "youtube",
+        "id": "fXJ4ZVfyfMA"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  },
+  {
+    "id": "waka-waka",
+    "title": "Waka Waka (This Time for Africa)",
+    "artists": [
+      "Shakira",
+      "Freshlyground"
+    ],
+    "language": "english",
+    "durationSec": 210,
+    "hook": {
+      "startSec": 34,
+      "endSec": 118,
+      "source": "seed"
+    },
+    "energy": 9,
+    "tags": [
+      "birthday",
+      "late-night",
+      "party",
+      "workout"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "pRpeEdMmmQ0"
+      },
+      {
+        "provider": "youtube",
+        "id": "rjJKXxUx2PU"
+      },
+      {
+        "provider": "youtube",
+        "id": "czWcyZRAMtk"
+      },
+      {
+        "provider": "youtube",
+        "id": "-hWtjsVCACI"
+      },
+      {
+        "provider": "youtube",
+        "id": "65I6z2KrEXk"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 1,
+    "popularitySource": "derived"
+  }
+]
