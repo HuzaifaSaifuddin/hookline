@@ -91,7 +91,6 @@ export interface RoomSnapshot {
   skipVotes: number;
   skipThreshold: number;
   elapsedSec: number;
-  djNote?: string;
 }
 
 // ---------------------------------------------------------------------------
@@ -124,7 +123,6 @@ export const HostMessageSchema = z.discriminatedUnion('type', [
   z.object({ type: z.literal('feedback'), songId: id, kind: z.enum(['like', 'dislike']) }),
   z.object({ type: z.literal('hookNudge'), songId: id, edge: z.enum(['start', 'end']), deltaSec: z.number().min(-30).max(30) }),
   z.object({ type: z.literal('intent'), patch: IntentPatchSchema }),
-  z.object({ type: z.literal('vibe'), text: z.string().min(1).max(500) }),
   z.object({ type: z.literal('queueRemove'), songId: id }),
   z.object({ type: z.literal('playNext'), songId: id }),
   z.object({ type: z.literal('requestDismiss'), requestId: id }),
@@ -172,8 +170,6 @@ export const CreateRoomSchema = z.object({
   languages: z.array(z.string().max(30)).max(10).optional(),
   style: z.enum(['quick', 'hooks', 'full']).optional(),
   arc: z.enum(['build', 'waves', 'peak', 'intervals', 'steady', 'cooldown']).optional(),
-  /** Free text ("sangeet, mostly punjabi, start slow"); parsed by AI or rules. */
-  text: z.string().max(500).optional(),
 });
 export type CreateRoomInput = z.infer<typeof CreateRoomSchema>;
 
@@ -182,20 +178,12 @@ export interface CreateRoomResult {
   hostKey: string;
 }
 
-export interface IntentParseResult {
-  intent: SetIntent;
-  understood: string[];
-  djNote: string;
-  engine: 'ai' | 'rules';
-}
-
 export interface MetaResponse {
   occasions: Array<{ id: string; name: string; emoji: string; blurb: string; arc: ArcShape; style: SetStyle }>;
   arcs: Array<{ id: ArcShape; name: string; description: string }>;
   languages: Array<{ language: string; count: number }>;
   catalogSize: number;
   playableCount: number;
-  aiEnabled: boolean;
   youtubeSearchEnabled: boolean;
   /** Explicit public base URL, if configured. */
   publicUrl?: string;

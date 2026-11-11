@@ -9,7 +9,6 @@
     "build": "tsc -p ."
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^1.8.0",
     "@fastify/static": "^10.1.10",
     "@fastify/websocket": "^11.3.7",
     "@hookline/core": "*",

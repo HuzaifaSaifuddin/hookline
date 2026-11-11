@@ -1,55 +1,26 @@
 import { describe, expect, it } from 'vitest';
-import { applyIntentPatch, defaultIntent, parseIntentRules, SetIntentSchema } from '../src/intent.ts';
-import { Catalog } from '../src/catalog.ts';
-import { realSongs } from './fixtures.ts';
+import { applyIntentPatch, defaultIntent, describeIntent, SetIntentSchema } from '../src/intent.ts';
 
-const catalog = new Catalog(realSongs());
-const artists = [...new Set(realSongs().flatMap((s) => s.artists))];
-const parse = (t: string) => parseIntentRules(t, { artists, findSong: (n) => catalog.findByName(n) });
-
-describe('rule-based intent parsing', () => {
-  it('understands occasion, language, arc and style', () => {
-    const { intent } = parse('Sangeet night, only Punjabi, start slow and build up, full songs please');
-    expect(intent.occasion).toBe('sangeet');
-    expect(intent.languages).toEqual(['punjabi']);
-    expect(intent.arc).toBe('build');
-    expect(intent.style).toBe('full');
+describe('set intent', () => {
+  it('defaults come from the occasion', () => {
+    const i = defaultIntent('workout', ['punjabi']);
+    expect(i).toMatchObject({ occasion: 'workout', arc: 'intervals', style: 'quick', languages: ['punjabi'] });
+    expect(SetIntentSchema.parse(i).occasion).toBe('workout');
   });
 
-  it('"mostly" is a soft preference', () => {
-    const { intent } = parse('house party, mostly marathi');
-    expect(intent.languages).toEqual([]);
-    expect(intent.preferLanguages).toEqual(['marathi']);
+  it('unknown occasions fall back to a house party', () => {
+    expect(defaultIntent('nope').occasion).toBe('house-party');
   });
 
-  it('treats retro next to an occasion as a flavour', () => {
-    const { intent } = parse('wedding with lots of 90s classics');
-    expect(intent.occasion).toBe('wedding');
-    expect(intent.favorTags).toContain('retro');
-  });
-
-  it('detects artists to favour and to avoid', () => {
-    const { intent } = parse('workout, more Badshah but no Honey Singh');
-    expect(intent.occasion).toBe('workout');
-    expect(intent.favorArtists.join()).toMatch(/Badshah/);
-    expect(intent.avoidArtists.join()).toMatch(/Honey Singh/);
-  });
-
-  it('finds a seed song by (misspelled) name', () => {
-    const { intent, understood } = parse('birthday party, start with kala chasma');
-    expect(intent.seedSongIds).toContain('kala-chashma');
-    expect(understood.join()).toMatch(/Kala Chashma/);
-  });
-
-  it('defaults sensibly when nothing is recognised', () => {
-    const { intent } = parse('surprise me');
-    expect(SetIntentSchema.parse(intent).occasion).toBe('house-party');
-  });
-
-  it('patches keep arc/style consistent with a new occasion', () => {
+  it('patches keep arc/style consistent with a new occasion and clamp energy', () => {
     const i = applyIntentPatch(defaultIntent('wedding'), { occasion: 'workout' });
     expect(i.arc).toBe('intervals');
     expect(i.style).toBe('quick');
     expect(applyIntentPatch(i, { energyBias: 9 }).energyBias).toBe(3);
+  });
+
+  it('describes the plan in words', () => {
+    const i = applyIntentPatch(defaultIntent('sangeet', ['punjabi']), { energyBias: 1 });
+    expect(describeIntent(i)).toBe('Sangeet · Punjabi · waves arc · hooks · energy +1');
   });
 });

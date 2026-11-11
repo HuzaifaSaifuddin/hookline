@@ -1,17 +1,9 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
-import type { IntentParseResult, MetaResponse, SetStyle } from '@hookline/core';
+import { useEffect, useState } from 'react';
+import type { MetaResponse, SetStyle } from '@hookline/core';
 import { api, safeSet } from '../lib/api.ts';
 import { navigate } from '../lib/router.ts';
 import { cap } from '../lib/format.ts';
 import { Link, Logo, Spinner } from '../components/common.tsx';
-
-const EXAMPLES = [
-  'Sangeet night: start with 90s classics for the elders, then go full Punjabi',
-  'House party, high energy, mostly Hindi, no Honey Singh',
-  'Workout: quick hooks, only Punjabi bangers',
-  'Mehendi afternoon, playful sing-alongs, full songs',
-  'Road trip with friends, retro Bollywood, steady vibe',
-];
 
 const STYLES: Array<{ id: SetStyle; name: string; hint: string }> = [
   { id: 'quick', name: 'Quick hits', hint: '~50s per song' },
@@ -22,41 +14,24 @@ const STYLES: Array<{ id: SetStyle; name: string; hint: string }> = [
 export function Home() {
   const [meta, setMeta] = useState<MetaResponse | null>(null);
   const [metaError, setMetaError] = useState<string | null>(null);
-  const [text, setText] = useState('');
   const [occasion, setOccasion] = useState<string | null>(null);
   const [languages, setLanguages] = useState<string[]>([]);
   const [style, setStyle] = useState<SetStyle | null>(null);
-  const [preview, setPreview] = useState<IntentParseResult | null>(null);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [joinCode, setJoinCode] = useState('');
-  const [exampleIdx, setExampleIdx] = useState(0);
-  const textRef = useRef<HTMLTextAreaElement>(null);
 
   useEffect(() => {
     api.meta().then(setMeta, (e: Error) => setMetaError(e.message));
-    const t = setInterval(() => setExampleIdx((i) => (i + 1) % EXAMPLES.length), 4000);
-    return () => clearInterval(t);
   }, []);
 
-  // Live "here's what I understood" while typing, only with the free rule engine (no per-keystroke AI cost).
-  useEffect(() => {
-    if (!meta || meta.aiEnabled || text.trim().length < 6) {
-      setPreview(null);
-      return;
-    }
-    const t = setTimeout(() => api.parseIntent(text).then(setPreview, () => setPreview(null)), 450);
-    return () => clearTimeout(t);
-  }, [text, meta]);
-
-  const effectiveStyle = style ?? meta?.occasions.find((o) => o.id === (occasion ?? preview?.intent.occasion))?.style ?? 'hooks';
+  const effectiveStyle = style ?? meta?.occasions.find((o) => o.id === (occasion ?? 'house-party'))?.style ?? 'hooks';
 
   const start = async () => {
     setBusy(true);
     setError(null);
     try {
       const { code, hostKey } = await api.createRoom({
-        text: text.trim() || undefined,
         occasion: occasion ?? undefined,
         languages: languages.length ? languages : undefined,
         style: style ?? undefined,
@@ -70,7 +45,6 @@ export function Home() {
   };
 
   const toggleLang = (l: string) => setLanguages((ls) => (ls.includes(l) ? ls.filter((x) => x !== l) : [...ls, l]));
-  const placeholder = useMemo(() => EXAMPLES[exampleIdx], [exampleIdx]);
 
   return (
     <div className="shell">
@@ -86,7 +60,7 @@ export function Home() {
       <section className="hero">
         <div>
           <h1>
-            Tell it the vibe.
+            Pick the vibe.
             <br />
             <span className="ramp">It runs the party.</span>
           </h1>
@@ -96,33 +70,6 @@ export function Home() {
         </div>
 
         <div className="card composer">
-          <div className="prompt-wrap">
-            <textarea
-              ref={textRef}
-              className="textarea"
-              value={text}
-              onChange={(e) => setText(e.target.value)}
-              placeholder={placeholder}
-              aria-label="Describe your party"
-              maxLength={500}
-              onKeyDown={(e) => {
-                if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) void start();
-              }}
-            />
-            <span className="prompt-hint">
-              {meta?.aiEnabled ? '✨ Understood by Claude' : 'Describe it in your own words, or just pick below'}
-            </span>
-          </div>
-          {preview && preview.understood.length > 0 && (
-            <div className="understood" aria-live="polite">
-              {preview.understood.map((u) => (
-                <span key={u} className="tag violet">
-                  {u}
-                </span>
-              ))}
-            </div>
-          )}
-
           <div className="stack">
             <h2>Occasion</h2>
             <div className="occasions">

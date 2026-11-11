@@ -1,7 +1,6 @@
 import type {
   CreateRoomInput,
   CreateRoomResult,
-  IntentParseResult,
   MetaResponse,
   RoomSnapshot,
   SongDetail,
@@ -26,7 +25,6 @@ async function call<T>(path: string, init?: RequestInit): Promise<T> {
 
 export const api = {
   meta: () => call<MetaResponse>('/api/meta'),
-  parseIntent: (text: string) => call<IntentParseResult>('/api/intent/parse', { method: 'POST', body: JSON.stringify({ text }) }),
   createRoom: (input: CreateRoomInput) => call<CreateRoomResult>('/api/rooms', { method: 'POST', body: JSON.stringify(input) }),
   room: (code: string) => call<RoomSnapshot>(`/api/rooms/${encodeURIComponent(code)}`),
   search: (q: string, limit = 20) => call<TrackView[]>(`/api/search?q=${encodeURIComponent(q)}&limit=${limit}`),

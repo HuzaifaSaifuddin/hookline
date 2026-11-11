@@ -44,8 +44,6 @@ function Console({ code, hostKey }: { code: string; hostKey: string }) {
   const deckB = useRef<HTMLDivElement>(null);
   const [engine, setEngine] = useState<EngineState | null>(null);
   const [meta, setMeta] = useState<MetaResponse | null>(null);
-  const [vibe, setVibe] = useState('');
-  const [vibeBusy, setVibeBusy] = useState(false);
   const [showHookFix, setShowHookFix] = useState(false);
   const [started, setStarted] = useState(false);
 
@@ -80,7 +78,7 @@ function Console({ code, hostKey }: { code: string; hostKey: string }) {
       onSourceFailed: (songId, sourceId, c) => send({ type: 'sourceFailed', songId, sourceId, code: c }),
       onSongUnplayable: (songId) => send({ type: 'songUnplayable', songId }),
       onChange: setEngine,
-      onEmpty: () => toast('Nothing left to play with these settings. Try widening the vibe.', 'warn'),
+      onEmpty: () => toast('Nothing left to play with these settings. Try another occasion or language.', 'warn'),
       log: (m) => console.debug('[deck]', m),
     });
     engineRef.current = eng;
@@ -127,16 +125,6 @@ function Console({ code, hostKey }: { code: string; hostKey: string }) {
       setStarted(true);
       send({ type: 'play' });
       e.resume();
-    }
-  };
-
-  const submitVibe = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!vibe.trim()) return;
-    if (send({ type: 'vibe', text: vibe.trim() })) {
-      setVibeBusy(true);
-      setVibe('');
-      setTimeout(() => setVibeBusy(false), 1500);
     }
   };
 
@@ -215,7 +203,6 @@ function Console({ code, hostKey }: { code: string; hostKey: string }) {
                     </button>
                   ) : (
                     <div className="stack" style={{ alignItems: 'center', gap: 14 }}>
-                      {room?.djNote && <div className="djnote" style={{ maxWidth: 460 }}>{room.djNote}</div>}
                       <button className="btn primary" style={{ minHeight: 60, fontSize: 19, padding: '0 34px' }} onClick={startParty} disabled={!room?.queue.length}>
                         {room?.history.length || room?.nowPlaying ? '▶ Resume the party' : '▶ Start the party'}
                       </button>
@@ -342,27 +329,6 @@ function Console({ code, hostKey }: { code: string; hostKey: string }) {
             </div>
             {room && <EnergyArc energy={room.energy} nowMin={nowMin} />}
           </div>
-
-          <form className="card stack" onSubmit={submitVibe}>
-            <div className="row between">
-              <h2>Talk to the DJ</h2>
-              <span className="tiny faint">{meta?.aiEnabled ? '✨ Claude' : 'Rule-based understanding'}</span>
-            </div>
-            {room?.djNote && <div className="djnote">{room.djNote}</div>}
-            <div className="row">
-              <input className="input grow" value={vibe} onChange={(e) => setVibe(e.target.value)} placeholder="e.g. more Punjabi, bring it down for dinner, no Badshah" maxLength={500} aria-label="Tell the DJ what you want" />
-              <button className="btn primary" type="submit" disabled={!vibe.trim() || vibeBusy}>
-                {vibeBusy ? '…' : 'Send'}
-              </button>
-            </div>
-            <div className="row wrap" style={{ gap: 6 }}>
-              {['Turn it up 🔥', 'Bring it down', 'Mostly Punjabi', 'Play some 90s retro', 'Full songs now'].map((s) => (
-                <button key={s} type="button" className="chip" onClick={() => send({ type: 'vibe', text: s })}>
-                  {s}
-                </button>
-              ))}
-            </div>
-          </form>
         </div>
 
         {/* ------------------------------------------------ right: queue, guests */}
@@ -453,7 +419,7 @@ function Console({ code, hostKey }: { code: string; hostKey: string }) {
                   </div>
                 </div>
               ))}
-              {room && room.queue.length === 0 && <div className="empty">Nothing matches this vibe. Try widening it.</div>}
+              {room && room.queue.length === 0 && <div className="empty">Nothing matches these settings.</div>}
             </div>
           </div>
 

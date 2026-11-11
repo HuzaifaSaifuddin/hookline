@@ -13,7 +13,6 @@ import {
   isAutoPlayable,
   slugify,
   type CreateRoomResult,
-  type IntentParseResult,
   type MetaResponse,
   type ServerMessage,
   type Song,
@@ -22,7 +21,6 @@ import {
 import type { Config } from './config.ts';
 import { openDatabase, type DB } from './db.ts';
 import { CatalogStore } from './catalog-store.ts';
-import { IntentParser } from './intent-ai.ts';
 import { RoomManager } from './room-manager.ts';
 import { cleanVideoTitle, oembed, parseYouTubeId, searchYouTube, videoDurations } from './youtube.ts';
 
@@ -31,7 +29,6 @@ export interface AppContext {
   db: DB;
   store: CatalogStore;
   rooms: RoomManager;
-  intents: IntentParser;
 }
 
 export interface BuildOptions {
@@ -54,9 +51,7 @@ export async function buildApp(config: Config, opts: BuildOptions = {}): Promise
   const report = store.load();
   app.log.info(report.invalid.length ? { ...report, invalid: report.invalid.slice(0, 10) } : report, 'catalogue loaded');
 
-  const intents = new IntentParser(store, config.ai, app.log);
-  app.log.info({ ai: intents.aiEnabled, model: intents.aiEnabled ? config.ai.model : undefined }, 'intent engine');
-  const rooms = new RoomManager(db, store, intents, app.log, opts.clock);
+  const rooms = new RoomManager(db, store, app.log, opts.clock);
   const studioKey = opts.studioKey ?? process.env.HOOKLINE_STUDIO_KEY;
 
   await app.register(websocket, { options: { maxPayload: 16 * 1024 } });
@@ -71,7 +66,6 @@ export async function buildApp(config: Config, opts: BuildOptions = {}): Promise
     ok: true,
     catalog: store.catalog.size,
     ...rooms.stats(),
-    ai: intents.aiEnabled,
     uptimeSec: Math.round(process.uptime()),
   }));
 
@@ -83,7 +77,6 @@ export async function buildApp(config: Config, opts: BuildOptions = {}): Promise
       languages: store.catalog.languages(),
       catalogSize: all.length,
       playableCount: all.filter(isAutoPlayable).length,
-      aiEnabled: intents.aiEnabled,
       youtubeSearchEnabled: !!config.youtubeApiKey,
       publicUrl: config.publicUrl,
       lanHosts: lanAddresses(),
@@ -91,29 +84,16 @@ export async function buildApp(config: Config, opts: BuildOptions = {}): Promise
     };
   });
 
-  // ------------------------------------------------------------------ intent + rooms
-
-  app.post('/api/intent/parse', async (req, reply): Promise<IntentParseResult | void> => {
-    const body = z.object({ text: z.string().trim().min(1).max(500) }).safeParse(req.body);
-    if (!body.success) return reply.code(400).send({ error: 'text is required' });
-    return intents.parse(body.data.text);
-  });
+  // ------------------------------------------------------------------ rooms
 
   app.post('/api/rooms', async (req, reply): Promise<CreateRoomResult | void> => {
     const body = CreateRoomSchema.safeParse(req.body ?? {});
     if (!body.success) return reply.code(400).send({ error: body.error.issues[0]?.message });
-    const { text, occasion, languages, style, arc } = body.data;
-    // Picker choices form the base plan; free text refines it.
-    let intent = defaultIntent(occasion ?? 'house-party', languages ?? []);
+    const { occasion, languages, style, arc } = body.data;
+    const intent = defaultIntent(occasion ?? 'house-party', languages ?? []);
     if (style) intent.style = style;
     if (arc) intent.arc = arc;
-    let djNote: string | undefined;
-    if (text?.trim()) {
-      const parsed = await intents.parse(text, occasion || languages?.length || style || arc ? intent : undefined);
-      intent = parsed.intent;
-      djNote = parsed.djNote;
-    }
-    const { room, hostKey } = rooms.create(intent, djNote);
+    const { room, hostKey } = rooms.create(intent);
     return { code: room.code, hostKey };
   });
 
@@ -338,7 +318,7 @@ export async function buildApp(config: Config, opts: BuildOptions = {}): Promise
     db.close();
   });
 
-  return { app, db, store, rooms, intents };
+  return { app, db, store, rooms };
 }
 
 function lanAddresses(): string[] {

@@ -8,7 +8,7 @@ Run Hookline as **one container with a persistent volume** on a host that suppor
 
 Why not serverless or edge functions? Rooms are in‑memory aggregates held by long‑lived WebSockets, and SQLite needs a persistent disk. Serverless would force an external realtime service plus an external database, which is more moving parts for no V1 benefit.
 
-**Estimated cost:** one shared‑CPU 512 MB machine with a 1 GB volume runs a few US dollars a month (it can suspend when idle). Claude usage is a few hundred output tokens per "talk to the DJ" message. The YouTube Data API is free within its default quota (search is optional).
+**Estimated cost:** one shared‑CPU 512 MB machine with a 1 GB volume runs a few US dollars a month (it can suspend when idle). The YouTube Data API is free within its default quota (search is optional).
 
 ## What's prepared
 - `Dockerfile`: multi‑stage build. It runs `npm ci`, builds the web app, **typechecks and runs the full test suite** (the build fails if tests fail), then runs as the non‑root `node` user with a healthcheck on `/api/health`.
@@ -19,7 +19,7 @@ Why not serverless or edge functions? Rooms are in‑memory aggregates held by l
 1. Create a GitHub repository and push (`git remote add origin …; git push -u origin main`). *Needs your approval and account.*
 2. `fly launch --no-deploy --copy-config --config deploy/fly.toml` and pick a unique app name. *Needs your Fly account.*
 3. `fly volumes create hookline_data --size 1 --region bom`
-4. Secrets (optional): `fly secrets set ANTHROPIC_API_KEY=… YOUTUBE_API_KEY=… HOOKLINE_STUDIO_KEY=…`. **Set `HOOKLINE_STUDIO_KEY` for any public deployment** so strangers can't edit hooks or import songs.
+4. Secrets (optional): `fly secrets set YOUTUBE_API_KEY=… HOOKLINE_STUDIO_KEY=…`. **Set `HOOKLINE_STUDIO_KEY` for any public deployment** so strangers can't edit hooks or import songs.
 5. Set `PUBLIC_URL=https://<app>.fly.dev` so QR codes point at the public URL.
 6. `fly deploy`, then smoke test: `/api/health`, start a party, join from a phone on mobile data.
 

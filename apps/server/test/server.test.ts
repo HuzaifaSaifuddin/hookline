@@ -78,12 +78,11 @@ describe('REST', () => {
     const meta = (await ctx.app.inject('/api/meta')).json();
     expect(meta.catalogSize).toBeGreaterThan(900);
     expect(meta.playableCount).toBeGreaterThan(850);
-    expect(meta.aiEnabled).toBe(false);
     expect(meta.occasions.map((o: { id: string }) => o.id)).toContain('sangeet');
   });
 
-  it('creates a room from free text using the rule engine when AI is off', async () => {
-    const { code } = await createRoom({ text: 'workout, only punjabi, quick hooks' });
+  it('creates a room from the pickers', async () => {
+    const { code } = await createRoom({ occasion: 'workout', languages: ['punjabi'], style: 'quick' });
     const snap = (await ctx.app.inject(`/api/rooms/${code}`)).json() as RoomSnapshot;
     expect(snap.intent.occasion).toBe('workout');
     expect(snap.intent.languages).toEqual(['punjabi']);
@@ -91,6 +90,10 @@ describe('REST', () => {
     expect(snap.queue.every((q) => q.track.language === 'punjabi')).toBe(true);
     expect(snap.queue.every((q) => q.window.endSec - q.window.startSec <= 50)).toBe(true);
     expect(snap.queue.every((q) => q.sourceIds.length > 0)).toBe(true);
+  });
+
+  it('free-text party descriptions are no longer accepted', async () => {
+    expect((await ctx.app.inject({ method: 'POST', url: '/api/intent/parse', payload: { text: 'sangeet' } })).statusCode).toBe(404);
   });
 
   it('404s unknown rooms and validates input', async () => {
@@ -305,7 +308,7 @@ describe('recovery', () => {
     ctx.rooms.persist(room);
 
     // A fresh manager over the same DB simulates a process restart.
-    const fresh = new RoomManager(ctx.db, ctx.store, ctx.intents, { info() {}, warn() {}, error() {} }, clock);
+    const fresh = new RoomManager(ctx.db, ctx.store, { info() {}, warn() {}, error() {} }, clock);
     const restored = fresh.get(code)!;
     expect(restored.state.intent.occasion).toBe('sangeet');
     expect(restored.state.status).toBe('paused');

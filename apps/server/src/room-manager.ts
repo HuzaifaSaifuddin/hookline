@@ -8,7 +8,6 @@ import {
 } from '@hookline/core';
 import type { CatalogStore } from './catalog-store.ts';
 import type { DB } from './db.ts';
-import type { IntentParser } from './intent-ai.ts';
 import { Room, type Effects, type RoomState } from './room.ts';
 
 export interface Peer {
@@ -45,19 +44,18 @@ export class RoomManager {
   constructor(
     private db: DB,
     private store: CatalogStore,
-    private intents: IntentParser,
     private log: Logger,
     private clock: () => number = Date.now,
   ) {}
 
   // ------------------------------------------------------------- lifecycle
 
-  create(intent: SetIntent, djNote?: string): { room: Room; hostKey: string } {
+  create(intent: SetIntent): { room: Room; hostKey: string } {
     let code: string;
     do code = randomCode(4);
     while (this.rooms.has(code) || this.db.prepare('SELECT 1 FROM rooms WHERE code = ?').get(code));
     const hostKey = crypto.randomBytes(18).toString('base64url');
-    const room = Room.create(code, intent, this.store, this.clock, djNote);
+    const room = Room.create(code, intent, this.store, this.clock);
     this.rooms.set(code, room);
     this.hostKeys.set(code, hostKey);
     this.db
@@ -224,11 +222,6 @@ export class RoomManager {
         return room.hookNudge(m.songId, m.edge, m.deltaSec);
       case 'intent':
         return room.patchIntent(m.patch);
-      case 'vibe': {
-        const parsedIntent = await this.intents.parse(m.text, room.state.intent);
-        const e = room.setIntent(parsedIntent.intent, parsedIntent.djNote);
-        return { ...e, reply: { text: parsedIntent.djNote, tone: 'success' } };
-      }
       case 'queueRemove':
         return room.queueRemove(m.songId);
       case 'playNext':

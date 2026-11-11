@@ -70,7 +70,6 @@ export interface RoomState {
   taste: SessionTaste;
   reactions: Reaction[];
   skipVoters: string[];
-  djNote?: string;
   shuffleSalt: number;
 }
 
@@ -101,7 +100,7 @@ export class Room {
     this.replan();
   }
 
-  static create(code: string, intent: SetIntent, store: CatalogStore, clock: () => number = Date.now, djNote?: string): Room {
+  static create(code: string, intent: SetIntent, store: CatalogStore, clock: () => number = Date.now): Room {
     return new Room(
       {
         code,
@@ -115,7 +114,6 @@ export class Room {
         taste: emptyTaste(),
         reactions: [],
         skipVoters: [],
-        djNote,
         shuffleSalt: 0,
       },
       store,
@@ -344,10 +342,9 @@ export class Room {
     return { changed: false, reply: { text: 'Thanks! Hook feedback saved', tone: 'success' } };
   }
 
-  setIntent(intent: SetIntent, djNote?: string): Effects {
+  setIntent(intent: SetIntent): Effects {
     const seedsChanged = intent.seedSongIds.join() !== this.state.intent.seedSongIds.join();
     this.state.intent = { ...intent, summary: describeIntent(intent) };
-    if (djNote) this.state.djNote = djNote;
     // Unlock a preloaded track only if the host explicitly asked for specific songs next.
     if (seedsChanged && this.state.lockedNext?.lockedBy === 'preload') this.state.lockedNext = null;
     this.replan();
@@ -563,7 +560,6 @@ export class Room {
       skipVotes: s.skipVoters.length,
       skipThreshold: skipThreshold(guestCount),
       elapsedSec: Math.round(this.nextSlotOffsetSec() - (s.now ? hookLength(s.now.window) : 0)),
-      djNote: s.djNote,
     };
   }
 }

@@ -11,14 +11,11 @@ export interface Config {
   webDist: string;
   /** Public base URL guests should use (e.g. behind a proxy). Otherwise LAN IPs are offered. */
   publicUrl?: string;
-  ai: { enabled: boolean; model: string; timeoutMs: number };
   youtubeApiKey?: string;
   logLevel: string;
 }
 
 export function loadConfig(env: NodeJS.ProcessEnv = process.env): Config {
-  const aiFlag = (env.HOOKLINE_AI ?? 'auto').toLowerCase();
-  const hasAnthropicCreds = !!(env.ANTHROPIC_API_KEY || env.ANTHROPIC_AUTH_TOKEN);
   return {
     port: Number(env.PORT ?? 8787),
     host: env.HOST ?? '0.0.0.0',
@@ -26,11 +23,6 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): Config {
     catalogDir: env.HOOKLINE_CATALOG ?? path.join(repoRoot, 'catalog'),
     webDist: path.join(repoRoot, 'apps', 'web', 'dist'),
     publicUrl: env.PUBLIC_URL?.replace(/\/$/, ''),
-    ai: {
-      enabled: aiFlag === 'on' || (aiFlag === 'auto' && hasAnthropicCreds),
-      model: env.HOOKLINE_AI_MODEL ?? 'claude-opus-5-5',
-      timeoutMs: Number(env.HOOKLINE_AI_TIMEOUT_MS ?? 12000),
-    },
     youtubeApiKey: env.YOUTUBE_API_KEY || undefined,
     logLevel: env.LOG_LEVEL ?? (env.NODE_ENV === 'test' ? 'silent' : 'info'),
   };

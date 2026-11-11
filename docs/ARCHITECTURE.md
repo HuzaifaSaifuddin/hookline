@@ -8,21 +8,20 @@
                 │  DeckEngine: 2 × YouTube IFrame players, pre-roll, equal-power crossfade, failover   │
                 └──────────────▲──────────────────────────────────────────┬─────────────────────────────┘
                      snapshots │ (WebSocket)                  "started", "preloading",
-                               │                               "sourceFailed", energy, vibe…
+                               │                               "sourceFailed", energy, feedback…
 ┌──────────────────────────────┴──────────────────────────────────────────▼─────────────────────────────┐
 │ Node process (Fastify)                                                                                 │
 │                                                                                                        │
 │  RoomManager ── transport, auth (host key), rate limits, debounced broadcast & persistence            │
 │     └─ Room ── authoritative party state: intent, now playing, locked next, queue, requests,           │
 │                reactions, taste, history.  Pure logic, injectable clock.                               │
-│  IntentParser ── Claude structured output ─┐ fallback ─▶ rule parser (core)                            │
 │  CatalogStore ── git catalogue + runtime learning overlays (hooks, nudges, source health, stats)       │
 │  REST: /api/meta, /rooms, /search, /catalog, /songs/:id/hook|verify, /songs/import, /insights, /health │
 │                                                                                                        │
-│  @hookline/core (pure TS, shared with the browser): planner · arcs · hooks · intent · text · protocol │
+│  @hookline/core (pure TS, shared with the browser): planner · arcs · hooks · set plan · text · protocol │
 └───────────────┬─────────────────────────────────────────────┬──────────────────────────────────────────┘
                 │ node:sqlite (WAL)                           │ HTTPS
-        data/hookline.db                         YouTube oEmbed / Data API · Anthropic API
+        data/hookline.db                         YouTube oEmbed / Data API
                 ▲
    catalog/songs/*.json (git) ── loaded at boot; `npm run catalog:export` folds curation back
                 ▲
@@ -35,7 +34,7 @@ One deployable unit, one language (TypeScript end to end), one data store.
 
 ### 1. A modular monolith, not services
 **Chosen:** one Node process with clear modules (`core` domain, `room` aggregate, `catalog-store`, transport).
-**Alternatives:** separate catalogue, room and AI services; serverless functions plus a hosted realtime service.
+**Alternatives:** separate catalogue and room services; serverless functions plus a hosted realtime service.
 **Why:** the hot path is "a reaction arrives → re‑plan → broadcast to ~50 phones", which is sub‑millisecond in memory. Distribution would add network hops, consistency problems and operational cost without solving a real problem. The domain core is already pure and I/O‑free, so it can be extracted later if needed.
 
 ### 2. Server‑authoritative rooms, browser‑authoritative audio
@@ -54,16 +53,10 @@ For each candidate: `fit(occasion tags) + energy distance to the arc target + fl
 
 **Arc fitting.** Arcs are authored on a 7–10 scale. Each occasion and language slice of the catalogue has its own energy range (festival music sits at 8–10), so the arc is stretched onto the slice's 10th–90th percentile. Without this, a "warm‑up" target pulled in off‑occasion songs; a test caught it.
 
-### 5. Where AI is used, and where it isn't
-| Problem | Approach | Reason |
-|---|---|---|
-| "Sangeet, aunties need 90s first, then Punjabi, no Honey Singh" → plan | **Claude** (`claude-opus-5-5`, `effort: low`, Zod structured output, cached system prompt, 12s timeout) | Understanding messy natural language is what LLMs are for. Output is small, schema‑validated and checked against the real catalogue (artists fuzzy‑matched, seed songs resolved). |
-| Same, without a key / on failure / refusal | **Rule parser** in core | The product must never depend on the AI being up. The landing page uses it for free live previews as you type. |
-| Picking songs, ordering, energy | Scoring planner | See above. |
-| Is this YouTube video really this song? | **Consonant‑skeleton fuzzy matching** tuned for romanised Indic titles (Chhote/Chote, Jehda/Jedha) | Deterministic, free, testable; caught 57 wrong videos. |
-| Hook calibration | Median of crowd nudges (≥3 votes, bounded ±20s) | Robust to trolls; curator edits always win. |
+### 5. No AI in the loop (V1)
+Every decision is a deterministic algorithm: picking and ordering songs (the scoring planner), deciding whether a YouTube video really is a song (consonant‑skeleton fuzzy matching tuned for romanised Indic titles such as Chhote/Chote and Jehda/Jedha), and calibrating hooks (median of crowd nudges, at least 3 votes, bounded to ±20s; curator edits always win). That keeps the product free to run, fast, testable and explainable.
 
-**Cost:** one Claude call per "talk to the DJ" message or party creation with text. That's on the order of a few hundred tokens out, so fractions of a cent per party.
+An earlier build let hosts describe the party in free text, understood by Claude with a rule‑based fallback. It was removed from V1 because the pickers cover the important choices and partly‑understood text set the wrong expectations. It's on the roadmap (see PRODUCT.md).
 
 ### 6. Catalogue as data in git, learning in SQLite
 `catalog/songs/<language>.json` is canonical and human‑reviewable (schema‑validated in CI via `npm run catalog:validate`). The database holds only what's **learned at runtime**: curator hooks, crowd nudges, source health, durations, user‑added songs, play events, feedback and rooms. `npm run catalog:export` folds curated data back into the files, so the catalogue grows independently of any one deployment. See [CATALOGUE.md](CATALOGUE.md).
@@ -75,7 +68,7 @@ For each candidate: `fit(occasion tags) + energy distance to the arc target + fl
 | **Fastify + @fastify/websocket** | Mature, fast, first‑class `inject`/`injectWS` for integration tests. | Socket.IO (unneeded fallbacks and protocol), Hono (lighter WS story on Node). |
 | **`node:sqlite`** | Zero native build, single file, WAL mode, synchronous and simple. Writes are tiny and infrequent. | Postgres (an extra service), better‑sqlite3 (native compile). Swapping is localised to `db.ts` and `catalog-store.ts`. |
 | **React + Vite**, no router or state library | The UI is four screens; a 20‑line router and hooks are enough. 95 KB gzipped. | Next.js (SSR unnecessary for a realtime client app). |
-| **Zod** | One schema serves validation, types and Claude structured output. | |
+| **Zod** | One schema serves validation and types, shared by server and browser. | |
 | **YouTube IFrame API** | The legitimate way to play this catalogue: no downloading, no proxying, ToS‑compliant visible player. | Spotify/Apple SDKs: need Premium accounts, and their terms prohibit clipping. |
 
 ## Reliability and failure handling
@@ -88,20 +81,19 @@ For each candidate: `fit(occasion tags) + energy distance to the arc target + fl
 | Upload shorter or longer than the one the catalogue timed | Hook window clamped to the real duration reported by the player. |
 | Server restarts | Rooms are persisted (debounced 1s, flushed on SIGTERM) and restored lazily, paused. Clients reconnect with capped exponential backoff and re‑hello; the host resumes the interrupted song. |
 | Host tab closes | Guests see "DJ screen offline"; requests still accumulate. |
-| Claude unavailable, slow or refusing | Falls back to the rule parser (logged). |
 | Planner pool exhausted | Constraints relax step by step; repeats of the longest‑ago tracks are the last resort. |
 | Abuse | Host commands need a 144‑bit host key (constant‑time compare). Per‑connection token‑bucket rate limit. Zod validation on every message. 16 KB WS frame cap. Per‑guest request cap (3 pending). Reaction de‑bounce. Names sanitised. Optional Studio key. |
 
 ## Observability
-- Structured JSON logs (pino via Fastify) for room lifecycle, source failures, unplayable songs, curator edits, AI latency and fallbacks.
-- `GET /api/health`: catalogue size, live rooms and peers, AI status, uptime.
+- Structured JSON logs (pino via Fastify) for room lifecycle, source failures, unplayable songs, curator edits.
+- `GET /api/health`: catalogue size, live rooms and peers, uptime.
 - `play_events` and `feedback` tables power `GET /api/insights` (most played, skip rates, failing uploads) and the planner's quality scores.
 
 ## Testing
-- **Domain (core):** planner invariants on the *real* catalogue (no repeats, no back‑to‑back artists, the arc rises, language filters and preferences, avoid lists, seeds, requests, stable re‑plans), hook windows and calibration, title matching, intent parsing.
+- **Domain (core):** planner invariants on the *real* catalogue (no repeats, no back‑to‑back artists, the arc rises, language filters and preferences, avoid lists, seeds, requests, stable re‑plans), hook windows and calibration, title matching, set‑plan defaults.
 - **Data quality:** every catalogue entry validated against the schema; ID uniqueness; hook bounds; at least 90% auto‑playable.
 - **Integration (server):** real Fastify app, in‑memory SQLite, WebSocket clients and a controllable clock: host auth, request → queue → credit flow, cooldowns, crowd skip, preload lock and host override, source failure, dislike, rate limiting, link import (stubbed oEmbed), studio lock, crash recovery and resume.
-- **Manual end‑to‑end in Chrome:** start from a sentence, real YouTube playback, skip crossfade, automatic hook‑end transition (logged at 1s resolution: fade from T‑6s to exactly `hook_end`), server restart and resume, guest join, request and react, Studio quarantine preview.
+- **Manual end‑to‑end in Chrome:** start a party, real YouTube playback, skip crossfade, automatic hook‑end transition (logged at 1s resolution: fade from T‑6s to exactly `hook_end`), server restart and resume, guest join, request and react, Studio quarantine preview.
 
 ## How it scales and evolves
 - **Today:** one process comfortably handles hundreds of concurrent rooms (all state in memory, tiny snapshots).

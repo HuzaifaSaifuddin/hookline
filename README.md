@@ -1,6 +1,6 @@
 # Hookline: the DJ that reads the room
 
-Hookline is an autonomous, **hook‑based** party DJ. You tell it the occasion and vibe in your own words. It plans an energy curve for the night, plays the best part of each song (curated `hook_start` → `hook_end`) with equal‑power crossfades, and lets guests request, upvote, react and vote to skip from their phones. It explains every pick and learns from skips, likes and hook feedback.
+Hookline is an autonomous, **hook‑based** party DJ. You pick the occasion, languages and how much of each song to play. It plans an energy curve for the night, plays the best part of each song (curated `hook_start` → `hook_end`) with equal‑power crossfades, and lets guests request, upvote, react and vote to skip from their phones. It explains every pick and learns from skips, likes and hook feedback.
 
 > Status: **Version 1, local only.** Nothing has been pushed or deployed. See [Deployment plan](docs/DEPLOYMENT.md).
 
@@ -44,7 +44,6 @@ Everything works without keys. Copy `.env.example` to `.env` to enable extras:
 
 | Variable | Effect |
 |---|---|
-| `ANTHROPIC_API_KEY` | "Talk to the DJ" uses Claude (`claude-opus-5-5`, structured output) instead of the rule‑based parser. |
 | `YOUTUBE_API_KEY` | Enables *Search YouTube* in the Studio (YouTube Data API v3). Adding songs by link works without it. |
 | `HOOKLINE_STUDIO_KEY` | Locks Studio write endpoints (hook edits, imports) behind a shared key. |
 | `PUBLIC_URL` | Base URL for guest links when hosted (otherwise the LAN IP is used). |
@@ -54,10 +53,10 @@ Everything works without keys. Copy `.env.example` to `.env` to enable extras:
 
 ## Try the important journeys
 
-1. **Start a party from a sentence.** On the home page type *"house party, mostly punjabi, start slow, no honey singh"*. Chips show what was understood. Press **Start the DJ** (or ⌘/Ctrl+Enter), then **Start the party**.
+1. **Start a party.** On the home page pick an occasion (e.g. **House Party**), optionally languages and a style (Quick hits / Hooks / Full songs). Press **Start the DJ**, then **Start the party**.
 2. **Hook playback.** The bar under the video shows the whole song with the hook window highlighted; playback starts at `hook_start`. About 25s before `hook_end` the next track pre‑rolls *muted* on the standby deck. At T‑6s it crossfades and the next song comes in at its own hook. Press ⏭ to crossfade early.
 3. **Explainable flow.** Every track shows why it was picked ("Building up ↑ energy 9", "Punjabi, as you prefer", "Big sing‑along for the peak"). The **Energy plan** chart shows the planned curve and what actually played.
-4. **Steer it live.** Use **Energy −/+**, 👍/👎, ✕ (not tonight) or ⤴ (play next), or type into **Talk to the DJ** (*"bring it down for dinner"*, *"more Badshah"*). The queue re‑plans immediately; the cued next track stays locked so the crossfade isn't disrupted.
+4. **Steer it live.** Use **Energy −/+**, 👍/👎, ✕ (not tonight), ⤴ (play next) or ↻ Re‑plan. The queue re‑plans immediately; the cued next track stays locked so the crossfade isn't disrupted.
 5. **Guests.** Open the join link (or `http://localhost:8787/join/CODE` in another browser). Search and **Request** a song: it's woven in within a track or two and credited ("🙋 Priya"). Others can ▲ vote. 🔥/😴 reactions shift energy for a few minutes. Skip votes past the threshold (40% of guests, minimum 2) skip the track.
 6. **Recovery.** Stop the server (Ctrl+C) mid‑song and start it again. The DJ page reconnects by itself and offers **Resume the party**, which picks up the interrupted song. Guests reconnect too.
 7. **Hook Studio** (`/studio`). Browse the catalogue, filter **Needs review** (songs whose YouTube video doesn't match the title), preview them, set IN/OUT at the playhead, save. The next play uses the new hook. **Add songs** imports any YouTube link (any language) after checking it allows embedded playback.
@@ -71,8 +70,8 @@ Everything works without keys. Copy `.env.example` to `.env` to enable extras:
 catalog/            the music catalogue (data, not code), versioned in git
   songs/<lang>.json   999 songs: title, artists, language, duration, hook, energy, tags, YouTube sources
   verification/       cached oEmbed checks of every YouTube id (status + actual video title)
-packages/core       pure TypeScript domain: planner, energy arcs, hooks, intent, catalogue rules, protocol
-apps/server         Fastify HTTP + WebSocket, rooms, SQLite learning store, Claude intent, YouTube import
+packages/core       pure TypeScript domain: planner, energy arcs, hooks, set plan, catalogue rules, protocol
+apps/server         Fastify HTTP + WebSocket, rooms, SQLite learning store, YouTube import
 apps/web            React (Vite) DJ console, guest view, Hook Studio, two-deck YouTube engine
 scripts/            catalogue import / curation / verification / export
 docs/               product, architecture, catalogue, deployment
