@@ -34,28 +34,25 @@ Spotify's "DJ" talks *to one listener*. Hookline plays *for a room*: it gives up
 | Capability | Why it's in V1 |
 |---|---|
 | **Hook‑based two‑deck playback** with muted pre‑roll and equal‑power crossfades; three styles (quick ~50s, hooks, full songs) | The core identity. Pre‑roll makes failures visible early, while there's still time to fall back. |
-| **Energy‑arc planner** (build / waves / peak / intervals / steady / cooldown), fitted to the catalogue's actual energy range | The main "DJ intelligence". Deterministic, explainable and free to run. |
+| **Energy‑arc planner** (build / waves / peak / intervals / steady / cooldown), fitted to the catalogue's actual energy range | The heart of the DJ. Deterministic, explainable and free to run. |
 | **Explainable picks** (top reasons per track) | Builds trust and makes the planner debuggable. |
 | **Room mode**: QR join, requests and votes, 🔥/❤️/😴 reactions → live energy bias, crowd skip votes | Parties are social; this is the most distinctive feature. |
 | **Live steering**: energy ±, like/dislike, play‑next, remove, re‑plan | The DJ should be autonomous, but the host keeps control. |
 | **Self‑healing catalogue**: oEmbed verification, title‑match quarantine, runtime source failover and demotion | Source data has real errors; the product shouldn't play the wrong song. |
 | **Hook Studio**: preview, set in/out, confirm sources, add any song by link | Curation is how the catalogue gets better. |
-| **Learning loop**: completion/skip/like stats → quality score; crowd hook nudges → median‑calibrated hooks | The more it's used, the better it gets, without ML infrastructure. |
+| **Learning loop**: completion/skip/like stats → quality score; crowd hook nudges → median‑calibrated hooks | The more it's used, the better it gets, with no extra infrastructure. |
 | **Crash recovery**: rooms persisted; host and guests auto‑reconnect; resume the interrupted song | Parties don't forgive outages. |
 
 ### Deliberately not in V1
-- **Describing the party in your own words** (a text box understood by AI or rules). Removed from V1: the pickers cover the important choices, and free text that is only partly understood sets the wrong expectations. It's a candidate for a later version (see roadmap).
 - **Accounts, payments, multi‑host.** A device‑bound host key is enough for a party.
 - **Spotify / Apple Music.** Playback SDKs need Premium accounts and forbid this kind of hook‑clipping of the catalogue. YouTube embeds are the legitimate, universal option.
 - **Automatic hook detection from audio.** It would need audio access, which we can't legitimately get from embeds. The crowd‑nudge and curator loop is the V1 answer (see roadmap).
-- **LLM‑chosen songs.** Slower, costlier and less controllable than the planner, and it can hallucinate songs that aren't in the catalogue.
 
 ## 4. Roadmap (what I'd do next)
 
 1. **Catalogue breadth.** Bulk‑import calmer material (dinner, cocktail, haldi) and more languages (Tamil, Telugu, Bengali, Gujarati, global pop), using the Data API search plus the verification pipeline.
-2. **Hook intelligence.** Learn hook windows from listening behaviour across rooms (where people react 🔥 and where they skip), and offer "suggested hooks" in the Studio for human approval. An offline model over licensed audio previews could suggest initial hooks.
+2. **Learned hooks.** Learn hook windows from listening behaviour across rooms (where people react 🔥 and where they skip), and offer "suggested hooks" in the Studio for human approval.
 3. **Moments.** Scheduled cues for weddings ("first dance at 9:30", "cake cutting", "bride entry"), so the DJ builds toward a planned moment and then plays a pinned song.
-4. **Smarter transitions.** Use BPM and key metadata (from a licensed metadata API) for harmonic, tempo‑aware ordering, and vary crossfade length by energy delta.
+4. **Better transitions.** Use BPM and key metadata (from a licensed metadata API) for harmonic, tempo‑aware ordering, and vary crossfade length by energy delta.
 5. **Hosted parties.** Public URL per room, room expiry and moderation (guest name filtering, request limits per room), and a PWA install for guests.
-6. **Describe it in your own words.** Bring back free‑text set requests ("sangeet, 90s first for the elders, then Punjabi"), using an LLM for understanding, with clear feedback about what was understood.
-7. **Personal taste profiles** that carry across parties (opt‑in accounts).
+6. **Personal taste profiles** that carry across parties (opt‑in accounts).

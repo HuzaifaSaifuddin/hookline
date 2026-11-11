@@ -153,7 +153,7 @@ export function Home() {
           <p>Guests scan a QR code to request songs, upvote, react 🔥 or vote to skip. The DJ fits requests in where they suit the flow.</p>
         </div>
         <div className="card feature">
-          <h3>🔁 Gets smarter</h3>
+          <h3>🔁 Gets better with use</h3>
           <p>Skips, likes and hook feedback tune future sets. Broken videos fall back to alternate uploads automatically.</p>
         </div>
       </section>

@@ -13,11 +13,10 @@ import type {
 } from './types.ts';
 
 /**
- * The DJ brain. Selection is a transparent weighted score rather than an LLM
- * call: it runs in well under a millisecond per pick over ~1k songs, costs
- * nothing, is deterministic under a seeded RNG (testable), and every pick can
- * be explained from its score components. AI is used upstream to turn
- * free-form requests into a SetIntent, which this planner then executes.
+ * The DJ brain. Selection is a transparent weighted score: it runs in well
+ * under a millisecond per pick over ~1k songs, costs nothing, is deterministic
+ * under a seeded RNG (testable), and every pick can be explained from its
+ * score components. It executes the SetIntent chosen by the host.
  */
 
 export interface PlannerContext {

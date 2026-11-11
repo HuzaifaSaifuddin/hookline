@@ -47,16 +47,14 @@ Two subtleties:
 ### 3. Full snapshots over WebSocket, not deltas or CRDTs
 A snapshot is a few KB; updates happen a few times a minute. Full snapshots make reconnects, late joiners and server restarts trivially correct. Broadcasts are debounced (40ms) to coalesce bursts. Messages are validated with Zod on both sides (`packages/core/src/protocol.ts`).
 
-### 4. The planner is an explainable scoring function, not an LLM
+### 4. The planner is an explainable scoring function
 For each candidate: `fit(occasion tags) + energy distance to the arc target + flow (artist repeats, language streaks, energy jumps) + long‑term quality (Bayesian completion/skip/like score) + freshness + session taste + popularity (weighted up at peaks) + requests (with wait and vote boosts) + stable jitter`. The top contributing factors become user‑facing reasons. Constraints relax step by step (strict → any tag → repeats of the longest‑ago tracks) so the DJ never goes silent.
-**Why not an LLM?** Each pick would take seconds and cost money, results wouldn't be reproducible (hard to test), and it could hallucinate songs outside the catalogue. The scorer plans 60 tracks in milliseconds, is deterministic under a seed (tests rely on this), and explains itself.
+**Why a scoring function?** It plans 60 tracks in milliseconds, costs nothing to run, only ever picks songs that are in the catalogue, is deterministic under a seed (tests rely on this), and explains itself.
 
 **Arc fitting.** Arcs are authored on a 7–10 scale. Each occasion and language slice of the catalogue has its own energy range (festival music sits at 8–10), so the arc is stretched onto the slice's 10th–90th percentile. Without this, a "warm‑up" target pulled in off‑occasion songs; a test caught it.
 
-### 5. No AI in the loop (V1)
+### 5. Deterministic by design
 Every decision is a deterministic algorithm: picking and ordering songs (the scoring planner), deciding whether a YouTube video really is a song (consonant‑skeleton fuzzy matching tuned for romanised Indic titles such as Chhote/Chote and Jehda/Jedha), and calibrating hooks (median of crowd nudges, at least 3 votes, bounded to ±20s; curator edits always win). That keeps the product free to run, fast, testable and explainable.
-
-An earlier build let hosts describe the party in free text, understood by Claude with a rule‑based fallback. It was removed from V1 because the pickers cover the important choices and partly‑understood text set the wrong expectations. It's on the roadmap (see PRODUCT.md).
 
 ### 6. Catalogue as data in git, learning in SQLite
 `catalog/songs/<language>.json` is canonical and human‑reviewable (schema‑validated in CI via `npm run catalog:validate`). The database holds only what's **learned at runtime**: curator hooks, crowd nudges, source health, durations, user‑added songs, play events, feedback and rooms. `npm run catalog:export` folds curated data back into the files, so the catalogue grows independently of any one deployment. See [CATALOGUE.md](CATALOGUE.md).

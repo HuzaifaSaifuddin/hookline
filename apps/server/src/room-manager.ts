@@ -260,11 +260,6 @@ export class RoomManager {
     }
   }
 
-  /** Apply a change made outside the socket flow (REST, e.g. AI vibe from landing page). */
-  applyExternal(room: Room, e: Effects): void {
-    this.apply(room, e);
-  }
-
   // ------------------------------------------------------------- fan-out & persistence
 
   private scheduleBroadcast(code: string): void {

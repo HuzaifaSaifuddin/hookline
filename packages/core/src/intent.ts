@@ -17,7 +17,7 @@ export const SetIntentSchema = z.object({
   summary: z.string().optional(),
 });
 
-/** A partial update a host (or the AI) can apply to a running set. */
+/** A partial update the host can apply to a running set. */
 export const IntentPatchSchema = SetIntentSchema.partial();
 export type IntentPatch = z.infer<typeof IntentPatchSchema>;
 
