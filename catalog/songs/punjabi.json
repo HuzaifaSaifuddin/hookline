@@ -1187,6 +1187,32 @@
     "popularitySource": "derived"
   },
   {
+    "id": "cheek",
+    "title": "Cheek",
+    "artists": [
+      "Mankirt Aulakh",
+      "Karam Brar"
+    ],
+    "language": "punjabi",
+    "energy": 8,
+    "tags": [
+      "late-night",
+      "party"
+    ],
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "jD5eZgne4EQ"
+      }
+    ],
+    "provenance": {
+      "origin": "seed",
+      "importedAt": "2026-11-11"
+    },
+    "popularity": 0,
+    "popularitySource": "derived"
+  },
+  {
     "id": "cheques-shubh",
     "title": "Cheques",
     "artists": [
@@ -1513,28 +1539,18 @@
     "popularitySource": "derived"
   },
   {
-    "id": "defaulter",
-    "title": "Defaulter",
+    "id": "defend",
+    "title": "Defend",
     "artists": [
       "Jordan Sandhu"
     ],
     "language": "punjabi",
-    "durationSec": 240,
-    "hook": {
-      "startSec": 22,
-      "endSec": 86,
-      "source": "seed"
-    },
     "energy": 9,
     "tags": [
       "late-night",
       "party"
     ],
     "sources": [
-      {
-        "provider": "youtube",
-        "id": "6yUjcSTv_C4"
-      },
       {
         "provider": "youtube",
         "id": "U2TlQbkog08"
@@ -2349,41 +2365,6 @@
     "popularitySource": "derived"
   },
   {
-    "id": "gall-da-kara",
-    "title": "Gall Da Kara",
-    "artists": [
-      "Mankirt Aulakh"
-    ],
-    "language": "punjabi",
-    "durationSec": 240,
-    "hook": {
-      "startSec": 22,
-      "endSec": 85,
-      "source": "seed"
-    },
-    "energy": 8,
-    "tags": [
-      "late-night",
-      "party"
-    ],
-    "sources": [
-      {
-        "provider": "youtube",
-        "id": "1xkkaYwrPbw"
-      },
-      {
-        "provider": "youtube",
-        "id": "jD5eZgne4EQ"
-      }
-    ],
-    "provenance": {
-      "origin": "seed",
-      "importedAt": "2026-11-11"
-    },
-    "popularity": 0,
-    "popularitySource": "derived"
-  },
-  {
     "id": "gallan-goriyan-mann",
     "title": "Gallan Goriyan Mann",
     "artists": [
@@ -2967,42 +2948,6 @@
       {
         "provider": "youtube",
         "id": "jjiC7PfoIaY"
-      }
-    ],
-    "provenance": {
-      "origin": "seed",
-      "importedAt": "2026-11-11"
-    },
-    "popularity": 0,
-    "popularitySource": "derived"
-  },
-  {
-    "id": "hornn-blow",
-    "title": "Hornn Blow",
-    "artists": [
-      "Harrdy Sandhu"
-    ],
-    "language": "punjabi",
-    "durationSec": 240,
-    "hook": {
-      "startSec": 20,
-      "endSec": 84,
-      "source": "seed"
-    },
-    "energy": 9,
-    "tags": [
-      "baraat",
-      "late-night",
-      "party"
-    ],
-    "sources": [
-      {
-        "provider": "youtube",
-        "id": "DAqxAqq_jhg"
-      },
-      {
-        "provider": "youtube",
-        "id": "-Chif1XK2e8"
       }
     ],
     "provenance": {

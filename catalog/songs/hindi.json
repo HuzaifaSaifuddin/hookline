@@ -3119,43 +3119,6 @@
     "popularitySource": "derived"
   },
   {
-    "id": "chand-chupa-badal-mein",
-    "title": "Chand Chupa Badal Mein",
-    "artists": [
-      "Udit Narayan",
-      "Alka Yagnik"
-    ],
-    "language": "hindi",
-    "durationSec": 240,
-    "hook": {
-      "startSec": 30,
-      "endSec": 95,
-      "source": "seed"
-    },
-    "energy": 7,
-    "tags": [
-      "mehendi",
-      "sangeet",
-      "wedding"
-    ],
-    "sources": [
-      {
-        "provider": "youtube",
-        "id": "hxMNYkLN7tI"
-      },
-      {
-        "provider": "youtube",
-        "id": "3YQKuAP79Q8"
-      }
-    ],
-    "provenance": {
-      "origin": "seed",
-      "importedAt": "2026-11-11"
-    },
-    "popularity": 0,
-    "popularitySource": "derived"
-  },
-  {
     "id": "chandi-ki-daal-par",
     "title": "Chandi Ki Daal Par",
     "artists": [
@@ -12686,7 +12649,8 @@
       "importedAt": "2026-11-11"
     },
     "popularity": 0,
-    "popularitySource": "derived"
+    "popularitySource": "derived",
+    "verified": true
   },
   {
     "id": "mehbooba-mehbooba",
