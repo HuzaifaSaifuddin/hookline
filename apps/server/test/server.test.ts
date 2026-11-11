@@ -138,6 +138,31 @@ describe('REST', () => {
   });
 });
 
+describe('serving the web app', () => {
+  it('serves files from a build made after the server started, and 404s missing assets', async () => {
+    const fs = await import('node:fs');
+    const os = await import('node:os');
+    const path = await import('node:path');
+    const dist = fs.mkdtempSync(path.join(os.tmpdir(), 'hookline-dist-'));
+    fs.writeFileSync(path.join(dist, 'index.html'), '<!doctype html><div id=root></div>');
+    await ctx.app.close();
+    const config = { ...loadConfig({ NODE_ENV: 'test' }), dbFile: ':memory:', webDist: dist };
+    ctx = await buildApp(config, { clock, fetchImpl: fakeFetch, studioKey: '' });
+    // A rebuild after start-up writes new hashed files:
+    fs.mkdirSync(path.join(dist, 'assets'));
+    fs.writeFileSync(path.join(dist, 'assets', 'index-NEW.js'), 'console.log(1)');
+    const js = await ctx.app.inject('/assets/index-NEW.js');
+    expect(js.statusCode).toBe(200);
+    expect(js.headers['content-type']).toMatch(/javascript/);
+    expect((await ctx.app.inject('/assets/index-OLD.js')).statusCode).toBe(404);
+    const page = await ctx.app.inject('/host/ABCD');
+    expect(page.statusCode).toBe(200);
+    expect(page.headers['content-type']).toMatch(/html/);
+    expect((await ctx.app.inject('/api/nope')).statusCode).toBe(404);
+    fs.rmSync(dist, { recursive: true, force: true });
+  });
+});
+
 describe('realtime party flow', () => {
   it('rejects a host without the right key', async () => {
     const { code } = await createRoom();

@@ -304,9 +304,14 @@ export async function buildApp(config: Config, opts: BuildOptions = {}): Promise
   // ------------------------------------------------------------------ web app
 
   if (fs.existsSync(config.webDist)) {
-    await app.register(fastifyStatic, { root: config.webDist, wildcard: false });
+    // wildcard (the default) resolves files per request, so a rebuilt web app is served
+    // without restarting the server. Unknown paths fall through to the SPA shell, except
+    // API routes and asset files, which must 404 rather than return HTML.
+    await app.register(fastifyStatic, { root: config.webDist });
     app.setNotFoundHandler((req, reply) => {
-      if (req.url.startsWith('/api/') || req.url.startsWith('/ws')) return reply.code(404).send({ error: 'Not found' });
+      const url = req.url.split('?')[0]!;
+      if (url.startsWith('/api/') || url.startsWith('/ws') || url.startsWith('/assets/') || /\.[a-z0-9]{2,5}$/i.test(url))
+        return reply.code(404).send({ error: 'Not found' });
       return reply.type('text/html').sendFile('index.html');
     });
   }
