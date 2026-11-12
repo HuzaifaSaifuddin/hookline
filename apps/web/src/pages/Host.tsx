@@ -128,6 +128,12 @@ function Console({ code, hostKey }: { code: string; hostKey: string }) {
     }
   };
 
+  const seek = (sec: number) => {
+    const at = engineRef.current?.seek(sec);
+    const songId = engine?.current?.track.id;
+    if (at !== undefined && songId) send({ type: 'seek', songId, positionSec: at });
+  };
+
   if (fatal) {
     return (
       <div className="shell">
@@ -242,7 +248,7 @@ function Console({ code, hostKey }: { code: string; hostKey: string }) {
               </div>
 
               {win && (
-                <HookBar duration={engine?.duration ?? current?.track.durationSec} startSec={win.startSec} endSec={win.endSec} position={engine?.position ?? win.startSec} />
+                <HookBar duration={engine?.duration ?? current?.track.durationSec} startSec={win.startSec} endSec={win.endSec} position={engine?.position ?? win.startSec} onSeek={engine?.current ? seek : undefined} />
               )}
 
               {current && current.reasons.length > 0 && (

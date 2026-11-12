@@ -194,6 +194,8 @@ export class RoomManager {
         return room.started(m.songId, m.sourceId, m.actualDurationSec, m.previous);
       case 'preloading':
         return room.preloading(m.songId);
+      case 'seek':
+        return room.seek(m.songId, m.positionSec);
       case 'sourceFailed': {
         this.log.warn({ room: room.code, song: m.songId, source: m.sourceId, code: m.code }, 'source failure reported');
         const effects = room.sourceFailed(m.songId, m.sourceId, m.code);

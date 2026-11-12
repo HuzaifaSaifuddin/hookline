@@ -186,9 +186,18 @@ export class DeckEngine {
     this.beginTransition('skipped', SKIP_FADE_SEC);
   }
 
-  /** Seek within the current track (Studio-style preview / host scrub). */
-  seek(sec: number): void {
-    this.decks[this.active].player?.seekTo(sec, true);
+  /**
+   * Jump within the current hook (host scrub). Clamped to the play window and ignored
+   * mid-crossfade, when the active deck is already handing over. Returns the position
+   * actually seeked to, or undefined if nothing happened.
+   */
+  seek(sec: number): number | undefined {
+    const deck = this.decks[this.active];
+    if (this.fade || !deck.player || !deck.window || (deck.status !== 'playing' && deck.status !== 'paused')) return undefined;
+    const to = Math.max(deck.window.startSec, Math.min(deck.window.endSec - 1, sec));
+    deck.player.seekTo(to, true);
+    this.emit();
+    return to;
   }
 
   setVolume(v: number): void {

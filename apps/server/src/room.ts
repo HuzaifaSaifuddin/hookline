@@ -220,6 +220,18 @@ export class Room {
     return CHANGED;
   }
 
+  /**
+   * The host jumped within the current song. Shift startedAt so guests' progress
+   * (now - startedAt over the window length) lines up with the new position.
+   */
+  seek(songId: string, positionSec: number): Effects {
+    const n = this.state.now;
+    if (!n || n.songId !== songId) return NONE;
+    const into = Math.max(0, Math.min(n.window.endSec - n.window.startSec, positionSec - n.window.startSec));
+    n.startedAt = this.clock() - into * 1000;
+    return CHANGED;
+  }
+
   /** The host started playing `songId` (initial start, auto-transition or skip). */
   started(
     songId: string,

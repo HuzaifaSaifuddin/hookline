@@ -121,6 +121,11 @@ label.field { display: flex; flex-direction: column; gap: 6px; font-size: 13px; 
 .hookbar .hook { position: absolute; top: 9px; height: 16px; border-radius: 6px; background: linear-gradient(90deg, rgba(139, 92, 246, 0.55), rgba(255, 77, 109, 0.55)); border: 1px solid rgba(255, 255, 255, 0.25); }
 .hookbar .played { position: absolute; top: 9px; height: 16px; border-radius: 6px 0 0 6px; background: var(--ramp); }
 .hookbar .head { position: absolute; top: 4px; width: 3px; height: 26px; border-radius: 3px; background: var(--text); box-shadow: 0 0 12px rgba(255, 255, 255, 0.6); }
+.hookbar.seekable { cursor: pointer; touch-action: none; border-radius: 6px; }
+.hookbar.seekable:focus-visible { outline: 2px solid var(--text); outline-offset: 4px; }
+.hookbar.seekable:hover .head, .hookbar.dragging .head { width: 5px; margin-left: -1px; }
+.hookbar.dragging .played, .hookbar.dragging .head { transition: none; }
+.hookbar .seek-lbl { top: auto; bottom: -14px; color: var(--text); font-weight: 600; }
 .hookbar .lbl { position: absolute; top: -6px; font-size: 11px; color: var(--faint); transform: translateX(-50%); white-space: nowrap; }
 .reasons { display: flex; flex-wrap: wrap; gap: 6px; }
 .reason { font-size: 12.5px; padding: 4px 10px; border-radius: 999px; background: rgba(139, 92, 246, 0.12); color: #d6ccff; border: 1px solid rgba(139, 92, 246, 0.25); }

@@ -116,6 +116,8 @@ export const HostMessageSchema = z.discriminatedUnion('type', [
       .optional(),
   }),
   z.object({ type: z.literal('preloading'), songId: id }),
+  /** The host jumped within the current song; positionSec is the absolute time in the video. */
+  z.object({ type: z.literal('seek'), songId: id, positionSec: z.number().min(0).max(36000) }),
   z.object({ type: z.literal('sourceFailed'), songId: id, sourceId: id, code: z.number().int() }),
   z.object({ type: z.literal('songUnplayable'), songId: id }),
   z.object({ type: z.literal('duration'), songId: id, durationSec: z.number().positive().max(36000) }),

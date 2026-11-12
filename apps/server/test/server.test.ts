@@ -240,6 +240,25 @@ describe('realtime party flow', () => {
     expect(await host.next((m) => m.type === 'command')).toEqual({ type: 'command', command: 'skip' });
   });
 
+  it('host seek moves the shared playhead so guest progress follows', async () => {
+    const { code, hostKey } = await createRoom();
+    const host = await connect({ type: 'hello', room: code, role: 'host', hostKey });
+    const snap = await host.snapshot();
+    const a = snap.queue[0]!;
+    host.send({ type: 'started', songId: a.track.id, sourceId: a.sourceIds[0] });
+    const playing = await host.snapshot((r) => r.nowPlaying?.track.id === a.track.id);
+    const { startSec } = playing.nowPlaying!.window;
+    const guest = await connect({ type: 'hello', room: code, role: 'guest', guestId: 'g-seeker1', name: 'Seeker' });
+    await guest.snapshot((r) => r.nowPlaying?.track.id === a.track.id);
+    host.send({ type: 'seek', songId: a.track.id, positionSec: startSec + 20 });
+    const after = await guest.snapshot((r) => r.nowPlaying!.startedAt < playing.nowPlaying!.startedAt - 15_000);
+    const into = (after.serverTime - after.nowPlaying!.startedAt) / 1000;
+    expect(into).toBeGreaterThanOrEqual(20);
+    expect(into).toBeLessThan(22);
+    // A stale seek for a song that's no longer playing is ignored.
+    host.send({ type: 'seek', songId: 'not-playing', positionSec: 5 });
+  });
+
   it('preloading locks the next track against re-planning; host can still override', async () => {
     const { code, hostKey } = await createRoom();
     const host = await connect({ type: 'hello', room: code, role: 'host', hostKey });

@@ -8,10 +8,20 @@ import { Art, Conn, EnergyDot, Link, Logo, Toasts, useNow } from '../components/
 function guestIdentity(): string {
   let id = safeGet('hookline.guestId');
   if (!id) {
-    id = `g-${crypto.randomUUID()}`;
+    id = `g-${randomId()}`;
     safeSet('hookline.guestId', id);
   }
   return id;
+}
+
+/**
+ * crypto.randomUUID only exists on secure origins (https or localhost). Guests usually
+ * open the join link over plain http on the LAN (http://192.168.x.x), where it's undefined,
+ * so fall back to getRandomValues, which works everywhere.
+ */
+function randomId(): string {
+  if (typeof crypto.randomUUID === 'function') return crypto.randomUUID();
+  return Array.from(crypto.getRandomValues(new Uint8Array(16)), (b) => b.toString(16).padStart(2, '0')).join('');
 }
 
 export function Guest({ code }: { code: string }) {
