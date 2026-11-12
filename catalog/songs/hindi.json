@@ -9240,52 +9240,6 @@
     "popularitySource": "derived"
   },
   {
-    "id": "jungle-jungle-baat-chali-hai",
-    "title": "Jungle Jungle Baat Chali Hai",
-    "artists": [
-      "Amol Sahdev"
-    ],
-    "language": "hindi",
-    "durationSec": 165,
-    "hook": {
-      "startSec": 18,
-      "endSec": 95,
-      "source": "seed"
-    },
-    "energy": 8,
-    "tags": [
-      "retro"
-    ],
-    "sources": [
-      {
-        "provider": "youtube",
-        "id": "5Q7Ni5zf2RM"
-      },
-      {
-        "provider": "youtube",
-        "id": "wohPpmTx4FU"
-      },
-      {
-        "provider": "youtube",
-        "id": "A8jqb-gwbEQ"
-      },
-      {
-        "provider": "youtube",
-        "id": "dQZL4inlVUw"
-      },
-      {
-        "provider": "youtube",
-        "id": "FrSuySXg9wo"
-      }
-    ],
-    "provenance": {
-      "origin": "seed",
-      "importedAt": "2026-11-11"
-    },
-    "popularity": 1,
-    "popularitySource": "derived"
-  },
-  {
     "id": "kabira-encore",
     "title": "Kabira (Encore)",
     "artists": [
